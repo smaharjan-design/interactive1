@@ -1,0 +1,22 @@
+
+body {
+  background: #FFFFFF;
+  color: black;
+  font-size: 22px;
+}
+ #container {
+   max-width: 650px;
+   margin: 0 auto;
+ }
+
+
+ body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+#toc {
+
+position: fixed;
+top: lem;
+left: lem;
+}
