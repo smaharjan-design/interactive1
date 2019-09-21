@@ -5,6 +5,7 @@ body {
   color: black;
   font-size: 20px;
   line-height: 35px
+  display:block;
 }
 
 
@@ -16,20 +17,33 @@ body {
   }
 
 
+
+
 .title {
   color: teal;
   font-size: 67px;
-  line-height: normal;
+  line-height: 1.1;
 }
 
 .uppercase {
   text-transform: uppercase;
 }
 
+.location {
+  color: teal;
+
+}
+
   #container {
-   max-width:600px;
-   margin:20% 25%;
+   max-width:900px;
+   margin:20% 20%;
  }
+
+ img {
+   max-width: 100%;
+ }
+
+
 
 
 .navbar {
@@ -49,4 +63,8 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-family: monospace;
+}
+
+a:hover {
+  color: gray;
 }

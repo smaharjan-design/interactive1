@@ -1,0 +1,65 @@
+body {
+  font-family: "Neue Haas Unica", Helvetica, Arial, sans-serif;
+  background: #FFFFFF;
+  color: black;
+  font-size: 20px;
+  line-height: 35px
+}
+
+#container {
+ max-width:900px;
+ margin:10% 20%;
+}
+
+.logo{
+  float:left;
+  max-width: 50%
+
+}
+
+.title {
+  color: teal;
+  font-size: 67px;
+  line-height: 1.1;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.location {
+  color: teal;
+
+}
+
+
+
+ img {
+   max-width: 100%;
+ }
+
+
+
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 50px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+a:hover {
+  color: gray;
+}
