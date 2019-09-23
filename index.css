@@ -7,13 +7,15 @@ body {
 }
 
 #container {
- max-width:900px;
+ max-width:1600px;
  margin:10% 20%;
 }
 
-.logo{
-  float:left;
+.logo {
+  position: relative;
   max-width: 50%
+}
+
 
 }
 
@@ -53,7 +55,7 @@ body {
   float: left;
   display: block;
   color: black;
-  text-align: center;
+  text-align: left;
   padding: 50px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -62,4 +64,11 @@ body {
 
 a:hover {
   color: gray;
+}
+
+.menu icon {
+  width: 35px;
+  height:5px;
+  background-color: black;
+  margin: 6px 0;
 }

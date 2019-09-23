@@ -8,15 +8,11 @@ body {
   display:block;
 }
 
-
-
   .memoir {
     color: gray;
     font-family:monospace;
     font-size:30px
   }
-
-
 
 
 .title {
@@ -38,6 +34,7 @@ body {
    max-width:900px;
    margin:20% 20%;
  }
+
 
  img {
    max-width: 100%;
@@ -68,3 +65,7 @@ body {
 a:hover {
   color: gray;
 }
+
+.logo {
+  position: relative;
+  max-width: 50%
