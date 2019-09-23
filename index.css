@@ -11,13 +11,7 @@ body {
  margin:10% 20%;
 }
 
-.logo {
-  position: relative;
-  max-width: 50%
-}
 
-
-}
 
 .title {
   color: teal;
@@ -51,6 +45,8 @@ body {
   width: 100%;
 }
 
+
+
 .navbar a {
   float: left;
   display: block;
@@ -64,11 +60,4 @@ body {
 
 a:hover {
   color: gray;
-}
-
-.menu icon {
-  width: 35px;
-  height:5px;
-  background-color: black;
-  margin: 6px 0;
 }

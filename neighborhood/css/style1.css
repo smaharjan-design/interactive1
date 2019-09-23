@@ -68,4 +68,6 @@ a:hover {
 
 .logo {
   position: relative;
-  max-width: 50%
+float: left;
+margin: 10px 15px 15px 10px;
+}
