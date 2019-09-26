@@ -1,11 +1,26 @@
 
 body {
   font-family: "Neue Haas Unica", Helvetica, Arial, sans-serif;
-  background: #FFFFFF;
   color: black;
   font-size: 20px;
   line-height:40px;
   display:block;
+  background-image: url("assets/my-image1.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image {
+  background-image: url("assets/my-image1.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
   .memoir {
@@ -16,13 +31,16 @@ body {
 
 
 .title {
+
   color: teal;
   font-size: 67px;
-  line-height: 1.1;
+  line-height:1.1;
+
 }
 
 .uppercase {
   text-transform: uppercase;
+
 }
 
 .location {
@@ -31,14 +49,21 @@ body {
 }
 
   #container {
-   max-width:900px;
+   max-width:1600px;
    margin:20% 20%;
+
  }
+
+
+
 
 
  img {
    max-width: 100%;
  }
+
+
+
 
 
 
@@ -56,7 +81,7 @@ body {
   display: block;
   color: black;
   text-align: center;
-  padding: 50px 16px;
+  padding: 50px 30px;
   text-decoration: none;
   font-size: 25px;
   font-family: monospace;
