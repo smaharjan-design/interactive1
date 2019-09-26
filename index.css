@@ -1,12 +1,11 @@
 
 
 body {
-  font-family: font-family: 'Roboto', sans-serif;
-  background: #FFFFFF;
+  font-family: 'Open Sans', 'Helvetica','sans-serif';
   color: black;
   font-size: 20px;
-  line-height: 35px
-   margin: 0;
+  line-height: 40px;
+  margin:10%;
 }
 
 
@@ -22,7 +21,13 @@ padding: .8em 1.2em;
 }
 
 .logo {
-  width: 130px;
+  width:200px;
+
+
+}
+
+.hide-mobile {
+   display: none;
 }
 
 header {
@@ -30,61 +35,52 @@ header {
   justify-content: space-between;
 }
 
-.hero {
-  width:100%;
-  margi: 2em auto 2em 25%;
+.menu {
+   width: 30px;
+   margin-top: 45%;
+   margin-right: 50%
+
 }
 
-nav ul {
-  position: fixed;
-  width: 60%;
-  top: 0;
-  right: 0;
-  text-align: left;
-  background: white;
-  height:100%
-  z-index: 7;
-  padding-top: 3em;
+section {
+
+ align: center;
+  width: 90%;
 }
 
-nav ul li a {
-  color: black;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  display: block;
-  font-size: 12px;
-  width: 100%
-  padding: 1em 2em;
-  background-color: white
+ .hero {
+  width: 80%;
 }
 
-a:hover {
-  color: gray;
+h1 .subhead {
+    font-size:5em;
 }
 
+.gray-container {
+
+    width: 100%;
+    background: #827F76;
+    margin-top: 15%;
+    padding: 4em 0 2em;
+  }
+
+ .exercises {
+
+    align: center;
+    color: white;
+
+  }
+
+  .lists {
+    color: black;
+  }
 
 
 
 
 
-
-
-
-.navbar {
-  background-color: white;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  float: left;
-  display: block;
-  text-align: left;
-  padding: 50px 16px;
-}
+  footer {
+    font-size: 9px;
+    align: center;
+    color: white;
+  }

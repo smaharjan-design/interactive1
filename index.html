@@ -5,61 +5,73 @@
 <head>
   <title>sony maharjan</title>
   <link rel="stylesheet" href="index.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
 
-   <div id="container">
+   <div class="container">
       <header>
-        <img src="personal-logo.png"
-        alt="snmu logo" class="logo"/>
+            <img src="assets/personal logo1.svg"
+            alt="snmu logo" class="logo"/>
 
 
 
-    <nav>
-          <ul>
-           <li><a href="#home">Home</a></li>
-           <li><a href="#contact">Contact</a></li>
-           <li> <a href="#about">About</a></li>
-           </ul>
+         <nav>
+             <a href="#" class="hide-desktop">
+             <img src="assets/ham.svg" alt="toggle menu" class="menu">
+             </a>
 
-      </nav>
-     </header>
-     </div>
+             <ul class="show-desktop hide-mobile" id="nav">
+             <li id="exit" class="exit-btn hide-desktop"><img src="assets/exit.svg" alt="exit menu"></li>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#contact">Contact</a></li>
+             <li> <a href="#gallery">Gallery</a></li>
+             </ul>
 
-<section>
-        <img src="Sony_Maharjan_identity.jpg" alt="Sony_Maharjan_identity" class="hero"/>
+        </nav>
+      </header>
+    </div>
 
 
+    <div id="container">
+    <section>
+        <img src="assets/Sony_Maharjan_identity.jpg" alt="Sony_Maharjan_identity" class="hero"/>
 
-
-      <h1> A little about me...</h1>
-      <p class="center-align">
-         Sony Maharjan is trained as a classical realist.
-         She has practiced the technique for more than 10 years.
-         Currently she is pursuing her undergraduate degree in
+        <h1> A little about me...</h1>
+        <p class="sub-head">
+         I am trained as a classical realist and
+         have practiced the technique for more than 10 years.
+         Currently I am pursuing my undergraduate degree in
          California College of the Arts (CCA) and exploring different forms
-         of visual arts. Her training and practice from classical
+         of visual arts. My training and practice from classical
          realism gave an invaluable foundation in visual arts and
-         the education she is receiving at CCA is helping her to be
-         a well-rounded artist. She believes in art as a powerful
+         the education I am receiving at CCA is helping me to be
+         a well-rounded artist. I believe in art as a powerful
          tool in self expression and a catalyst for a social change.</p>
 
 
-    <div class="container">
 
-         <ul>
-         <li><a href="#">EX 1</a></li>
-         <li><a href="#">EX 2</a></li>
-         </ul>
+   </section>
 
 
-     <div class="weekly-exercises">
-       <h3>Weekly Exercises</h3>
+
+   <div class="gray-container">
+
+          <div class= "exercises">
+          <h3>Exercises</h3>
+
+           <ul>
+            <li><a href="#">EX 1</a></li>
+            <li><a href="#">EX 2</a></li>
+
+
+
+
+      <div class= "weekly-exercises">
+       <h3> Weekly Exercises</h3>
 
         <ul>
         <li><a href="ASCII-town/exterior-sonymaharjan.html">Exterior ASCII Town</a></li>
@@ -73,15 +85,22 @@
       <div class="projects">
         <h3>Projects</h3>
 
-         <ul>
+      </div>
+
+        <ul>
         <li><a href="#">P1</a></li>
         <li><a href="#">P2</a></li>
-      </ul>
+        </ul>
+
+
+
+    <footer>
+       <p class="container">
+        All work copyright 2019</p>
     </div>
 
-    <div id="container">
-    All work copyright 2019
     </div>
- </section>
+  </div>
+
 </body>
 </html>
