@@ -1,0 +1,72 @@
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: purple;
+}
+
+/* shapes */
+#sun {
+
+        width: 75px;
+        height:75px;
+        background: red;
+        border-radius: 75px;
+        position: absolute;
+        top: 45px;
+        left:350px;
+}
+
+
+
+#star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: blue;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid blue;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    top: 160px;
+    left:50px;
+  }
+  #star-five:before {
+    border-bottom: 80px solid blue;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  #star-five:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid blue;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
