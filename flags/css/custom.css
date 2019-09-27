@@ -12,7 +12,7 @@ body {
         width: 500px;
         height: 300px;
         position: relative;
-        background: purple;
+        background:#8B11C1;
 }
 
 /* shapes */
@@ -27,7 +27,9 @@ body {
         left:350px;
 }
 
-
+/* rotate 60deg for to create a motion, oppose to static.
+Red= revolution, blue= spirituality, purple= en equal balance of inner and
+outer introspection*/
 
 #star-five {
     margin: 50px 0;
@@ -39,7 +41,7 @@ body {
     border-right: 100px solid transparent;
     border-bottom: 70px solid blue;
     border-left: 100px solid transparent;
-    transform: rotate(35deg);
+    transform: rotate(60deg);
     top: 150px;
     left:50px;
   }
