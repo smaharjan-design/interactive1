@@ -27,6 +27,7 @@ padding: .8em 1.2em;
   left: 16px;
   position:relative;
   top:16px;
+  padding-left: 5%
 
 
 }
@@ -145,7 +146,8 @@ nav ul {
   background: none;
   height: auto;
   display: flex;
-  padding-top: 0;
+  padding-top: 20px;
+
 
 }
 
