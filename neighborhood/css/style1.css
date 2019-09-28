@@ -53,11 +53,35 @@ align: center;
 
 }
 
- .hero {
-   width: 1620px;
-
+section title a {
+  font-size: 60px;
 }
 
+ .hero {
+   width: 1024px;
+}
+.image1{
+  width:1024px
+}
+.image2 {
+  width:1024px;
+}
+
+.image3 {
+  width:1024px;
+}
+
+.image4 {
+  width:1024px;
+}
+
+.image5 {
+  width:1024px;
+}
+
+.image6 {
+  width:1024px;
+}
 h1 .subhead {
     font-size:5em;
 }
@@ -83,7 +107,7 @@ h1 .subhead {
 footer {
     font-size: 9px;
     align: center;
-    color: white;
+    color: black;
   }
 
 nav ul {
