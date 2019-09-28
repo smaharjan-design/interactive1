@@ -1,12 +1,14 @@
 
 
 body {
-  font-family: 'Open Sans', 'San Serif';
+  font-family: 'Futura', 'San Serif';
   color: black;
   font-size: 20px;
   line-height: 40px;
   margin:0;
 }
+
+
 
 
 ul {
@@ -20,12 +22,24 @@ text-align: center;
 padding: .8em 1.2em;
 }
 
-.logo {
-  width:200px;
+#logo {
+  width:200px
+  left: 16px;
+  position:relative;
+  top:16px;
+
+
 }
 
 .hide-mobile {
    display: none;
+}
+
+
+
+.nav{
+  margin-top: 0;
+
 }
 
 header {
@@ -41,14 +55,12 @@ header {
 }
 
 section {
+align: center;
 
- align: center;
-  width: 90%;
 }
 
  .hero {
    width: 1620px;
-
 
 }
 
@@ -66,23 +78,84 @@ h1 .subhead {
 
   }
 
- .exercises {
+#lists {
 
-    align: center;
+    position: relative;
     color: white;
-
-  }
-
-  .lists {
-    color: black;
-  }
+}
 
 
 
-
-
-  footer {
+footer {
     font-size: 9px;
     align: center;
     color: white;
   }
+
+nav ul {
+  position: fixed;
+  width: 30%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background:  #CC266C;
+  opacity:0.7;
+  height:100%;
+  padding-top:3em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding:1em 2em;
+  background-color: gray;
+}
+
+nav ul li a:hover {
+  background-color: blue;
+}
+
+.exit-btn {
+  margin-bottom: 1em;
+  margin-top: -1.3em;
+  text-align: right;
+  padding: 0 1.4em;
+}
+
+.exit-btn img{
+   width: 15px;
+   cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+
+.show-desktop {
+  display: block;
+  margin: 0 auto 13% auto;
+}
+
+.hide-desktop {
+   display: none;
+}
+
+nav ul {
+  position: inherit;
+  width: auto;
+  background: none;
+  height: auto;
+  display: flex;
+  padding-top: 0;
+  
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  background-color: inherit;
+  text-align: cemter;
+  padding: 1em 2em;
+}
