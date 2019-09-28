@@ -7,9 +7,6 @@ body {
   margin:0;
 }
 
-
-
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,14 +24,11 @@ padding: .8em 1.2em;
   position:relative;
   top:16px;
   padding-left: 5%
-
-
 }
 
 .hide-mobile {
    display: none;
 }
-
 
 
 .nav{
