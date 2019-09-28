@@ -1,98 +1,170 @@
 
 body {
-  font-family: "Neue Haas Unica", Helvetica, Arial, sans-serif;
+  font-family: 'Futura', 'San Serif';
   color: black;
   font-size: 20px;
-  line-height:40px;
-  display:block;
-  background-image: url("assets/my-image1.jpg");
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  line-height: 40px;
+  margin:0;
 }
 
-.hero-image {
-  background-image: url("assets/my-image1.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-  .memoir {
-    color: gray;
-    font-family:monospace;
-    font-size:30px
+#container {
+text-align: center;
+padding: .8em 1.2em;
+}
+
+#logo {
+  width:200px
+  left: 16px;
+  position:relative;
+  top:16px;
+  padding-left: 5%
+
+
+}
+
+.hide-mobile {
+   display: none;
+}
+
+
+
+.nav{
+  margin-top: 0;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+   width: 30px;
+   margin-top: 45%;
+   padding: 22px;
+
+}
+
+section {
+align: center;
+
+}
+
+ .hero {
+   width: 1620px;
+
+}
+
+h1 .subhead {
+    font-size:5em;
+}
+
+.gray-container {
+
+    width: 100%;
+    background-color: #CC266C;
+    opacity: 0.7;
+    margin-top: 15%;
+    padding: 50px 30px 0;
+
   }
 
+#lists {
 
-.title {
-
-  color: teal;
-  font-size: 67px;
-  line-height:1.1;
-
+    position: relative;
+    color: white;
 }
 
-.uppercase {
-  text-transform: uppercase;
-
-}
-
-.location {
-  color: teal;
-
-}
-
-  #container {
-   max-width:1600px;
-   margin:20% 20%;
-
- }
 
 
+footer {
+    font-size: 9px;
+    align: center;
+    color: white;
+  }
 
-
-
- img {
-   max-width: 100%;
- }
-
-
-
-
-
-
-
-.navbar {
-  background-color: white;
-  overflow: hidden;
+nav ul {
   position: fixed;
+  width: 30%;
   top: 0;
-  width: 100%;
+  right: 0;
+  text-align: left;
+  background:  #CC266C;
+  opacity:0.7;
+  height:100%;
+  padding-top:3em;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 50px 30px;
+nav ul li a {
   text-decoration: none;
-  font-size: 25px;
-  font-family: monospace;
+  display: block;
+  width: 100%;
+  padding:1em 2em;
+  background-color: gray;
 }
 
-a:hover {
-  color: gray;
+nav ul li a:hover {
+  background-color: blue;
 }
 
-.logo {
-position: relative;
-float: left;
-margin: 10px 15px 15px 10px;
+.exit-btn {
+  margin-bottom: 1em;
+  margin-top: -1.3em;
+  text-align: right;
+  padding: 0 1.4em;
+}
+
+.exit-btn img{
+   width: 15px;
+   cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+
+.show-desktop {
+  display: block;
+  margin: 0 auto 13% auto;
+}
+
+.hide-desktop {
+   display: none;
+}
+
+nav ul {
+  position: inherit;
+  width: auto;
+  background: none;
+  height: auto;
+  display: flex;
+  padding-top: 20px;
+
+
+
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  background-color: inherit;
+  text-align: cemter;
+  padding: 1em 2em;
+}
+
+nav ul li a:hover {
+  background-color: inherit;
+}
 }

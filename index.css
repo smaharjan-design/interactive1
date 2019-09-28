@@ -131,6 +131,8 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1024px) {
 
+
+
 .show-desktop {
   display: block;
   margin: 0 auto 13% auto;
@@ -147,6 +149,7 @@ nav ul {
   height: auto;
   display: flex;
   padding-top: 20px;
+
 
 
 }
