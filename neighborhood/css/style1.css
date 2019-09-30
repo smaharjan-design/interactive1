@@ -19,11 +19,12 @@ padding: .8em 1.2em;
 }
 
 #logo {
-  width:200px
+  width:200px;
   left: 16px;
   position:relative;
   top:16px;
-  padding-left: 5%
+  padding-left: 5%;
+
 }
 
 .hide-mobile {
@@ -58,7 +59,7 @@ section title a {
 }
 
  .hero {
-   width: 1024px;
+   width:1024px;
 }
 .image1{
   width:1024px
@@ -146,7 +147,7 @@ nav ul li a:hover {
    cursor: pointer;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 660px) {
 
 
 
@@ -178,7 +179,7 @@ nav ul li {
 nav ul li a {
   color: black;
   background-color: inherit;
-  text-align: cemter;
+  text-align: center;
   padding: 1em 2em;
 }
 
