@@ -13,23 +13,30 @@ body {
         height: 300px;
         position: relative;
         background:#8B11C1;
-}
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:250px;
+        background: rgb(17,55,250);
+        background: radial-gradient(circle, rgba(17,55,250,1) 0%, rgba(96,13,190,1) 0%, rgba(31,11,41,1) 100%);
 
-/* shapes */
-#sun {
+      }
+.sun {
 
-        width: 75px;
-        height:75px;
+        width: 100px;
+        height:100px;
         background: red;
         border-radius: 75px;
         position: absolute;
         top: 45px;
-        left:350px;
+        left: 350px;
+        transition: .2s opacity;
+
+
 }
 
 
 
-#star-five {
+.star-five {
     margin: 50px 0;
     position: relative;
     display: block;
@@ -43,7 +50,8 @@ body {
     top: 150px;
     left:50px;
   }
-  #star-five:before {
+
+  .star-five:before {
     border-bottom: 80px solid blue;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
@@ -56,7 +64,7 @@ body {
     content: '';
     transform: rotate(-35deg);
   }
-  #star-five:after {
+  .star-five:after {
     position: absolute;
     display: block;
     color: red;
@@ -70,6 +78,68 @@ body {
     transform: rotate(-70deg);
     content: '';
   }
+
+  .animation-blink {
+  -webkit-animation-name: blink; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes blink {
+  from { background-color: red; }
+  to { background-color: yellow; }
+}
+
+/* Standard syntax */
+@keyframes blink {
+  from { background-color: red; }
+  to { background-color: yellow; }
+}
+
+
+.animation-rotate {
+  -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: rotate;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(180deg); }
+}
+
+/* Standard syntax */
+@keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(180deg); }
+}
+
+.hover-scale: hover {
+   
+}
+
+
+
+
+
+
+
+
+
 
   /*I use internet for information mostly.
 
