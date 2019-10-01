@@ -53,8 +53,10 @@ body {
       top: 95px;
       left: 200px;
       z-index: 2;
+      transition: .2s opacity;
 
     }
+
   .yin-yang:before {
       content: "";
       position: absolute;
@@ -79,3 +81,37 @@ body {
       height: 12px;
       box-sizing: content-box;
     }
+
+    .animation-blink {
+    -webkit-animation-name: blink; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+     animation-direction: alternate;
+  }
+
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes blink {
+    from { background-color: red; }
+    to { background-color: blue; }
+  }
+
+  /* Standard syntax */
+  @keyframes blink {
+    from { background-color: red; }
+    to { background-color: blue; }
+  }
+
+@keyframes spin {
+
+  from{
+    transform:rotateX(odeg);
+  }
+
+  to {
+    transform:rotate(90deg);
+  }
+}
