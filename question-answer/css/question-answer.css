@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: black;
+  background: #0D404E;
   font-size: 100px;
 }
 #question{
@@ -13,7 +13,7 @@ body {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  color: yellow;
+  color: #95E8FF;
   width: 100vw;
   height: 100vh;
 }
@@ -23,18 +23,22 @@ body {
 /* hidden message */
 @media (max-width: 1024px) {
   body {
-   background: yellow;
+   background: #5036FF;
+
   }
   #answer {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: black;
+    color: #FFC522;
     width: 100vw;
     height: 100vh;
   }
   #question {
     display: none;
+    justify-content: center;
+    font-family: 'PT Serif', serif;
+
   }
 }
