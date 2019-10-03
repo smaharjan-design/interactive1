@@ -16,6 +16,7 @@ body {
   color: #95E8FF;
   width: 100vw;
   height: 100vh;
+  font-family: 'PT Serif', serif;
 }
 #answer {
   display: none;
@@ -34,11 +35,12 @@ body {
     color: #FFC522;
     width: 100vw;
     height: 100vh;
+    font-family: 'Mansalva', cursive;
   }
   #question {
     display: none;
     justify-content: center;
-    font-family: 'PT Serif', serif;
+
 
   }
 }
