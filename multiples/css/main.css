@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #a9b800;
+    background: #FF7517;
 }
 
 #desktop {
@@ -33,11 +33,12 @@ display: none;
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
-        background: orange;
+        background: #FF7517;
     }
     #tablet {
         display: inline;
-        margin:320px;
+        margin: 320px;
+
 
     }
     #desktop{
@@ -53,18 +54,14 @@ display: none;
 /* mobile */
 @media (max-width: 670px) {
     body {
-        background: yellow;
+    background: #FF7517;
     }
     #mobile {
       display: inline;
       margin: 200px;
      }
-    #desktop{
-      display: none;
-    },
-    #tablet{
-
-    }
+    #desktop,
+    #tablet,
     #print {
         display: none;
     }
@@ -72,7 +69,7 @@ display: none;
 /* print */
 @media print {
     body {
-        background: white;
+        background: #FF7517;
     }
     #print {
         display: inline;
