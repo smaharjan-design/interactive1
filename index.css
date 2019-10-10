@@ -58,10 +58,14 @@ align: center;
 
 }
 
- .hero {
-   width: 1620px;
+ .hero-1 {
+   width: 100%;
+   display: inline;
 
 }
+
+
+
 
 h1 .subhead {
     font-size:5em;
@@ -127,7 +131,7 @@ nav ul li a:hover {
    cursor: pointer;
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (max-width: 660px) {
 
 .show-desktop {
   display: block;
@@ -137,6 +141,11 @@ nav ul li a:hover {
 .hide-desktop {
    display: none;
 }
+
+
+
+
+
 
 nav ul {
   position: inherit;
