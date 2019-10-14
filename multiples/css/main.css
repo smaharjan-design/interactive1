@@ -124,11 +124,11 @@ body {
 
 
 #black-circle {
-   width: 100px;
-   height: 100px;
+   width: 120px;
+   height:60px;
    background:black;
-   border-radius: 50px;
-   margin-left: 170px;
+   border-radius: 50%;
+   margin-left: 160px;
    margin-top: 0px;
 
 
