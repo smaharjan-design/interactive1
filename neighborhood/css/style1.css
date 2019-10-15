@@ -59,29 +59,29 @@ section title a {
 }
 
  .hero {
-   width:1024px;
+   width:100%;
 }
 .image1{
-  width:1024px
+  width:100%;
 }
 .image2 {
-  width:1024px;
+  width:100%;
 }
 
 .image3 {
-  width:1024px;
+  width:100%;
 }
 
 .image4 {
-  width:1024px;
+  width:100%;
 }
 
 .image5 {
-  width:1024px;
+  width:100%;
 }
 
 .image6 {
-  width:1024px;
+  width:100%;
 }
 h1 .subhead {
     font-size:5em;
@@ -147,7 +147,8 @@ nav ul li a:hover {
    cursor: pointer;
 }
 
-@media only screen and (min-width: 660px) {
+
+@media (max-width: 1600px) and (min-width: 660px) {
 
 
 
