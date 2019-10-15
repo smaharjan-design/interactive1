@@ -131,7 +131,7 @@ nav ul li a:hover {
    cursor: pointer;
 }
 
-@media screen and (max-width: 660px) {
+@media only screen and (min-width: 660px) {
 
 .show-desktop {
   display: block;
@@ -141,10 +141,6 @@ nav ul li a:hover {
 .hide-desktop {
    display: none;
 }
-
-
-
-
 
 
 nav ul {
