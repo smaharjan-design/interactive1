@@ -150,6 +150,12 @@ nav ul li a: hover {
    display: none;
 }
 
+/* .menu {
+  display:block;
+  position: absolute;
+  z-index:
+} */
+
 
 nav ul {
   position: inherit;
