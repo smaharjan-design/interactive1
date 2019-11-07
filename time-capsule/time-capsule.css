@@ -2,6 +2,8 @@
   box-sizing: border-box;
   }
 
+
+
   div {
     display: block;
   }
@@ -44,7 +46,7 @@
       top:50px;
       left:16px;
       align-items: center;
-      font-family: 'Arial Black', sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: yellow;
 
 }
@@ -60,7 +62,7 @@
       top:50px;
       left:16px;
       align-items: center;
-      font-family: 'Arial Black', sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: blue;
 
 }
@@ -76,7 +78,7 @@
       top:50px;
       left:16px;
       align-items: center;
-      font-family: 'Arial Black', sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: orange;
 
 
@@ -93,7 +95,7 @@
       top:50px;
       left:16px;
       align-items: center;
-      font-family: 'Arial Black', sans-serif;
+      font-family: 'Roboto', sans-serif;
       color: purple;
 }
 @keyframes text  {
@@ -148,7 +150,7 @@
     padding-top: 0px;
     justify-content: center;
     align-items: center;
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 54px;
     line-height: 70px;
     text-align: center;
@@ -163,7 +165,7 @@
  .text-block-2 {
    max-width: 550px;
    height: 64px;
-   font-family: 'Avenir Book', sans-serif;
+   font-family: 'Roboto', sans-serif;
    font-size: 16px;
    line-height: 20px;
    text-align: center;
@@ -230,7 +232,7 @@
  }
 
 body{
-  font-family: 'Gilroy Bold', 'San Serif';
+  font-family: 'Roboto Slab', 'Serif';
 
   font-size: 20px;
   line-height: 40px;
@@ -290,8 +292,7 @@ body{
 
 
   .heading-2.black {
-      margin-bottom: 8px;
-      color: #b969ff;
+      color: #f5a623;
     }
 
 
@@ -321,7 +322,7 @@ p {
 }
 
 .paragraph {
-    font-family: 'Avenir Book', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 16px;
     line-height: 32px;
@@ -331,7 +332,6 @@ p {
 
     margin-bottom: 0px;
     justify-content: flex-start;
-    font-family: 'Gilroy Bold', sans-serif;
     color: #f5a623;
     font-size: 22px;
     text-align: left;
@@ -375,7 +375,7 @@ p {
     background: none;
     padding: 10px 20px;
     font-size: 40px;
-    font-family; "Arial";
+    font-family: 'Roboto Condensed', sans-serif;
     cursor: pointer;
     margin: 10px;
     transition: 0.8s;
@@ -407,5 +407,4 @@ p {
 
   .btn1:hover::before{
     height: 180%;
-
   }
