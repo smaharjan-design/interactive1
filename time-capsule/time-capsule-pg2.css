@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  }
+
+
+
+  div {
+    display: block;
+  }
+
+  .body {
+      background-image: none;
+      background-position: 0px 0px;
+      background-size: auto;
+      background-repeat: repeat;
+  }
+
+  body{
+    line-height: 40px;
+    margin: 0;
+    display: block;
+    min-height: 100%;
+    background: linear-gradient(180.02deg, #FFFFFF -30.91%, rgba(255, 255, 255, 0) 99.97%), #107BED;
+  }
+
+
+
+
+  .container{
+      position: absolute;
+      text-align: center;
+      left:5%;
+      margin-top: 30px;
+      transform: translate(-50%, -50%);
+    }
+
+
+
+  .container span{
+
+      display: block;
+      position: absolute;
+      max-width: 1680px;
+      margin-top:50px;
+      margin-left: 50px;
+    }
+
+
+    .text2{
+          position:absolute;
+          z-index: 1;
+          font-size:200px;
+          font-weight: 700;
+          animation:text 3s 1;
+          margin-bottom: 70px;
+          letter-spacing: 8px;
+          top:50px;
+          left:16px;
+          align-items: center;
+          font-family: 'Roboto', sans-serif;
+          color: yellow;
+    }
+
+
+
+
+    .Rec-red{
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      left: 350px;
+      top: 30px;
+      background: #C54901;
+
+
+    }
+
+    .Rec-green{
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      left: 800px;
+      top: 30px;
+      background: #50A603;
+
+    }
+
+    .Rec-blue{
+      position: absolute;
+      width: 400px;
+      height:400px;
+      left: 350px;
+      top: 475px;
+      background: #4539FD;
+
+    }
+
+    .Rec-yellow{
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      left:800px;
+      top: 475px;
+      background: #BCB100;
+
+    }
+
+
+  .windows-link{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+   .container:hover .Rec-red{
+    opacity: 0.3;
+    }
+
+ .container:hover .windows-link {
+    opacity: 1;
+    }
+
+  .windows-text{
+    color: white;
+    font-size:40px;
+    padding: 16px 32px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    }
+
+
+
+  a:link {
+
+      background: none;
+      cursor: alias;
+      transition: 0.8s;
+      text-decoration: none;
+
+      }
+
+  a:visited {
+        color: black;
+      }
+
+  a:active {
+      color: black;
+      background-color: transparent;
+     }
+
+  a:hover {
+        color: white;
+      }
+
+
+
+      .Explorer-link{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        }
+
+       .container:hover .Rec-green{
+        opacity: 0.3;
+        }
+
+      .container:hover .Explorer-link {
+        opacity: 1;
+        }
+
+      .Explorer-text{
+        color: white;
+        font-size:40px;
+        padding: 16px 32px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        }
+
+
+
+              .Hotmail-link{
+                transition: .5s ease;
+                opacity: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+                }
+
+               .container:hover .Rec-blue{
+                opacity: 0.3;
+                }
+
+              .container:hover .Hotmail-link {
+                opacity: 1;
+                }
+
+              .Hotmail-text{
+                color: white;
+                font-size:40px;
+                padding: 16px 32px;
+                font-family: 'Roboto', sans-serif;
+                text-decoration: none;
+                }
+
+
+                .MSN-link{
+                  transition: .5s ease;
+                  opacity: 0;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  text-align: center;
+                  }
+
+                 .container:hover .Rec-yellow{
+                  opacity: 0.3;
+                  }
+
+                .container:hover .MSN-link {
+                  opacity: 1;
+                  }
+
+                .MSN-text{
+                  color: white;
+                  font-size:40px;
+                  padding: 16px 32px;
+                  font-family: 'Roboto', sans-serif;
+                  text-decoration: none;
+                  }
