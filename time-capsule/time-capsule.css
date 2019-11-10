@@ -375,8 +375,8 @@ p {
 
     background: none;
     padding: 10px 20px;
-    font-size: 40px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-family: 'Roboto Slab', Slab-serif;
     cursor: alias;
     margin: 10px;
     transition: 0.8s;
