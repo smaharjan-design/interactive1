@@ -1,0 +1,903 @@
+* {
+  box-sizing: border-box;
+  }
+
+
+
+  div {
+    display: block;
+  }
+
+
+
+  .body {
+      background-image: none;
+      background-position: 0px 0px;
+      background-size: auto;
+      background-repeat: repeat;
+  }
+
+ body{
+   font-family: 'Roboto Slab', 'Serif';
+   font-size: 20px;
+   line-height: 40px;
+   margin: 0;
+   display: block;
+   min-height: 100%;
+   background: linear-gradient(180.02deg, #FFFFFF -30.91%, rgba(255, 255, 255, 0) 99.97%), #107BED;
+
+  }
+
+
+/* block 2 */
+
+
+.div-block-2 {
+    position: relative;
+    text-align: center;
+    left: 0%;
+}
+
+.div-block-2 span{
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    max-width: 1500px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+.text2{
+      position:absolute;
+      z-index: 1;
+      font-size:200px;
+      font-weight: 700;
+      animation:text 3s 1;
+      margin-bottom: 70px;
+      letter-spacing: 8px;
+      top:50px;
+      left:16px;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      color: yellow;
+
+
+}
+
+.text3{
+      position: absolute;
+      z-index: 2;
+      font-size:200px;
+      font-weight: 700;
+      animation:text 3s 1;
+      margin-bottom: 70px;
+      letter-spacing: 8px;
+      top:50px;
+      left:16px;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      color: blue;
+
+
+}
+
+.text4{
+      position:absolute;
+      z-index: 3;
+      font-size:200px;
+      font-weight: 700;
+      animation:text 3s 1;
+      margin-bottom: 70px;
+      letter-spacing: 8px;
+      top:50px;
+      left:16px;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      color: orange;
+
+
+}
+
+.text5{
+      position:abosulute;
+      z-index: 4;
+      font-size:200px;
+      font-weight: 700;
+      animation:text 3s 1;
+      margin-bottom: 10px;
+      letter-spacing: 8px;
+      top:50px;
+      left:16px;
+      align-items: center;
+      font-family: 'Roboto', sans-serif;
+      color: purple;
+}
+
+@keyframes text  {
+  0%{
+    color:red;
+    margin-bottom: -40px;
+  }
+ 30%{
+  letter-spacing: 25px;
+  margin-bottom: -40px;
+    }
+  85%
+  letter-spacing: 8px;
+  margin-bottom: -40px;
+   }
+
+ /* block 2 */
+
+
+
+ /* block heading */
+
+
+  .heading{
+    position:relative;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .section-3 {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    margin-top: 10px;
+    padding-top: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 auto;
+  }
+
+
+
+.heading_1{
+    display: flex;
+    width: 75%;
+    height: 160px;
+    max-width: 900px;
+    margin-bottom: 24px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 54px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: white;
+
+
+
+ }
+
+
+ .text-block-2 {
+   max-width: 550px;
+   height: 64px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   line-height: 20px;
+   text-align: center;
+   letter-spacing: 0.5px;
+   color: white;
+ }
+
+ /* block heading */
+
+
+
+
+ /* my-memories-of-cybercafe */
+
+
+ .my-memories-of-cybercafe {
+ position:relative;
+ z-index: 2;
+ display: flex;
+ width: 100%;
+ height: 500px;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+
+}
+
+
+  .innersection-right {
+
+      display: flex;
+      width: 100%;
+      max-width: 1300px;
+      justify-content: space-around;
+      background-color: transparent;
+
+     }
+
+
+
+ img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0;
+ }
+
+  .image2 {
+    height: 300px;
+   }
+
+}
+
+
+
+
+
+ /* my-memories-of-cybercafe */
+
+
+
+
+ /* what-is-cybercafe */
+
+.what-is-cybercafe {
+
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+.innersection {
+    display: flex;
+    width: 100%;
+    max-width: 1500px;
+    min-height: 250px;
+    justify-content: space-around;
+}
+
+
+
+
+.image1 {
+       height: 300px;
+     }
+
+
+.content-1 {
+
+    display: flex;
+    max-width: 425px;
+    margin-left: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+
+
+  .heading-2 {
+
+      margin-bottom: 0px;
+      justify-content: flex-start;
+      color: #f5a623;
+      font-size: 22px;
+      text-align: left;
+      letter-spacing: 0.5px;
+
+  }
+
+
+
+
+
+
+
+
+
+h1 {
+    margin-top: 10px;
+    line-height: 56px;
+    font-weight: 700;
+    margin: .67em 0;
+
+  }
+
+
+
+
+
+p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+
+
+
+  .heading-2.purple {
+    color: #f5a623;
+    line-height: 40px;
+}
+
+
+
+
+ /* Inside-the-Cafe */
+
+.Inside-the-Cafe{
+
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+
+  .image3 {
+        width: 100%;
+   }
+
+
+ /* Inside-the-Cafe */
+
+
+.Entry-window{
+
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* container block */
+
+
+    .container{
+        position: absolute;
+        text-align: center;
+        left:5%;
+        margin-top: 30px;
+        width: 100vw;
+        height: 100vh;
+      }
+
+
+
+
+      .Rec-red{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 350px;
+        top: 30px;
+        background: #C54901;
+
+
+      }
+
+      .Rec-green{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 800px;
+        top: 30px;
+        background: #50A603;
+
+      }
+
+      .Rec-blue{
+        position: absolute;
+        width: 400px;
+        height:400px;
+        left: 350px;
+        top: 475px;
+        background: #4539FD;
+
+      }
+
+      .Rec-yellow{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left:800px;
+        top: 475px;
+        background: #BCB100;
+
+      }
+
+
+      .windows-link{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        }
+
+       .container:hover .Rec-red{
+        opacity: 0.3;
+        }
+
+     .container:hover .windows-link {
+        opacity: 1;
+        }
+
+      .windows-text{
+        color: white;
+        font-size:20px;
+        padding: 16px 32px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        }
+
+
+
+      a:link {
+
+          background: none;
+          cursor: alias;
+          transition: 0.8s;
+          text-decoration: none;
+
+          }
+
+      a:visited {
+            color: black;
+          }
+
+      a:active {
+          color: black;
+          background-color: transparent;
+         }
+
+      a:hover {
+            color: white;
+          }
+
+
+
+          .Explorer-link{
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            }
+
+           .container:hover .Rec-green{
+            opacity: 0.3;
+            }
+
+          .container:hover .Explorer-link {
+            opacity: 1;
+            }
+
+          .Explorer-text{
+            color: white;
+            font-size:20px;
+            padding: 16px 32px;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            }
+
+
+
+            .Hotmail-link{
+                   transition: .5s ease;
+                    opacity: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    text-align: center;
+                    }
+
+            .container:hover .Rec-blue{
+                    opacity: 0.3;
+                    }
+
+             .container:hover .Hotmail-link {
+                    opacity: 1;
+                    }
+
+            .Hotmail-text{
+                    color: white;
+                    font-size:20px;
+                    padding: 16px 32px;
+                    font-family: 'Roboto', sans-serif;
+                    text-decoration: none;
+                    }
+
+
+                    .MSN-link{
+                      transition: .5s ease;
+                      opacity: 0;
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      -ms-transform: translate(-50%, -50%);
+                      text-align: center;
+                      }
+
+                     .container:hover .Rec-yellow{
+                      opacity: 0.3;
+                      }
+
+                    .container:hover .MSN-link {
+                      opacity: 1;
+                      }
+
+                    .MSN-text{
+                      color: white;
+                      font-size:20px;
+                      padding: 16px 32px;
+                      font-family: 'Roboto', sans-serif;
+                      text-decoration: none;
+                      }
+
+
+/* container block */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 767px) and (min-width: 479px){
+
+
+    .heading_1 {
+        height: 160px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .div-block-2 {
+
+    }
+
+    .what-is-cybercafe {
+        height: 600px;
+    }
+
+    .innersection {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+
+    .content-1 {
+
+        align-items: center;
+        order: -1;
+    }
+
+    .innersection-right {
+        padding-right: 0px;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .div-block-4 {
+        height: 400px;
+    }
+
+    .my-memories-of-cybercafe {
+        height: 700px;
+          padding-top: 50px;
+    }
+
+    .Inside-the-Cafe{
+        height: 800px;
+
+    }
+
+    .image2 {
+        padding-top: 39px;
+    }
+
+
+  /* container block */
+    .logo{
+        position: absolute;
+        text-align: center;
+        left:0%;
+        margin-top: 40px;
+        width: 100vw;
+        height: 100vh;
+      }
+
+
+     .Rec-red{
+        position: absolute;
+        width:200px;
+        height: 200px;
+        left:40px;
+
+        background: #C54901;
+        }
+
+      .Rec-green{
+        position: absolute;
+        width: 200px;
+        height:200px;
+        left:250px;
+        background: #50A603;
+        }
+
+      .Rec-blue{
+        position: absolute;
+        width: 200px;
+        height:200px;
+        left: 40px;
+        top: 240px;
+        background: #4539FD;
+       }
+
+      .Rec-yellow{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left:250px;
+        top: 240px;
+        background: #BCB100;
+       }
+
+
+
+  /* container block */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 479px) {
+
+
+    .heading_1 {
+        width: 100%;
+        height: 120px;
+        font-size: 24px;
+        line-height: 40px;
+
+  }
+    .section-3 {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+
+
+
+    .div-block {
+        width: 90%;
+        max-width: 90%;
+    }
+
+
+
+
+    .div-block-2 {
+
+    }
+
+    .image {
+        margin-top: 80px;
+        margin-left: 58px;
+    }
+
+
+
+    .what-is-cybercafe{
+        height: 600px;
+        background-color: #f6f6f6;
+    }
+
+    .innersection {
+
+        display: flex;
+        flex-direction: column;
+        flex: 0 auto;
+        padding-top: 200px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+
+
+
+    .content-1 {
+        max-width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+        flex: 0 auto;
+    }
+
+
+    .heading-2 {
+        height: auto;
+        flex: 0 auto;
+        margin-top: 20px;
+    }
+
+    .heading-2.purple {
+        position: static;
+        margin-top: 0px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex: 0 auto;
+    }
+
+    .innersection-right {
+        padding-right: 16px;
+        padding-left: 16px;
+        flex-direction: column;
+        flex: 0 auto;
+        padding-top: 200px;
+        display: flex;
+
+    }
+
+
+   .image-2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .my-memories-of-cybercafe {
+        height: auto;
+    }
+
+    .Inside-the-Cafe {
+        height: auto;
+        background-color: #f6f6f6;
+
+    }
+
+
+
+      /* container block */
+
+
+    .logo{
+        position: absolute;
+        text-align: center;
+        left:0%;
+        margin-top: 30px;
+      }
+
+
+     .Rec-red{
+        position: absolute;
+        width:150px;
+        height: 150px;
+        background: #C54901;
+        left: 30px;
+      }
+
+
+
+      .Rec-green{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 195px;
+        background: #50A603;
+      }
+
+
+      .Rec-blue{
+        position: absolute;
+        width: 150px;
+        height:150px;
+        left: 30px;
+        top: 200px;
+        background: #4539FD;
+
+      }
+
+      .Rec-yellow{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left:195px;
+        top: 200px;
+        background: #BCB100;
+
+      }
+ }
+
+   /* container block */

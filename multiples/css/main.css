@@ -85,7 +85,7 @@ body {
 
 
 /* smallermobile */
-@media (max-width: 500px) {
+@media (max-width: 479px) {
 
 
 #canvas {

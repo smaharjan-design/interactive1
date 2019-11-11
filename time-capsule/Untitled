@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Time Capsule</title>
+  <!-- Set the viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="time-capsule.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Anton|Montserrat|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab&display=swap');
+</style>
+
+</head>
+
+
+
+<body class="body">
+   <div class="div-block-2">
+
+     <span class="text2">explorer</span>
+     <span class="text3">windows</span>
+     <span class="text4">hotmail</span>
+     <span class="text5">msn</span>
+   </div>
+
+
+
+
+   <div class="heading">
+       <div class="section-3">
+         <div class="heading_1">Welcome to the 90s Internet Cafe  Web Experience</div>
+         <div class="text-block-2">A time capsule of my initial personal experience of the internet</div>
+      </div>
+  </div>
+
+     <div class="what-is-cybercafe">
+         <div class="innersection">
+             <div class="content-1">
+                 <h1 class="heading-2 ">What is Cyber Cafe?</h1>
+                 <p class="paragraph"> Cybercafe is a type of business where computers are provided for accessing the internet, playing games,
+                    chatting with friends or doing other computer-related tasks. In most cases, access to the computer and internet is charged based on time.
+                    There are many internet cafes located worldwide, and in some countries they are considered the primary form of internet access for people.</br>
+                    <br/> source: technopedia.com </p>
+             </div>
+             <div class="div-block-4">
+                 <img src="assets/cyber1.jpg" alt="" class="image1"/>
+            </div>
+         </div>
+    </div>
+
+
+
+
+
+
+          <div class="my-memories-of-cybercafe">
+                 <div class="innersection-right">
+                     <div class="div-block-7">
+                         <img src="assets/cyber2.jpg" alt="" class="image2"/>
+                     </div>
+
+                     <div class="content-1">
+                         <h1 class="heading-2 purple">Web Experience</h1>
+                         <p class="paragraph">
+                             Windows computers were what were available and were famous in Kathmandu in the 90s. The person in the front desk used to keep track of time.
+                             For me, pretty much Explorer, Hotmail and Messengers were what I used to go in the Cafe for. I still
+                             remember when my best friend offered me to teach how to use messenger to make new friends. It was a precious memory...
+                        </p>
+                     </div>
+                 </div>
+          </div>
+
+
+          <div class="Inside-the-Cafe">
+              <div class="innersection">
+                  <div class="content-1">
+                      <h1 class="heading-2 red">Inside the Cafe</h1>
+                      <p class="paragraph">
+                          When we entered the Internet Cafes in Kathmandu Valley, the experience was like going inside the casinos in Las Vegas. We used to see youngsters the most, who are involved in
+                          playing games and chatting with friends. There were no any food or drinks served, just computers and people.
+
+                      </p>
+                  </div>
+              <div>
+                      <img src="assets/cyber3.jpg" alt="" class="image3"/>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="button-container">
+               <a href="TC.html"> Learn More... </a>
+          </div>
+
+          <div class="container">
+              <div class="Rec-red">
+                  <div class="windows-link">
+                      <div class="windows-text">
+                         <a href="https://en.wikipedia.org/wiki/Microsoft_Windows_version_history"> Windows</a></div>
+                  </div>
+              </div>
+
+
+              <div class="Rec-green">
+                  <div class="Explorer-link">
+                      <div class="Explorer-text">
+                         <a href="https://en.wikipedia.org/wiki/History_of_Internet_Explorer"> Explorer</a></div>
+                  </div>
+              </div>
+
+
+              <div class="Rec-blue">
+                  <div class="Hotmail-link">
+                      <div class="Hotmail-text">
+                         <a href="https://en.wikipedia.org/wiki/Outlook.com">Hotmail</a></div>
+                  </div>
+             </div>
+
+
+
+              <div class="Rec-yellow">
+                  <div class="MSN-link">
+                     <div class="MSN-text">
+                         <a href="https://en.wikipedia.org/wiki/MSN">MSN</a></div>
+                  </div>
+              </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
