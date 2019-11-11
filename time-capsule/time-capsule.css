@@ -105,7 +105,7 @@
 }
 
 .text5{
-      position:abosulute;
+      position:absolute;
       z-index: 4;
       font-size:200px;
       font-weight: 700;
@@ -651,7 +651,7 @@ p {
 
 
                              .heading_1 {
-                                 height: 160px;
+                                 height: 150px;
                                  font-size: 36px;
                                  line-height: 50px;
                              }
@@ -743,6 +743,139 @@ p {
                              }
 
 
+                             .text2{
+                                   position:absolute;
+                                   z-index: 1;
+                                   font-size:75px;
+                                   font-weight: 700;
+                                   animation:text 3s 1;
+                                   margin-bottom: 70px;
+                                   letter-spacing: 8px;
+                                   top:50px;
+                                   left:8px;
+                                   align-items: center;
+                                   font-family: 'Roboto', sans-serif;
+                                   color: yellow;
+
+                                 }
+
+                                   .text3{
+                                         position: absolute;
+                                         z-index: 2;
+                                         font-size:75px;
+                                         font-weight: 700;
+                                         animation:text 3s 1;
+                                         margin-bottom: 70px;
+                                         letter-spacing: 8px;
+                                         top:50px;
+                                         left:8px;
+                                         align-items: center;
+                                         font-family: 'Roboto', sans-serif;
+                                         color: blue;
+
+
+                                   }
+
+                                   .text4{
+                                         position:absolute;
+                                         z-index: 3;
+                                         font-size:75px;
+                                         font-weight: 700;
+                                         animation:text 3s 1;
+                                         margin-bottom: 70px;
+                                         letter-spacing: 8px;
+                                         top:50px;
+                                         left:8px;
+                                         align-items: center;
+                                         font-family: 'Roboto', sans-serif;
+                                         color: orange;
+
+                                       }
+
+                                       .text5{
+                                             position:absolute;
+                                             z-index: 4;
+                                             font-size:75px;
+                                             font-weight: 700;
+                                             animation:text 3s 1;
+                                             margin-bottom: 10px;
+                                             letter-spacing: 8px;
+                                             top:50px;
+                                             left:16px;
+                                             align-items: center;
+                                             font-family: 'Roboto', sans-serif;
+                                             color: purple;
+                                       }
+
+
+
+
+
+                                       .container{
+                                           z-index: 1;
+                                           display: flex;
+
+                                           text-align: center;
+                                           left:5%;
+                                           margin-top: 30px;
+                                           width: 100%;
+
+                                         }
+
+
+
+
+                                         .Rec-red{
+                                           position: absolute;
+                                           width: 100px;
+                                           height: 100px;
+                                           left: 70px;
+                                           top: 30px;
+                                           background: #C54901;
+
+
+                                         }
+
+                                         .Rec-green{
+                                           position: absolute;
+                                           width: 100px;
+                                           height: 100px;
+                                           left: 400px;
+                                           top: 30px;
+                                           background: #50A603;
+
+                                         }
+
+                                         .Rec-blue{
+                                           position: absolute;
+                                           width: 100px;
+                                           height:100px;
+                                           left:70px;
+                                           top: 350px;
+                                           background: #4539FD;
+
+                                         }
+
+                                         .Rec-yellow{
+                                           position: absolute;
+                                           width: 100px;
+                                           height: 100px;
+                                           left:400px;
+                                           top: 350px;
+                                           background: #BCB100;
+
+                                         }
+
+                                   }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -820,7 +953,7 @@ p {
 
                              }
 
-\
+
 
                              .my-memories-of-cybercafe {
                                  height: auto;
@@ -831,3 +964,5 @@ p {
                                  background-color: #f6f6f6;
 
                              }
+
+                           }

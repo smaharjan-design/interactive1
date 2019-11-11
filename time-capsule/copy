@@ -680,7 +680,7 @@ p {
 
 
   /* container block */
-    .logo{
+    .containw{
         position: absolute;
         text-align: center;
         left:0%;
