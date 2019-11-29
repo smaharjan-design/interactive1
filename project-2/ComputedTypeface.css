@@ -1,11 +1,20 @@
 :root {
   --fontHeight: 200px;
-  --color: white;
-  --negativeColor: black;
+
+  --negativeColor: white;
   --baseKern: 20px;
   --stemWidth: 20px;
-  --counteronewidth:
+
 }
+
+
+body{
+background: white;
+display:inline-block;
+
+
+
+ }
 
 .invisible {
   color: white;
@@ -14,15 +23,24 @@
 .fontBox {
 
   height:var(--fontHeight);
-  padding:50px;
-  overflow:hidden;
+
+
+  overflow: visible;
+  transform: scale(.30);
+
+
+
+
 }
 
 .fontbox2 {
 
   height:calc(var(--fontHeight) + 50px);
-  padding:50px;
-  overflow:hidden;
+
+  overflow:visible;
+  transform: scale(.30);
+
+
 }
 
 
@@ -924,7 +942,7 @@
                            .k>.invisible.one{
                                width : 100px;
                                height:50px;
-                               background:white;
+                               background:var(--negativeColor);
                                z-index: 3;
                                top: 25px;
                                left: 60px;
@@ -935,7 +953,7 @@
                              .k>.invisible.two{
                                 width : 100px;
                                 height:50px;
-                                background:white;
+                                background:var(--negativeColor);
                                 z-index: 4;
                                 top: 210px;
                                 left: 120px;
