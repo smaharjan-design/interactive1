@@ -45,6 +45,12 @@
 
 /* define some letter parts */
 
+
+
+.a {
+  width: 300px;
+}
+
 .a-s-one{
   width: var(--stemWidth);
   height:calc(var(--fontHeight) - 70px);
@@ -69,10 +75,6 @@
 
 
 
-
-.a {
-  width: 300px;
-}
 
 
 .a-c-one {
@@ -616,7 +618,7 @@
 
 
 
-                /* B */
+                /* H */
 
                   .h {
                     width: 200px;
@@ -703,3 +705,238 @@
 
                       top: 210px;
                     }
+
+
+
+                    /* i */
+
+                    .i{
+                      width: 100px;
+                    }
+
+                     .i>.stem.one{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) - 70px);
+                      background: #DE2627;
+                      position: absolute;
+                      z-index: 0;
+
+                      top:80px;
+                    }
+
+                     .i>.stem.two{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) - 70px);
+                      background:#551C55;
+                      position: absolute;
+                      z-index:1;
+                      left: 10px;
+                      top: 80px;
+                    }
+
+                    .i>.counter.one{
+                    	width: 30px;
+                    	height: 30px;
+                      border-radius: 50%;
+                    	position: absolute;
+                    	display: inline-block;
+
+                      top: 20px;
+                      background-color: #551C55;
+                      z-index: 2;
+
+                    }
+
+                  .i>.counter.two{
+                      width: 18px;
+                      height:18px;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      background-color: #DE2627;
+                      z-index: 3;
+                      left:6px;
+                      top:25px;
+                    }
+
+                      .i>.counter.three{
+                        width: 10px;
+                        height:10px;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: inline-block;
+                        background-color: white;
+                        z-index: 4;
+                        left:10px;
+                        top:30px;
+
+                      }
+
+
+
+                      /* J*/
+
+
+                      .j{
+                        width: 100px;
+                      }
+
+                       .j>.stem.one{
+                        width: var(--stemWidth);
+                        height:var(--fontHeight);
+                        background: #DE2627;
+                        position: absolute;
+                        z-index: 0;
+
+                        top:80px;
+                      }
+
+                       .j>.stem.two{
+                        width: var(--stemWidth);
+                        height:var(--fontHeight);
+                        background:#551C55;
+                        position: absolute;
+                        z-index:1;
+                        left: 10px;
+                        top: 80px;
+                      }
+
+                      .j>.counter.one{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: inline-block;
+
+                        top: 20px;
+                        background-color: #551C55;
+                        z-index: 2;
+
+                      }
+
+                     .j>.counter.two{
+                        width: 18px;
+                        height:18px;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: inline-block;
+                        background-color: #DE2627;
+                        z-index: 3;
+                        left:6px;
+                        top:25px;
+                      }
+
+                      .j>.counter.three{
+                          width: 10px;
+                          height:10px;
+                          border-radius: 50%;
+                          position: absolute;
+                          display: inline-block;
+                          background-color: white;
+                          z-index: 4;
+                          left:10px;
+                          top:30px;
+
+                        }
+
+
+                        /* k*/
+
+                        .k {
+                          width: 200px;
+                        }
+
+
+                        .k>.stem.one{
+                          width: var(--stemWidth);
+                          height: var(--fontHeight);
+                          background: #DE2627;
+                          position: absolute;
+                          z-index: 2;
+                          top: 10px;
+                        }
+
+                        .k>.stem.two{
+                          width: var(--stemWidth);
+                          height: var(--fontHeight);
+                          background:#551C55;
+                          position: absolute;
+                          z-index:2;
+                          left:10px;
+                          top: 10px;
+                        }
+
+
+                         .k>.arm.one{
+                           width: var(--stemWidth);
+                           height:calc(var(--fontHeight) - 80px);
+                           background: #DE2627;
+                           position: absolute;
+                           z-index: 1;
+                           top: 30px;
+                           left:50px;
+
+
+
+                           transform: rotate(55deg);
+                           }
+
+
+                           .k>.arm.two{
+                             width: var(--stemWidth);
+                             height:calc(var(--fontHeight) - 70px);
+                             background: #551C55;
+                             position: absolute;
+                             z-index: 1;
+                             top: 35px;
+                             left:50px;
+                             transform: rotate(55deg);
+                             }
+
+
+
+                             .k>.leg.one{
+                               width: var(--stemWidth);
+                               height:200px;
+                               background:  #DE2627;
+                               position: absolute;
+                               z-index: 0;
+                               top: 80px;
+                               left:105px;
+                               transform: rotate(-55deg);
+                               }
+
+
+
+                             .k>.leg.two{
+                               width: var(--stemWidth);
+                               height:200px;
+                               background: #551C55;
+                               position: absolute;
+                               z-index: 0;
+                               top:75px;
+                               left:115px;
+                               transform: rotate(-55deg);
+                               }
+
+
+
+                           .k>.invisible.one{
+                               width : 100px;
+                               height:50px;
+                               background:white;
+                               z-index: 3;
+                               top: 25px;
+                               left: 60px;
+                              }
+
+
+
+                             .k>.invisible.two{
+                                width : 100px;
+                                height:50px;
+                                background:white;
+                                z-index: 4;
+                                top: 210px;
+                                left: 120px;
+                                }
