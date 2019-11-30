@@ -1,7 +1,7 @@
 :root {
   --fontHeight: 200px;
 
-  --negativeColor: white;
+  --negativeColor: black;
   --baseKern: 20px;
   --stemWidth: 20px;
 
@@ -9,7 +9,7 @@
 
 
 body{
-background: white;
+background: black;
 display:inline-block;
 
 
@@ -126,7 +126,7 @@ display:inline-block;
     border-radius: 50%;
     position: absolute;
     display: inline-block;
-    background-color: white;
+   background:var(--negativeColor);
     z-index: 4;
     left:105px;
     top:110px;
@@ -193,7 +193,7 @@ display:inline-block;
       border-radius: 50%;
       position: absolute;
       display: inline-block;
-      background-color: white;
+      background:var(--negativeColor);
       z-index: 4;
       left:65px;
       top:110px;
@@ -238,7 +238,7 @@ display:inline-block;
         border-radius: 50%;
         position: absolute;
         display: inline-block;
-        background-color: white;
+       background:var(--negativeColor);
         z-index: 4;
         left:65px;
         top:110px;
@@ -249,7 +249,7 @@ display:inline-block;
       .c-one{
         width: 60px;
         height: 140px;
-        background: white;
+        background:var(--negativeColor);
         position: absolute;
         z-index: 5;
         top: 75px;
@@ -318,7 +318,7 @@ display:inline-block;
             border-radius: 50%;
             position: absolute;
             display: inline-block;
-            background-color: white;
+           background:var(--negativeColor);
             z-index: 4;
             left:40px;
             top:110px;
@@ -337,7 +337,7 @@ display:inline-block;
               .e-one{
                     width: 60px;
                     height: 30px;
-                    background: white;
+                    background:var(--negativeColor);
                     position: absolute;
                     z-index: 5;
                     top: 130px;
@@ -399,7 +399,7 @@ display:inline-block;
                 border-radius: 50%;
                 position: absolute;
                 display: inline-block;
-                background-color: white;
+                background:var(--negativeColor);
                 z-index: 4;
                 left:40px;
                 top:110px;
@@ -493,7 +493,7 @@ display:inline-block;
 
               .f>.counter.one {
                 height: 150px;
-                background: white;
+                 background:var(--negativeColor);
                 width: 120px;
                 left: 160px;
                 top: 60px;
@@ -503,7 +503,7 @@ display:inline-block;
 
               .f>.counter.two {
                 height: 150px;
-                background: white;
+               background:var(--negativeColor);
                 width: 90px;
                 left: 158px;
                 top: 30px;
@@ -550,7 +550,7 @@ display:inline-block;
                   border-radius: 50%;
                   position: absolute;
                   display: inline-block;
-                  background-color: white;
+                  background:var(--negativeColor);
                   z-index: 5;
                   left:105px;
                   top:110px;
@@ -608,7 +608,7 @@ display:inline-block;
 
                    width: 120px;
                    height:100px ;
-                   background: white;
+                   background:var(--negativeColor);
                    position: absolute;
                    z-index: 4;
                    left:75px;
@@ -623,11 +623,7 @@ display:inline-block;
                     width: 100px;
                     height:130px ;
                     border-radius: 100px;
-                    background: white;
-                    position: absolute;
-                    z-index: 4;
-                    left:100px;
-                    top:125px;
+                    background:var(--negativeColor);
 
                      }
 
@@ -706,7 +702,7 @@ display:inline-block;
                       height: 200px;
                       top: 8px;
                       border-radius: 100px;
-                      background:white;
+                      background:var(--negativeColor);
                       left: 30px;
                       position: absolute;
                       z-index:5;
@@ -717,7 +713,7 @@ display:inline-block;
                     .h>.invisible.two{
                       width: 200px;
                       height: 20px;
-                      background:white;
+                      background:var(--negativeColor);
                       position: absolute;
                       z-index:6;
 
@@ -783,7 +779,7 @@ display:inline-block;
                         border-radius: 50%;
                         position: absolute;
                         display: inline-block;
-                        background-color: white;
+                       background:var(--negativeColor);
                         z-index: 4;
                         left:10px;
                         top:30px;
@@ -850,7 +846,7 @@ display:inline-block;
                           border-radius: 50%;
                           position: absolute;
                           display: inline-block;
-                          background-color: white;
+                          background:var(--negativeColor);
                           z-index: 4;
                           left:10px;
                           top:30px;
