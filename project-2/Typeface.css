@@ -1,0 +1,130 @@
+:root {
+  --fontHeight: 30vh;
+  --fontWidth:20vh;
+
+  --negativeColor: black;
+  --baseKern: 20px;
+  --stemWidth: 20vh;
+
+}
+
+body{
+background: yellow;
+
+
+}
+
+html {
+  margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.fontBox {
+  width:80%;
+  height: 100%;
+
+  background:black;
+  position: absolute;
+  top: 7vh;
+  left: 10%;
+
+
+  }
+
+
+
+
+}
+
+ .a{
+
+ width: 5%;
+ height: 88vh;
+ background: yellow;
+
+ background-size: cover;
+ position: absolute;
+ top: 10vh;
+ left: 50%;
+ transform: translate3d(-50%, 0, 0);
+ filter: hue-rotate(310deg) contrast(140%);
+ opacity: 0.8;
+
+ }
+
+  }
+
+}
+
+
+  .a>.stem.one{
+
+
+
+.a>.sem.two {
+  clip-path: polygon(0 0, 100% 0, 50%
+100%);
+width: 100vh;
+height: 88vh;
+background: yellow;
+no-repeat center center;
+background-size: cover;
+position: absolute;
+top: 10vh;
+left: 50%;
+transform: translate3d(-50%, 0, 0);
+filter: hue-rotate(310deg) contrast(140%);
+opacity: 0.8;
+}
+
+
+
+
+
+  .a>.couner.one {
+
+    	clip-path: polygon(50% 0, 0% 100%, 9% 100%,
+    	50% 17%, 50% 17%, 85% 91%, 13% 91%, 0 100%,
+    	100% 100%, 50% 0);
+    	width: 80vh;
+    	height: 70vh;
+    	background: red;
+    	no-repeat center center;
+    	background-size: cover;
+    	position: absolute;
+    	top: 1vh;
+    	left: 50%;
+    	transform: translate3d(-50%, 0, 0);
+    	filter: hue-rotate(90deg) contrast(140%);
+    	opacity: 0.7;}
+  }
+
+  .a>.counter.two  {
+    width:;
+    height:;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    background-color: #DE2627;
+    z-index: 3;
+    left:85px;
+    top:85px;
+  }
+
+  .a>.counter.three {
+      width: ;
+      height:;
+      border-radius: 50%;
+      position: absolute;
+      display: inline-block;
+     background:var(--negativeColor);
+      z-index: 4;
+      left:105px;
+      top:110px;
+
+    }
