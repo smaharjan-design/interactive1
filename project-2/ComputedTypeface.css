@@ -87,6 +87,35 @@ padding-top: 5%;
 
 
 
+.row5 {
+  width: 100%;
+  height: 30%;
+  display:block;
+  padding-left: 8%;
+  align-items: center;
+  padding-top: 5%;
+  background-color: black;
+
+
+}
+
+
+
+.row6 {
+  width: 100%;
+  height: 30%;
+  display:block;
+  padding-left: 8%;
+  align-items: center;
+  padding-top: 5%;
+  background-color: black;
+
+
+}
+
+
+
+
 /* setup so our letters to have equal spacing */
 .rootLetter {
   float:left;
@@ -2091,7 +2120,7 @@ padding-top: 5%;
 
                         .u{
                         transform: scale(-1);
-                        top: 13%;
+                        top: 14%;
                         }
 
 
@@ -2796,3 +2825,908 @@ padding-top: 5%;
 
 
                       }
+
+
+        /* sunya */
+              .sunya{
+                left:0%;
+                transform:scaleY(1.5);
+              }
+
+                                  .sunya>.counter.one {
+                                  	width: 70%;
+                                  	height: 70%;
+                                    border-radius: 50%;
+                                  	position: absolute;
+                                  	display: inline-block;
+                                    left: 20%;
+                                    top: 35%;
+                                    background-color: #551C55;
+                                    z-index: 2;
+
+                                  }
+
+                                  .sunya>.counter.two  {
+                                    width: 50%;
+                                    height: 50%;
+                                    border-radius: 50%;
+                                    position: absolute;
+                                    display: inline-block;
+                                    background-color: #DE2627;
+                                    z-index: 3;
+                                    left:30%;
+                                    top:40%;
+                                  }
+
+                                  .sunya>.counter.three {
+                                      width: 30%;
+                                      height:30%;
+                                      border-radius: 50%;
+                                      position: absolute;
+                                      display: inline-block;
+                                     background:var(--negativeColor);
+                                      z-index: 4;
+                                      left:40%;
+                                      top:53%;
+
+                                    }
+
+
+              /* ek*/
+
+              .ek{
+                left:5%;
+                top:5%;
+              }
+
+
+               .ek>.stem.one{
+                  width: var(--stemWidth);
+                  height:calc(var(--fontHeight) + 85%);
+                  background: #DE2627;
+                  position: absolute;
+                  z-index: 0;
+                  top:5%;
+
+                  left:30%;
+                }
+
+               .ek>.stem.two{
+                  width: var(--stemWidth);
+                  height:calc(var(--fontHeight) + 90%);
+                  background:#551C55;
+                  position: absolute;
+                  z-index:1;
+                  left:35%;
+
+                }
+
+
+                .ek>.crossbar.one{
+                  width: 45%;
+                  height:10%;
+
+
+                  background:#551C55;
+                  z-index:7;
+                  top:15%;
+                  left:0%;
+                  transform: rotate(-45deg);
+
+
+
+                }
+
+
+                .ek>.crossbar.two{
+                  width: 30%;
+                  height:15%;
+
+                  background:#DE2627;
+                  z-index:0;
+                  top:25%;
+                  left:10%;
+                  transform: rotate(-45deg);
+
+
+                }
+
+
+
+
+
+                /* dui */
+                      .dui{
+                        left:5%;
+                        top:5%;
+
+                      }
+
+                    .dui>.counter.one {
+                      width: 70%;
+                      height: 70%;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      left: 20%;
+
+                      background-color: #551C55;
+                      z-index: 2;
+
+                    }
+
+                    .dui>.counter.two  {
+                      width: 50%;
+                      height: 50%;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      background-color: #DE2627;
+                      z-index: 3;
+                      left:30%;
+                      top:10%;
+                    }
+
+                    .dui>.counter.three {
+                        width: 40%;
+                        height:40%;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: inline-block;
+                        background:var(--negativeColor);
+                        z-index: 6;
+                        left:35%;
+                        top:15%;
+
+                      }
+
+                      .dui>.invisible.one{
+                        width : 60%;
+                        height:50%;
+                        background:var(--negativeColor);
+
+                        top: 25%;
+                        z-index: 3;
+
+
+                       }
+
+
+                     .dui>.inviible.two{
+                       width : 90%;
+                       height:30%;
+                       background:var(--negativeColor);
+
+                       transform: rotate(-55deg);
+
+                       top: 40%;
+                       z-index: 7;
+
+
+                      }
+
+                      .dui>.invisible.two{
+                        width : 60%;
+                        height:20%;
+                        background:var(--negativeColor);
+
+
+                        top: 115%;
+                        z-index: 7;
+
+
+                       }
+
+
+                       .dui>.arm.one{
+                         width:70%;
+                         height:15%;
+                         background:  #551C55;
+                         position: absolute;
+                         z-index: 6;
+
+                         top: 100%;
+
+                         left:20%;
+
+                         }
+
+
+
+                       .dui>.arm.two{
+                         width: 15%;
+                         height:80%;
+                         background: #551C55;
+                         position: absolute;
+                         z-index: 5;
+                         top:50%;
+                         left:35%;
+                         transform: rotate(35deg);
+                         }
+
+
+
+
+
+                         /* teen */
+                               .teen{
+                                 left:10%;
+                                 top:5%;
+
+                               }
+
+                             .teen>.counter.one {
+                               width: 70%;
+                               height: 70%;
+                               border-radius: 50%;
+                               position: absolute;
+                               display: inline-block;
+                               left: 20%;
+
+                               background-color: #551C55;
+                               z-index: 2;
+
+                             }
+
+                             .teen>.counter.two  {
+                               width: 50%;
+                               height: 50%;
+                               border-radius: 50%;
+                               position: absolute;
+                               display: inline-block;
+                               background-color: #DE2627;
+                               z-index: 3;
+                               left:30%;
+                               top:10%;
+                             }
+
+                             .teen>.counter.three {
+                                 width: 40%;
+                                 height:40%;
+                                 border-radius: 50%;
+                                 position: absolute;
+                                 display: inline-block;
+                                 background:var(--negativeColor);
+                                 z-index: 6;
+                                 left:35%;
+                                 top:15%;
+
+                               }
+
+
+                               .teen>.counter.four {
+                                 width: 70%;
+                                 height: 70%;
+                                 border-radius: 50%;
+                                 position: absolute;
+                                 display: inline-block;
+                                 left: 20%;
+                                 top:50%;
+
+                                 background-color: #551C55;
+                                 z-index: 2;
+
+                               }
+
+
+
+                               .teen>.conter.five {
+                                 width: 50%;
+                                 height: 50%;
+                                 border-radius: 50%;
+                                 position: absolute;
+                                 display: inline-block;
+                                 background-color: #DE2627;
+                                 z-index: 3;
+                                 left:30%;
+                                 top:40%;
+                               }
+
+                               .teen>.counter.six {
+                                   width: 40%;
+                                   height:40%;
+                                   border-radius: 50%;
+                                   position: absolute;
+                                   display: inline-block;
+                                   background:var(--negativeColor);
+                                   z-index: 6;
+                                   left:35%;
+                                   top:60%;
+
+                                 }
+
+                               .teen>.invisible.one{
+                                 width : 60%;
+                                 height:50%;
+                                 background:var(--negativeColor);
+
+                                 top: 25%;
+                                 z-index: 3;
+
+
+                                }
+
+
+                              .dui>.inviible.two{
+                                width : 90%;
+                                height:30%;
+                                background:var(--negativeColor);
+
+                                transform: rotate(-55deg);
+
+                                top: 40%;
+                                z-index: 7;
+
+
+                               }
+
+                               .dui>.invisible.two{
+                                 width : 60%;
+                                 height:20%;
+                                 background:var(--negativeColor);
+
+
+                                 top: 115%;
+                                 z-index: 7;
+
+
+                                }
+
+
+                                .dui>.arm.one{
+                                  width:70%;
+                                  height:15%;
+                                  background:  #551C55;
+                                  position: absolute;
+                                  z-index: 6;
+
+                                  top: 100%;
+
+                                  left:20%;
+
+                                  }
+
+
+
+                                .dui>.arm.two{
+                                  width: 15%;
+                                  height:80%;
+                                  background: #551C55;
+                                  position: absolute;
+                                  z-index: 5;
+                                  top:50%;
+                                  left:35%;
+                                  transform: rotate(35deg);
+                                  }
+
+
+
+
+
+
+                                  /* ek*/
+
+                                  .char{
+                                    left:15%;
+                                    top:5%;
+                                  }
+
+
+                                   .char>.stem.one{
+                                      width: var(--stemWidth);
+                                      height:calc(var(--fontHeight) + 85%);
+                                      background: #DE2627;
+                                      position: absolute;
+                                      z-index: 1;
+                                      top:5%;
+
+                                      left:70%;
+                                    }
+
+                                   .char>.stem.two{
+                                      width: var(--stemWidth);
+                                      height:calc(var(--fontHeight) + 90%);
+                                      background:#551C55;
+                                      position: absolute;
+                                      z-index:2;
+                                      left:75%;
+
+                                    }
+
+
+                                    .char>.crossbar.one{
+                                      width: 85%;
+                                      height:10%;
+
+
+                                      background:#551C55;
+                                      z-index:7;
+                                      top:25%;
+                                      left:10%;
+                                      transform: rotate(-45deg);
+
+
+
+                                    }
+
+
+                                    .char>.crossbar.two{
+                                      width: 80%;
+                                      height:10%;
+
+                                      background:#DE2627;
+                                      z-index:0;
+                                      top:25%;
+                                      left:20%;
+                                      transform: rotate(-45deg);
+
+
+                                    }
+
+
+
+
+                                    .char>.cossbar.three{
+                                      width: 105%;
+                                      height:10%;
+
+                                      background:#DE2627;
+                                      z-index:0;
+                                      top:65%;
+                                      left:5%;
+
+
+
+                                    }
+
+
+                                    .char>.crossbar.four{
+                                      width: 60%;
+                                      height:15%;
+
+                                      background:#551C55;
+                                      z-index:0;
+                                      top:50%;
+                                      left:15%;
+
+
+
+                                    }
+
+
+
+                                    .char>.invisible.one{
+                                      width : 40%;
+                                      height:90%;
+                                      background:var(--negativeColor);
+
+                                      left:85%;
+
+                                      z-index: 3;
+
+
+                                     }
+
+
+
+
+                  /* panch */
+                        .panch{
+                          left:20%;
+                          top:5%;
+
+                        }
+
+                      .panch>.couter.one {
+                        width: 70%;
+                        height: 70%;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: inline-block;
+                        left: 20%;
+
+                        background-color: #551C55;
+                        z-index: 2;
+
+                      }
+
+                      .panch>.couter.two  {
+                        width: 50%;
+                        height: 50%;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: inline-block;
+                        background-color: #DE2627;
+                        z-index: 3;
+                        left:30%;
+                        top:10%;
+                      }
+
+                      .panch>.couter.three {
+                          width: 40%;
+                          height:40%;
+                          border-radius: 50%;
+                          position: absolute;
+                          display: inline-block;
+                          background:var(--negativeColor);
+                          z-index: 6;
+                          left:35%;
+                          top:15%;
+
+                        }
+
+
+                        .panch>.counter.four {
+                          width: 70%;
+                          height: 70%;
+                          border-radius: 50%;
+                          position: absolute;
+                          display: inline-block;
+                          left: 20%;
+                          top:50%;
+
+                          background-color: #551C55;
+                          z-index: 2;
+
+                        }
+
+
+
+                        .panch>.couter.five {
+                          width: 50%;
+                          height: 50%;
+                          border-radius: 50%;
+                          position: absolute;
+                          display: inline-block;
+                          background-color: #DE2627;
+                          z-index: 3;
+                          left:30%;
+                          top:40%;
+                        }
+
+                        .panch>.counter.six {
+                            width: 40%;
+                            height:40%;
+                            border-radius: 50%;
+                            position: absolute;
+                            display: inline-block;
+                            background:var(--negativeColor);
+                            z-index: 6;
+                            left:35%;
+                            top:60%;
+
+                          }
+
+                        .panch>.invisible.one{
+                          width : 60%;
+                          height:20%;
+                          background:var(--negativeColor);
+
+                          top: 70%;
+                          z-index: 3;
+
+
+                         }
+
+                         .panch>.crossbar.one{
+                           width:65%;
+                           height:10%;
+
+
+                           background:#551C55;
+                           z-index:7;
+                           top:30%;
+                           left:15%;
+                           transform: rotate(-65deg);
+
+
+
+                         }
+
+
+
+
+                        .panch>.crossbar.two{
+                          width: 45%;
+                          height:10%;
+
+
+                          background:#551C55;
+                          z-index:7;
+
+                          left:55%;
+
+
+
+
+                        }
+
+
+
+
+
+
+
+              /* cha */
+                  .cha{
+
+                      top:5%;
+
+                    }
+
+                  .cha>.couter.one {
+                    width: 70%;
+                    height: 70%;
+                    border-radius: 50%;
+                    position: absolute;
+                    display: inline-block;
+                    left: 20%;
+
+                    background-color: #551C55;
+                    z-index: 2;
+
+                  }
+
+                  .cha>.couter.two  {
+                    width: 50%;
+                    height: 50%;
+                    border-radius: 50%;
+                    position: absolute;
+                    display: inline-block;
+                    background-color: #DE2627;
+                    z-index: 3;
+                    left:30%;
+                    top:10%;
+                  }
+
+                  .cha>.couter.three {
+                      width: 40%;
+                      height:40%;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      background:var(--negativeColor);
+                      z-index: 6;
+                      left:35%;
+                      top:15%;
+
+                    }
+
+
+                    .cha>.counter.four {
+                      width: 70%;
+                      height: 70%;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      left: 20%;
+                      top:50%;
+
+                      background-color: #551C55;
+                      z-index: 2;
+
+                    }
+
+
+
+                    .cha>.couter.five {
+                      width: 50%;
+                      height: 50%;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      background-color: #DE2627;
+                      z-index: 3;
+                      left:30%;
+                      top:40%;
+                    }
+
+                    .cha>.counter.six {
+                        width: 40%;
+                        height:40%;
+                        border-radius: 50%;
+                        position: absolute;
+                        display: inline-block;
+                        background:var(--negativeColor);
+                        z-index: 6;
+                        left:35%;
+                        top:60%;
+
+                      }
+
+                    .cha>.ivisible.one{
+                      width : 60%;
+                      height:20%;
+                      background:var(--negativeColor);
+
+                      top: 70%;
+                      z-index: 3;
+
+
+                     }
+
+                     .cha>.crossbar.one{
+                       width:65%;
+                       height:10%;
+
+
+                       background:#551C55;
+                       z-index:7;
+                       top:30%;
+                       left:15%;
+                       transform: rotate(-65deg);
+
+
+
+                     }
+
+
+
+
+                    .cha>.cossbar.two{
+                      width: 45%;
+                      height:10%;
+
+
+                      background:#551C55;
+                      z-index:7;
+
+                      left:55%;
+
+
+
+
+                    }
+
+
+
+
+
+                    /* saat*/
+
+                    .saat{
+                      left:5%;
+                      top:5%;
+                    }
+
+
+                     .saat>.stem.one{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 85%);
+                        background: #DE2627;
+                        position: absolute;
+                        z-index: 0;
+                        top:5%;
+
+                        left:30%;
+
+                       transform: rotate(30deg);
+                      }
+
+                     .saat>.stem.two{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 90%);
+                        background:#551C55;
+                        position: absolute;
+                        z-index:1;
+                        left:35%;
+                        transform: rotate(30deg);
+
+                      }
+
+
+                      .saat>.crossbar.one{
+                        width: 60%;
+                        height:10%;
+
+
+                        background:#551C55;
+                        z-index:7;
+
+                        left:5%;
+
+
+
+
+                      }
+
+
+                      .saat>.crossbar.two{
+                        width: 60%;
+                        height:15%;
+
+                        background:#DE2627;
+                        z-index:0;
+                        top:5%;
+                        left:10%;
+
+
+
+                      }
+
+
+
+
+                      /* aath */
+                            .aath{
+                              left:10%;
+                            }
+
+                                                .aath>.counter.one {
+                                                 width: 70%;
+                                                 height: 70%;
+                                                  border-radius: 50%;
+                                                 position: absolute;
+                                                 display: inline-block;
+                                                  left: 20%;
+
+                                                  background-color: #551C55;
+                                                  z-index: 2;
+
+                                                }
+
+                                                .aath>.counter.two  {
+                                                  width: 50%;
+                                                  height: 50%;
+                                                  border-radius: 50%;
+                                                  position: absolute;
+                                                  display: inline-block;
+                                                  background-color: #DE2627;
+                                                  z-index: 3;
+                                                  left:30%;
+
+                                                }
+
+                                                .aath>.counter.three {
+                                                    width: 30%;
+                                                    height:30%;
+                                                    border-radius: 50%;
+                                                    position: absolute;
+                                                    display: inline-block;
+                                                   background:var(--negativeColor);
+                                                    z-index: 4;
+                                                    left:40%;
+
+
+                                                  }
+
+
+
+                                                  .aath>.counter.four {
+                                                   width: 70%;
+                                                   height: 70%;
+                                                    border-radius: 50%;
+                                                   position: absolute;
+                                                   display: inline-block;
+                                                    left: 20%;
+
+                                                    background-color: #551C55;
+                                                    z-index: 2;
+                                                    top:60%;
+
+                                                  }
+
+                                                  .aath>.counter.five  {
+                                                    width: 50%;
+                                                    height: 50%;
+                                                    border-radius: 50%;
+                                                    position: absolute;
+                                                    display: inline-block;
+                                                    background-color: #DE2627;
+                                                    z-index: 3;
+                                                    left:30%;
+
+                                                  }
+
+                                                  .aath>.counter.six {
+                                                      width: 30%;
+                                                      height:30%;
+                                                      border-radius: 50%;
+                                                      position: absolute;
+                                                      display: inline-block;
+                                                     background:var(--negativeColor);
+                                                      z-index: 4;
+                                                      left:40%;
+
+
+                                                    }
