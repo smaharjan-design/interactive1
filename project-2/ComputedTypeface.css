@@ -23,7 +23,7 @@ background:#551C55 ;
 
   background:black;
   position: absolute;
-  margin-top:30%;
+  margin-top:10%;
   display: block;
 
 
@@ -72,13 +72,26 @@ padding-top: 5%;
 
 
 
+.row4 {
+  width: 100%;
+  height: 30%;
+  display:block;
+  padding-left: 8%;
+  align-items: center;
+  padding-top: 5%;
+  background-color: black;
+
+
+}
+
+
 
 
 /* setup so our letters to have equal spacing */
 .rootLetter {
   float:left;
   position:relative;
-  display:block;
+  display:flex;
 
 
 
@@ -291,11 +304,15 @@ padding-top: 5%;
         position: absolute;
         z-index: 6;
         top: 35%;
-        left: 80%;
+        left:85%;
       }
 
 
       /* D */
+
+      .d{
+        left:.5%;
+      }
 
 
 
@@ -1123,58 +1140,32 @@ padding-top: 5%;
 
                           }
 
-                         .k>.arm.one{
-                           width: var(--stemWidth);
-                           height:calc(var(--fontHeight) - 90%);
-                           background: #DE2627;
-                           position: absolute;
-                           z-index: 1;
-                           top: 10%;
-                           left:10%;
 
 
 
-                           transform: rotate(55deg);
-                           }
-
-
-                           .k>.arm.two{
-                             width: var(--stemWidth);
-                             height:calc(var(--fontHeight) - 90%);
-                             background: #551C55;
-                             position: absolute;
-                             z-index: 1;
-                             top: 10%;
-                             left:20%;
-                             transform: rotate(55deg);
-                             }
+                          .k>.arm.one{
+                            width: var(--stemWidth);
+                            height:78%;
+                            background:  #DE2627;
+                            position: absolute;
+                            z-index: 0;
+                            top: 5%;
+                            left:30%;
+                            transform: rotate(55deg);
+                            }
 
 
 
-
-                                                          .k>.arm.one{
-                                                            width: var(--stemWidth);
-                                                            height:78%;
-                                                            background:  #DE2627;
-                                                            position: absolute;
-                                                            z-index: 0;
-                                                            top: 5%;
-                                                            left:30%;
-                                                            transform: rotate(55deg);
-                                                            }
-
-
-
-                                                          .k>.arm.two{
-                                                            width: var(--stemWidth);
-                                                            height:80%;
-                                                            background: #551C55;
-                                                            position: absolute;
-                                                            z-index: 0;
-                                                            top:10%;
-                                                            left:30%;
-                                                            transform: rotate(55deg);
-                                                            }
+                          .k>.arm.two{
+                            width: var(--stemWidth);
+                            height:80%;
+                            background: #551C55;
+                            position: absolute;
+                            z-index: 0;
+                            top:10%;
+                            left:30%;
+                            transform: rotate(55deg);
+                            }
 
 
 
@@ -1635,8 +1626,8 @@ padding-top: 5%;
 
          /* p */
 
-         .p{left:10%;
-         }
+              .p {left:10%;
+                 }
 
                                    .p>.stem.one{
                                       width: var(--stemWidth);
@@ -1772,13 +1763,10 @@ padding-top: 5%;
 
 
 
-                 .n{
-
-                   left:10%;
-                 }
 
 
-                 .n>.stem.one{
+
+                 .r>.stem.one{
                    width: var(--stemWidth);
                    height:calc(var(--fontHeight) + 50%);
                    background: #DE2627;
@@ -1788,7 +1776,7 @@ padding-top: 5%;
 
                  }
 
-                 .n>.stem.two{
+                 .r>.stem.two{
                    width: var(--stemWidth);
                    height:calc(var(--fontHeight) + 50%);
                    background:#551C55;
@@ -1800,7 +1788,7 @@ padding-top: 5%;
                  }
 
 
-                 .n>.stem.three{
+                 .r>.stem.three{
                    width: var(--stemWidth);
                    height: 35%;
                    background:#551C55;
@@ -1810,7 +1798,7 @@ padding-top: 5%;
                    top: 70%;
                  }
 
-                 .n>.stem.four{
+                 .r>.stem.four{
                    width: var(--stemWidth);
                    height: 35%;
                    background:#DE2627;
@@ -1823,7 +1811,7 @@ padding-top: 5%;
 
 
 
-                 .n>.circle.one {
+                 .r>.circle.one {
                    width: 50%;
                    height:70%;
                    top: 8px;
@@ -1836,7 +1824,7 @@ padding-top: 5%;
 
                  }
 
-                  .n>.circle.two {
+                  .r>.circle.two {
                     width: 70%;
                     height: 70%;
                     background:#551C55;
@@ -1850,7 +1838,7 @@ padding-top: 5%;
 
 
 
-                 .n>.invisible.two{
+                 .r>.invisible.two{
                    width: 30%;
                    height: 50%;
                    background:var(--negativeColor);
@@ -1862,7 +1850,7 @@ padding-top: 5%;
                  }
 
 
-                 .n>.invisible.three{
+                 .r>.invisible.three{
                    width: 50%;
                    height: 60%;
                    background:var(--negativeColor);
@@ -1873,3 +1861,938 @@ padding-top: 5%;
                    left: 15%;
                    top:50%;
                  }
+
+
+                 .r>.invisible.four {
+                    width: 30% ;
+                    height: 70%;
+                    background:var(--negativeColor);
+                    position: absolute;
+                    z-index: 7;
+                    top: 35%;
+                    left: 60%;
+                  }
+
+
+
+
+                  /* s */
+
+                  .s {
+                    transform: rotate();
+
+                  }
+
+
+
+
+
+
+                  .s>.counter.one {
+                    width: 50%;
+                    height: 50%;
+                    border-radius: 50%;
+                    position: absolute;
+
+
+                    top: 25%;
+                    background-color: #551C55;
+                    z-index: 11;
+                    left:5%;
+
+                  }
+
+                  .s>.couner.two {
+                    width: 30%;
+                    height: 30%;
+                    border-radius: 50%;
+                    position: absolute;
+
+                    background-color: #DE2627;
+                    z-index: 12;
+                    left:20%;
+                    top:30%;
+                  }
+
+                  .s>.counter.three{
+                      width: 55%;
+                      height:35%;
+
+                      position: absolute;
+
+                      background:var(--negativeColor);
+                      z-index: 12;
+                      left:30%;
+                      top:30%;
+
+                    }
+
+
+                   .s>.inviible.one {
+                      width: 30% ;
+                      height: 25%;
+                      background:var(--negativeColor);
+
+
+
+                      position: absolute;
+                      z-index: 14;
+                      top: 20%;s
+                      left: 45%;
+                    }
+
+
+
+                    .s>.inviible.two {
+                       width: 40% ;
+                       height: 30%;
+
+
+                       background:var(--negativeColor);
+
+
+
+                       position: absolute;
+                       z-index: 6;
+                       top: 25%;
+                       left: 40%;
+                     }
+
+
+
+
+                    /* s1 */
+
+
+
+
+
+
+
+
+
+
+                    .s>.counters1.one {
+                      width: 65%;
+                      height: 60%;
+                      border-radius: 50%;
+                      position: absolute;
+                      transform:rotateY(180deg);
+
+
+
+                      top:55%;
+                      background-color: #551C55;
+                      z-index: 7;
+
+
+
+                    }
+
+                    .s>.couters1.two {
+                      width: 35%;
+                      height: 30%;
+                      border-radius: 50%;
+                      position: absolute;
+                      transform:rotateY(180deg);
+                      background-color: #DE2627;
+                      z-index: 8;
+                      left:15%;
+                      top:70%;
+
+                    }
+
+                    .s>.couters1.three{
+                        width: 30%;
+                        height:30%;
+                        border-radius: 50%;
+                        position: absolute;
+                        transform:rotateY(180deg);
+
+                        background:var(--negativeColor);
+                        z-index: 9;
+                        left:15%;
+                        top:77%;
+
+                      }
+
+
+                     .s>.invisibles1.one {
+                        width: 40% ;
+                        height:45%;
+
+
+                        background:var(--negativeColor);
+
+
+                        position: absolute;
+                        z-index: 10;
+                        top: 50%;
+
+
+                      }
+
+
+
+
+
+
+                      /* t*/
+
+
+                       .t>.stem.one{
+                          width: var(--stemWidth);
+                          height:calc(var(--fontHeight) + 81%);
+                          background: #DE2627;
+                          position: absolute;
+                          z-index: 0;
+
+                          left:30%;
+                        }
+
+                       .t>.stem.two{
+                          width: var(--stemWidth);
+                          height:calc(var(--fontHeight) + 81%);
+                          background:#551C55;
+                          position: absolute;
+                          z-index:1;
+                          left:35%;
+
+                        }
+
+
+                        .t>.crossbar.one{
+                          width: 45%;
+                          height:10%;
+
+                          background:#551C55;
+                          z-index:7;
+                          top:35%;
+                          left:15%;
+
+
+                        }
+
+
+                        .t>.crossbar.two{
+                          width: 45%;
+                          height:15%;
+
+                          background:#DE2627;
+                          z-index:6;
+                          top:25%;
+                          left:15%;
+
+
+                        }
+
+
+        /* u*/
+
+                        .u{
+                        transform: scale(-1);
+                        top: 13%;
+                        }
+
+
+                        .u>.stem.one{
+                          width: var(--stemWidth);
+                          height:calc(var(--fontHeight) + 50%);
+                          background: #DE2627;
+                          position: absolute;
+                          z-index: 0;
+                          top: 30%;
+
+                        }
+
+                        .u>.stem.two{
+                          width: var(--stemWidth);
+                          height:calc(var(--fontHeight) + 50%);
+                          background:#551C55;
+                          position: absolute;
+                          z-index:1;
+                          left:5%;
+                          top: 30%;
+
+                        }
+
+
+                        .u>.stem.three{
+                          width: var(--stemWidth);
+                          height: 35%;
+                          background:#551C55;
+                          position: absolute;
+                          z-index:7;
+                          left:70%;
+                          top: 70%;
+                        }
+
+                        .u>.stem.four{
+                          width: var(--stemWidth);
+                          height: 35%;
+                          background:#DE2627;
+                          position: absolute;
+                          z-index:6;
+                          left:65%;
+                          top: 70%;
+                        }
+
+
+
+
+                        .u>.circle.one {
+                          width: 50%;
+                          height:70%;
+                          top: 8px;
+                          border-radius: 100px;
+                          background:#DE2627;
+                          left: 20%;
+                          position: absolute;
+                          z-index:5;
+                          top: 40%;
+
+                        }
+
+                         .u>.circle.two {
+                           width: 70%;
+                           height: 70%;
+                           background:#551C55;
+                           border-radius: 50%;
+                           position: absolute;
+                           z-index:4;
+                           top: 35%;
+                           left:10%;
+                        }
+
+
+
+
+                        .u>.invisible.two{
+                          width: 30%;
+                          height: 50%;
+                          background:var(--negativeColor);
+
+                          position: absolute;
+                          z-index:5;
+                          left: 45%;
+                          top:70%;
+                        }
+
+
+                        .u>.invisible.three{
+                          width: 50%;
+                          height: 60%;
+                          background:var(--negativeColor);
+
+                          border-radius:40%;
+                          position: absolute;
+                          z-index:5;
+                          left: 15%;
+                          top:50%;
+                        }
+
+
+
+
+
+                        /* v*/
+
+          .v{
+            top: 1%;
+            left:5%;
+
+
+          }
+
+
+
+          .v>.arm.one{
+            width: var(--stemWidth);
+            height:110%;
+            background:  #DE2627;
+            position: absolute;
+            z-index: 1;
+
+            left:70%;
+            transform: rotate(25deg);
+            }
+
+
+
+          .v>.arm.two{
+            width: var(--stemWidth);
+            height:120%;
+            background: #551C55;
+            position: absolute;
+            z-index: 2;
+            top:10%;
+            left:70%;
+            transform: rotate(25deg);
+            }
+
+
+
+
+
+          .v>.leg.one{
+            width: var(--stemWidth);
+            height:110%;
+            background:  #DE2627;
+            position: absolute;
+            z-index: 1;
+
+            left:30%;
+            transform: rotate(-25deg);
+            }
+
+
+
+          .v>.leg.two{
+            width: var(--stemWidth);
+            height:120%;
+            background: #551C55;
+            position: absolute;
+            z-index: 3;
+            top:10%;
+            left:30%;
+            transform: rotate(-25deg);
+            }
+
+
+
+
+
+
+
+         .v>.invisible.one{
+             width : 10vw;
+             height:2vw;
+             background:var(--negativeColor);
+
+
+             z-index: 3;
+             top: 107%;
+
+            }
+
+
+
+           .v>.invisible.two{
+             width : 120%;
+             height:30%;
+             background:var(--negativeColor);
+             top: 1%;
+             z-index: 4;
+
+            }
+
+
+
+
+    /* w*/
+
+
+            .w{
+              top: 1%;
+              left:10%;
+
+
+            }
+
+
+
+            .w>.arm.one{
+              width: var(--stemWidth);
+              height:110%;
+              background:  #DE2627;
+              position: absolute;
+              z-index: 1;
+
+              left:70%;
+              transform: rotate(25deg);
+              }
+
+
+
+            .w>.arm.two{
+              width: var(--stemWidth);
+              height:120%;
+              background: #551C55;
+              position: absolute;
+              z-index: 2;
+              top:10%;
+              left:70%;
+              transform: rotate(25deg);
+              }
+
+
+
+
+
+            .w>.leg.one{
+              width: var(--stemWidth);
+              height:110%;
+              background:  #DE2627;
+              position: absolute;
+              z-index: 1;
+
+              left:30%;
+              transform: rotate(-25deg);
+              }
+
+
+
+            .w>.leg.two{
+              width: var(--stemWidth);
+              height:120%;
+              background: #551C55;
+              position: absolute;
+              z-index: 3;
+              top:10%;
+              left:30%;
+              transform: rotate(-25deg);
+              }
+
+
+
+
+
+
+
+           .w>.invisible.one{
+               width : 150%;
+               height:2vw;
+               background:var(--negativeColor);
+
+
+
+
+               z-index: 5;
+               top: 107%;
+
+              }
+
+
+
+             .w>.invisible.two{
+               width : 180%;
+               height:30%;
+               background:var(--negativeColor);
+
+               top: 1%;
+               z-index: 5;
+
+              }
+
+
+
+
+
+
+
+              .w>.arm1.one{
+                width: var(--stemWidth);
+                height:110%;
+                background:  #DE2627;
+                position: absolute;
+                z-index: 1;
+
+                left:140%;
+                transform: rotate(25deg);
+                }
+
+
+
+              .w>.arm1.two{
+                width: var(--stemWidth);
+                height:120%;
+                background: #551C55;
+                position: absolute;
+                z-index: 2;
+                top:10%;
+                left:140%;
+                transform: rotate(25deg);
+                }
+
+
+
+
+
+              .w>.leg1.one{
+                width: var(--stemWidth);
+                height:110%;
+                background:  #DE2627;
+                position: absolute;
+                z-index: 1;
+
+                left:100%;
+                transform: rotate(-25deg);
+                }
+
+
+
+              .w>.leg1.two{
+                width: var(--stemWidth);
+                height:120%;
+                background: #551C55;
+                position: absolute;
+                z-index: 3;
+                top:10%;
+                left:100%;
+                transform: rotate(-25deg);
+                }
+
+
+
+
+
+
+                                        /* x*/
+
+                          .x{
+                            top: 1%;
+
+
+
+
+                          }
+
+
+
+                          .x>.arm.one{
+                            width: var(--stemWidth);
+                            height:130%;
+                            background:  #DE2627;
+                            position: absolute;
+                            z-index: 1;
+
+                            left:60%;
+                            transform: rotate(45deg);
+                            }
+
+
+
+                          .x>.arm.two{
+                            width: var(--stemWidth);
+                            height:140%;
+                            background: #551C55;
+                            position: absolute;
+                            z-index: 2;
+                            top:10%;
+                            left:55%;
+                            transform: rotate(45deg);
+                            }
+
+
+
+
+
+                          .x>.leg.one{
+                            width: var(--stemWidth);
+                            height:130%;
+                            background:  #DE2627;
+                            position: absolute;
+                            z-index: 1;
+
+                            left:50%;
+                            transform: rotate(-45deg);
+                            }
+
+
+
+                          .x>.leg.two{
+                            width: var(--stemWidth);
+                            height:140%;
+                            background: #551C55;
+                            position: absolute;
+                            z-index: 3;
+                            top:10%;
+                            left:55%;
+                            transform: rotate(-45deg);
+                            }
+
+
+
+
+
+
+
+                         .x>.invisible.one{
+                             width : 140%;
+                             height:30%;
+                             background:var(--negativeColor);
+
+
+
+                             z-index: 3;
+                             top: 107%;
+
+                            }
+
+
+
+                           .x>.invisible.two{
+                             width : 140%;
+                             height:30%;
+                             background:var(--negativeColor);
+
+                             top: 1%;
+                             z-index: 4;
+
+
+                            }
+
+
+
+
+
+
+                                  /* x*/
+
+                    .y{
+                      top: 1%;
+                      left:5%;
+
+
+
+
+                    }
+
+
+
+                    .y>.arm.one{
+                      width: var(--stemWidth);
+                      height:175%;
+                      background:  #DE2627;
+                      position: absolute;
+                      z-index: 1;
+
+                      left:65%;
+                      transform: rotate(40deg);
+                      }
+
+
+
+                    .y>.arm.two{
+                      width: var(--stemWidth);
+                      height:170%;
+                      background: #551C55;
+                      position: absolute;
+                      z-index: 2;
+                      top:5%;
+                      left:70%;
+                      transform: rotate(40deg);
+                      }
+
+
+
+
+
+                    .y>.leg.one{
+                      width: var(--stemWidth);
+                      height:100%;
+                      background:  #DE2627;
+                      position: absolute;
+                      z-index: 1;
+
+                      left:40%;
+                      transform: rotate(-30deg);
+                      }
+
+
+
+                    .y>.leg.two{
+                      width: var(--stemWidth);
+                      height:90%;
+                      background: #551C55;
+                      position: absolute;
+                      z-index: 0;
+                      top:10%;
+                      left:35%;
+                      transform: rotate(-30deg);
+                      }
+
+
+
+
+
+
+
+                   .y>.invisible.one{
+                       width : 140%;
+                       height:30%;
+                       background:var(--negativeColor);
+
+
+
+                       z-index: 3;
+                       top: 140%;
+
+                      }
+
+
+
+                     .y>.invisible.two{
+                       width : 140%;
+                       height:30%;
+                       background:var(--negativeColor);
+
+                       top: 1%;
+                       z-index: 4;
+
+
+                      }
+
+
+
+
+
+                                  /* z*/
+
+                    .z{
+                      top: 1%;
+                      left:10%;
+
+
+
+
+                    }
+
+
+
+                    .z>.arm.one{
+                      width: var(--stemWidth);
+                      height:130%;
+                      background:  #DE2627;
+                      position: absolute;
+                      z-index: 0;
+
+                      left:60%;
+                      transform: rotate(45deg);
+                      }
+
+
+
+                    .z>.arm.two{
+                      width: var(--stemWidth);
+                      height:140%;
+                      background: #551C55;
+                      position: absolute;
+                      z-index: 2;
+                      top:5%;
+                      left:60%;
+                      transform: rotate(45deg);
+                      }
+
+
+
+
+
+                    .z>.leg.one{
+                      width: 60%;
+                      height:10%;
+                      background:  #DE2627;
+                      position: absolute;
+                      z-index: 0;
+                      top:40%;
+
+                      left:25%;
+
+                      }
+
+
+
+                    .z>.leg.two{
+                      width: 80%;
+                      height:10%;
+                      background: #551C55;
+                      position: absolute;
+                      z-index: 3;
+                      top:30%;
+                      left:25%;
+
+                      }
+
+
+
+                      .z>.leg.three{
+                        width: 65%;
+                        height:10%;
+                        background:  #DE2627;
+                        position: absolute;
+                        z-index: 0;
+                        top:90%;
+
+                        left:45%;
+
+                        }
+
+
+
+                      .z>.leg.four{
+                        width: 75%;
+                        height:10%;
+                        background: #551C55;
+                        position: absolute;
+                        z-index: 3;
+                        top:100%;
+                        left:35%;
+
+                        }
+
+
+
+
+
+
+
+                   .z>.invisible.one{
+                       width : 140%;
+                       height:30%;
+                       background:var(--negativeColor);
+
+
+
+                       z-index: 3;
+                       top: 107%;
+
+                      }
+
+
+
+                     .z>.invisible.two{
+                       width : 140%;
+                       height:30%;
+                       background:var(--negativeColor);
+
+                       top: 1%;
+                       z-index: 4;
+
+
+                      }
+
+
+                      .t>.crossbar.one{
+                        width: 45%;
+                        height:10%;
+
+                        background:#551C55;
+                        z-index:7;
+                        top:35%;
+                        left:15%;
+
+
+                      }
+
+
+                      .t>.crossbar.two{
+                        width: 45%;
+                        height:15%;
+
+                        background:#DE2627;
+                        z-index:6;
+                        top:25%;
+                        left:15%;
+
+
+                      }
