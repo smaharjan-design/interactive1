@@ -69,14 +69,12 @@ body{
 }
 
 
-.l2{
-  left: 3%;
 
-}
 
-.i2{
-  left: 2%;
-}
+
+
+
+
 
 
 
@@ -203,7 +201,22 @@ body{
 
 }
 
-.row8 {
+
+
+   .row7 {
+     width: 100%;
+     height: 30%;
+     display:block;
+
+
+     padding-top: %;
+     background-color: black;
+
+
+   }
+
+
+.row9 {
   width: 100%;
   height: 15%;
   display:inline-block;
@@ -217,7 +230,7 @@ body{
    }
 
 
-   .row9 {
+   .row8 {
      width: 100%;
      height: 30%;
      display:block;
@@ -228,6 +241,21 @@ body{
 
 
    }
+
+
+
+      .row10{
+        width: 100%;
+        height: 30%;
+        display:block;
+
+
+        padding-top: %;
+        background-color: black;
+
+
+      }
+
 
 
 
@@ -740,6 +768,101 @@ top:40%;
 
 
 
+
+
+
+
+              /* E1 */
+
+              .e1{
+                left:0%;
+              }
+
+
+
+
+
+                  .e1-one{
+                        width: 60%;
+                        height: 9%;
+                        background:var(--negativeColor);
+
+                        position: absolute;
+                        z-index: 7;
+                        top: 70%;
+                        left: 36%;
+                      }
+
+
+                .e1-s-one{
+                  width: 30%;
+                  height: 7%;
+                  background: #551C55;
+                  position: absolute;
+                  z-index: 3;
+                  top: 58%;
+                  left: 30%;
+
+                }
+
+                .e1-s-two{
+                  width: 45%;
+                  height: 7%;
+                  background: #DE2627;
+                  position: absolute;
+                  z-index:6;
+                  left:45%;
+                  top: 63%;
+                }
+
+
+
+
+                .e1-c-one {
+                  width: 70%;
+                  height: 70%;
+                  border-radius: 50%;
+                  position: absolute;
+                  display: inline-block;
+                  left: 10%;
+                  top: 35%;
+
+                  background-color: #551C55;
+                  z-index: 2;
+
+                }
+
+                .e1-c-two {
+                  width: 50%;
+                  height: 50%;
+                  border-radius: 50%;
+                  position: absolute;
+                  display: inline-block;
+                  background-color: #DE2627;
+                  z-index: 3;
+                  left:10%;
+                  top:40%;
+                }
+
+
+
+                  .e1-c-three {
+                    width: 30%;
+                    height:30%;
+                    border-radius: 50%;
+                    position: absolute;
+                    display: inline-block;
+                    background:var(--negativeColor);
+
+                    z-index: 4;
+                    left:30%;
+                    top:53%;
+
+                  }
+
+
+
+
            /* F*/
 
            .f{
@@ -946,6 +1069,218 @@ top:40%;
                 top: 53%;
 
               }
+
+
+
+
+
+   /* F2*/
+
+              .f2{
+                left:;
+              }
+
+
+              .f2>.stem.one{
+                 width: var(--stemWidth);
+                 height:50%;
+                 background: #DE2627;
+                 position: absolute;
+                 z-index: 1;
+                 top:35%;
+
+                 left:30%;
+               }
+
+              .f2>.sem.two{
+                 width: var(--stemWidth);
+                 height:50%;
+                 background:#551C55;
+                 position: absolute;
+                 z-index:1;
+                 left:35%;
+                 top:30%;
+
+               }
+
+
+               .f2>.stem.four{
+                  width: var(--stemWidth);
+                  height:50%;
+                  background: #DE2627;
+
+                  position: absolute;
+                  z-index: 2;
+                  top:55%;
+                  left:30%;
+
+                }
+
+               .f2>.stem.five{
+                  width: var(--stemWidth);
+                  height:70%;
+                  background:#551C55;
+
+                  position: absolute;
+                  z-index:2;
+                  left:35%;
+                  top:35%;
+
+                }
+
+
+               .f2.sem.three{
+                  width: var(--stemWidth);
+                  height:30%;
+                  background:#DE2627;
+                  position: absolute;
+                  z-index:5;
+                  left:45%;
+                  top:30%;
+
+                }
+
+
+                .f2>.crossbar.one{
+                  width: 50%;
+                  height:15%;
+                  background:#DE2627;
+                  z-index:7;
+                  top:45%;
+                  left:20%;
+
+
+                }
+
+
+                .f2>.crossbar.two{
+                  width: 50%;
+                  height:15%;
+                  background:#551C55;
+                  z-index:6;
+                  top:40%;
+                  left:20%;
+
+
+                }
+
+
+
+
+
+
+               .f2>.invisible.two{
+                   width: 50%;
+                   height: 50%;
+
+                   position: absolute;
+                   display: inline-block;
+                   left: 45%;
+                   top: 30%;
+                   border-radius: 10%;
+
+
+
+                  background:var(--negativeColor);
+                   z-index: 5;
+
+                   }
+
+
+
+
+                 .f2>.invisible.three{
+                      width: 30%;
+                      height: 60%;
+                      position: absolute;
+                      display: inline-block;
+                      left:80%;
+
+                      background:var(--negativeColor);
+
+                      z-index: 6;
+
+                       }
+
+
+
+
+                 .f2>.circle.one{
+                      width: 40%;
+                      height: 40%;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      left: 45%;
+                      top: 15%;
+                      background:var(--negativeColor);
+
+                       z-index: 5;
+                     }
+
+
+
+                  .f2>.circle.two{
+                         width: 55%;
+                         height:55%;
+                         border-radius: 50%;
+                         background:#DE2627;
+
+
+                         position: absolute;
+                         z-index: 0;
+                         top:10%;
+                         left: 30%;
+                           }
+
+
+
+
+
+
+
+
+
+              .f2>.counter.one{
+                 width: 70%;
+                 height: 70%;
+                 border-radius: 50%;
+                 position: absolute;
+                 display: inline-block;
+                 left: 35%;
+
+                 background-color: #551C55;
+                 z-index: 2;
+
+
+               }
+
+              .f2>.conter.two{
+                 width: 50%;
+                 height:50%;
+                 border-radius: 50%;
+                 position: absolute;
+                 display: inline-block;
+                 background-color: #DE2627;
+                 z-index: 3;
+                 left:45%;
+                 top:5%;
+
+               }
+
+              .f2>.cuter.three{
+                   width: 30%;
+                   height:30%;
+                   border-radius: 50%;
+                   position: absolute;
+                   display: inline-block;
+                   background:var(--negativeColor);
+                   z-index: 4;
+                   left: 60%;
+                   top: 53%;
+
+                 }
+
 
 
 
@@ -2107,13 +2442,173 @@ top:40%;
 
 
 
+                                          /* i3 */
+
+                                          .i3{
+                                            left:5%;
+                                          }
+
+
+
+
+
+
+
+                                           .i3>.stem.one{
+                                            width: var(--stemWidth);
+                                            height:calc(var(--fontHeight) + 40%);
+                                            background: #DE2627;
+                                            position: absolute;
+                                            z-index: 0;
+                                            left: 50%;
+                                            top: 42%;
+                                          }
+
+                                           .i3>.stem.two{
+                                            width: var(--stemWidth);
+                                            height:calc(var(--fontHeight) + 40%);
+                                            background:#551C55;
+                                            position: absolute;
+                                            z-index:1;
+                                            left: 55%;
+                                            top: 42%;
+                                          }
+
+                                          .i3>.counter.one{
+                                          	width: 30%;
+                                          	height: 30%;
+                                            border-radius: 50%;
+                                          	position: absolute;
+                                            left: 43%;
+
+
+
+
+                                            background-color: #551C55;
+                                            z-index: 2;
+
+                                          }
+
+                                        .i3>.counter.two{
+                                            width: 20%;
+                                            height:20%;
+                                            border-radius: 50%;
+                                            position: absolute;
+                                            left: 48%;
+
+                                            background-color: #DE2627;
+                                            z-index: 3;
+
+                                            top:4%;
+                                          }
+
+                                            .i3>.counter.three{
+                                              width: 10%;
+                                              height:10%;
+                                              border-radius: 50%;
+                                              position: absolute;
+
+                                              background:var(--negativeColor);
+
+                                              z-index: 4;
+                                              left:53%;
+                                              top:10%;
+
+                                            }
+
+
+
+
+
+                      /* i4 */
+
+                      .i4 {
+                        left:12%;
+                      }
+
+
+
+
+
+
+
+                       .i4>.stem.one{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 40%);
+                        background: #DE2627;
+                        position: absolute;
+                        z-index: 0;
+                        left: 50%;
+                        top: 42%;
+                      }
+
+                       .i4>.stem.two{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 40%);
+                        background:#551C55;
+                        position: absolute;
+                        z-index:1;
+                        left: 55%;
+                        top: 42%;
+                      }
+
+                      .i4>.counter.one{
+                        width: 30%;
+                        height: 30%;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 43%;
+
+
+
+
+                        background-color: #551C55;
+                        z-index: 2;
+
+                      }
+
+                    .i4>.counter.two{
+                        width: 20%;
+                        height:20%;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 48%;
+
+                        background-color: #DE2627;
+                        z-index: 3;
+
+                        top:4%;
+                      }
+
+                        .i4>.counter.three{
+                          width: 10%;
+                          height:10%;
+                          border-radius: 50%;
+                          position: absolute;
+
+                          background:var(--negativeColor);
+
+                          z-index: 4;
+                          left:53%;
+                          top:10%;
+
+                        }
+
+
+
+
+
+
+
 
                     /* i2 */
 
 
 
                     .i2{
-                      left:12%;
+
+                      left:4%;
+
                     }
 
 
@@ -2124,7 +2619,7 @@ top:40%;
                       background: #DE2627;
                       position: absolute;
                       z-index: 0;
-                      left: 50%;
+                      left:4%;
                       top: 42%;
                     }
 
@@ -2134,7 +2629,7 @@ top:40%;
                       background:#551C55;
                       position: absolute;
                       z-index:1;
-                      left: 55%;
+                      left: 9%;
                       top: 42%;
                     }
 
@@ -2143,7 +2638,7 @@ top:40%;
                     	height: 30%;
                       border-radius: 50%;
                     	position: absolute;
-                      left: 43%;
+                      left: %;
 
 
 
@@ -2158,7 +2653,7 @@ top:40%;
                       height:20%;
                       border-radius: 50%;
                       position: absolute;
-                      left: 48%;
+                      left: 5%;
 
                       background-color: #DE2627;
                       z-index: 3;
@@ -2175,10 +2670,13 @@ top:40%;
                         background:var(--negativeColor);
 
                         z-index: 4;
-                        left:53%;
+                        left:10%;
                         top:10%;
 
                       }
+
+
+
 
 
 
@@ -2418,7 +2916,7 @@ top:40%;
 
                         /* l3*/
                         .l3{
-                          left:15%;
+                          left:10%;
                         }
 
 
@@ -2441,6 +2939,66 @@ top:40%;
                             left:35%;
 
                           }
+
+
+
+
+
+                          .l5{
+                            left:5%;
+
+                          }
+
+
+                           .l5>.stem.one{
+                              width: var(--stemWidth);
+                              height:calc(var(--fontHeight) + 81%);
+                              background: #DE2627;
+                              position: absolute;
+                              z-index: 0;
+
+                              left:30%;
+                            }
+
+                           .l5>.stem.two{
+                              width: var(--stemWidth);
+                              height:calc(var(--fontHeight) + 81%);
+                              background:#551C55;
+                              position: absolute;
+                              z-index:1;
+                              left:35%;
+
+                            }
+
+
+
+                            .l4{
+                              left:14%;
+
+                            }
+
+
+                             .l4>.stem.one{
+                                width: var(--stemWidth);
+                                height:calc(var(--fontHeight) + 81%);
+                                background: #DE2627;
+                                position: absolute;
+                                z-index: 0;
+
+                                left:30%;
+                              }
+
+                             .l4>.stem.two{
+                                width: var(--stemWidth);
+                                height:calc(var(--fontHeight) + 81%);
+                                background:#551C55;
+                                position: absolute;
+                                z-index:1;
+                                left:35%;
+
+                              }
+
+
 
 
             /* m */
@@ -2823,10 +3381,18 @@ top:40%;
                                    }
 
 
-           /* o */
+
+
+
+
+
+/* o */
                    .o1{
-                    left:1%;
-                    top:10%;
+                    left:2%;
+                    top: 10%;
+
+
+
 
 
 
@@ -2939,8 +3505,9 @@ top:40%;
 
 
                            /* o3 */
-                                   .o3{
-                                    left:1%;
+                                   .o2{
+                                    left:10%;
+
 
 
 
@@ -3043,10 +3610,11 @@ top:40%;
 
 
 
+
                          /* o2 */
 
                          .o2 {
-                           left:1%;
+                           left:3%;
                            top:10%;
 
                          }
@@ -4651,6 +5219,120 @@ top:40%;
 
 
 
+
+
+
+                        /* u1*/
+
+                                        .u1{
+                                        transform: scale(-1);
+
+                                        }
+
+
+                                        .u1>.stem.one{
+                                          width: var(--stemWidth);
+                                          height:calc(var(--fontHeight) + 50%);
+                                          background: #DE2627;
+                                          position: absolute;
+                                          z-index: 0;
+                                          top: 30%;
+
+                                        }
+
+                                        .u1>.stem.two{
+                                          width: var(--stemWidth);
+                                          height:calc(var(--fontHeight) + 50%);
+                                          background:#551C55;
+                                          position: absolute;
+                                          z-index:1;
+                                          left:5%;
+                                          top: 30%;
+
+                                        }
+
+
+                                        .u1>.stem.three{
+                                          width: var(--stemWidth);
+                                          height: 35%;
+                                          background:#551C55;
+                                          position: absolute;
+                                          z-index:7;
+                                          left:70%;
+                                          top: 70%;
+                                        }
+
+                                        .u1>.stem.four{
+                                          width: var(--stemWidth);
+                                          height: 35%;
+                                          background:#DE2627;
+                                          position: absolute;
+                                          z-index:6;
+                                          left:65%;
+                                          top: 70%;
+                                        }
+
+
+
+
+                                        .u1>.circle.one {
+                                          width: 50%;
+                                          height:70%;
+                                          top: 8px;
+                                          border-radius: 100px;
+                                          background:#DE2627;
+                                          left: 20%;
+                                          position: absolute;
+                                          z-index:5;
+                                          top: 40%;
+
+                                        }
+
+                                         .u1>.circle.two {
+                                           width: 70%;
+                                           height: 70%;
+                                           background:#551C55;
+                                           border-radius: 50%;
+                                           position: absolute;
+                                           z-index:4;
+                                           top: 35%;
+                                           left:10%;
+                                        }
+
+
+
+
+                                        .u1>.invisible.two{
+                                          width: 30%;
+                                          height: 50%;
+                                          background:var(--negativeColor);
+
+                                          position: absolute;
+                                          z-index:5;
+                                          left: 45%;
+                                          top:70%;
+                                        }
+
+
+                                        .u1>.invisible.three{
+                                          width: 50%;
+                                          height: 60%;
+                                          background:var(--negativeColor);
+
+                                          border-radius:40%;
+                                          position: absolute;
+                                          z-index:5;
+                                          left: 15%;
+                                          top:50%;
+                                        }
+
+
+
+
+
+
+
+
                         /* v*/
 
           .v{
@@ -4840,6 +5522,7 @@ transform: rotate(-25deg);
 
 .v2{
   top:2%;
+  left:7%;
 
 
 
@@ -4927,6 +5610,102 @@ top: 1%;
 z-index: 4;
 
 }
+
+
+
+
+                        /* v3*/
+
+          .v3{
+            top: 1%;
+            left:%;
+
+
+          }
+
+
+
+          .v3>.arm.one{
+            width: var(--stemWidth);
+            height:95%;
+            background:  #DE2627;
+            position: absolute;
+            z-index: 1;
+
+            left:70%;
+            transform: rotate(25deg);
+            }
+
+
+
+          .v3>.arm.two{
+            width: var(--stemWidth);
+            height:100%;
+            background: #551C55;
+            position: absolute;
+            z-index: 2;
+            top:10%;
+            left:70%;
+            transform: rotate(25deg);
+            }
+
+
+
+
+
+          .v3>.leg.one{
+            width: var(--stemWidth);
+            height:100%;
+            background:  #DE2627;
+            position: absolute;
+            z-index: 1;
+
+            left:30%;
+            transform: rotate(-25deg);
+            }
+
+
+
+          .v3>.leg.two{
+            width: var(--stemWidth);
+            height:120%;
+            background: #551C55;
+            position: absolute;
+            z-index: 3;
+            top:10%;
+            left:30%;
+            transform: rotate(-25deg);
+            }
+
+
+
+
+
+
+
+         .v3>.invisible.one{
+             width : 10vw;
+             height:2vw;
+             background:var(--negativeColor);
+
+
+             z-index: 3;
+             top: 107%;
+
+            }
+
+
+
+           .v3>.invisible.two{
+             width : 120%;
+             height:30%;
+             background:var(--negativeColor);
+             top: 1%;
+             z-index: 4;
+
+            }
+
+
 
 
 
