@@ -8,10 +8,12 @@
 
 
 body{
-background:#551C55 ;
+  background-color: black;
+
+
+
 
 }
-
 
 
 
@@ -19,11 +21,9 @@ background:#551C55 ;
 
   width:100vw;
   height:100vw;
-
-
   background:black;
   position: absolute;
-  margin-top:10%;
+
   display: block;
 
 
@@ -31,41 +31,89 @@ background:#551C55 ;
 
 }
 
-.row1 {
-width: 90%;
-height: 30%;
-display:block;
-padding-left: 5%;
-align-items: center;
-padding-top: 5%;
 
 
+ #row0 {
+  width: 100%;
+  height:50%;
+  display:block;
 
+  align-items: center;
+  padding-top: 10%;
+  background-color: black;
+  padding-bottom: 10%;
+  animation: pulse .5s nfinite;
+
+}
+
+  @keyframes pulse{
+    0%{
+    background-color: black;
+    }
+
+  100% {
+    background-color:#DE2627;
+  }
 
 
 
 
 }
 
-.row2 {
-  width: 90%;
-  height: 30%;
+
+ #row0 .letter {
+  width:15vw;
+  height:15vw;
+
+
+ }
+
+
+
+
+
+  .row1 {
+  width: 100%;
+  height: 15%;
   display:block;
-  padding-left: 1%;
+
+
+  align-items: center;
+  padding-top: 10%;
+
+  background-color: black;
+
+
+}
+
+
+
+
+
+
+.row2 {
+  width: 100%;
+  height: 15%;
+  display:block;
+
+
   align-items: center;
   padding-top: 5%;
+  background-color: black;
 
 
 }
 
 
 .row3 {
-  width: 90%;
-  height: 30%;
+  width: 100%;
+  height: 15%;
   display:block;
-  padding-left: 8%;
+
+
   align-items: center;
   padding-top: 5%;
+  background-color: black;
 
 
 }
@@ -74,10 +122,11 @@ padding-top: 5%;
 
 .row4 {
   width: 100%;
-  height: 30%;
+  height: 15%;
   display:block;
-  padding-left: 8%;
   align-items: center;
+
+
   padding-top: 5%;
   background-color: black;
 
@@ -89,10 +138,10 @@ padding-top: 5%;
 
 .row5 {
   width: 100%;
-  height: 30%;
+  height: 15%;
   display:block;
-  padding-left: 8%;
   align-items: center;
+
   padding-top: 5%;
   background-color: black;
 
@@ -103,15 +152,59 @@ padding-top: 5%;
 
 .row6 {
   width: 100%;
-  height: 30%;
+  height: 15%;
   display:block;
-  padding-left: 8%;
   align-items: center;
+
+
   padding-top: 5%;
   background-color: black;
 
 
 }
+
+
+.row7 {
+  width: 100%;
+  height: 15%;
+  display:block;
+
+
+  padding-top: 5%;
+  background-color: black;
+
+
+}
+
+.row8 {
+  width: 100%;
+  height: 15%;
+  display:block;
+
+
+  padding-top: 10%;
+  background-color: black;
+
+   }
+
+
+   .row9 {
+     width: 100%;
+     height: 30%;
+     display:block;
+
+
+     padding-top: %;
+     background-color: black;
+
+      }
+
+
+
+
+
+
+
 
 
 
@@ -122,13 +215,26 @@ padding-top: 5%;
   position:relative;
   display:flex;
 
-
-
 }
 
 .letter {
   height:10vw;
   width: 10vw;
+  transform-style:preserve-3d;
+  transition: all 0.6s ease;
+
+
+}
+
+
+
+
+
+
+
+
+.letter:hover{
+  transform: rotateY(180deg)
 }
 
 .letter * {
@@ -137,15 +243,23 @@ padding-top: 5%;
 }
 
 
+
+
+
+
+
 /* define some letter parts */
 
 
 
     /* A */
-.a {
+    .a{
+      left:10%;
+    }
 
 
-}
+
+
 
 .a>.stem.one{
   width: var(--stemWidth);
@@ -198,6 +312,7 @@ padding-top: 5%;
   z-index: 3;
   left:30%;
   top:40%;
+
 }
 
 .a>.counter.three {
@@ -215,7 +330,90 @@ padding-top: 5%;
 
 
 
+  /* A1 */
+  .a1{
+    left:20%;
+  }
+
+
+
+
+
+.a1>.stem.one{
+width: var(--stemWidth);
+height:calc(var(--fontHeight) + 50%);
+
+background: #DE2627;
+position: absolute;
+z-index: 0;
+left: 90%;
+top: 30%;
+
+}
+
+.a1>.stem.two {
+width: var(--stemWidth);
+height:calc(var(--fontHeight) + 50%);
+background:#551C55;
+position: absolute;
+z-index:1;
+left: 85%;
+top: 30%;
+}
+
+
+
+
+
+
+
+.a1>.counter.one {
+width: 70%;
+height: 70%;
+border-radius: 50%;
+position: absolute;
+display: inline-block;
+left: 20%;
+top: 35%;
+background-color: #551C55;
+z-index: 2;
+
+}
+
+.a1>.counter.two  {
+width: 50%;
+height: 50%;
+border-radius: 50%;
+position: absolute;
+display: inline-block;
+background-color: #DE2627;
+z-index: 3;
+left:30%;
+top:40%;
+
+}
+
+.a1>.counter.three {
+  width: 30%;
+  height:30%;
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+ background:var(--negativeColor);
+  z-index: 4;
+  left:40%;
+  top:53%;
+
+}
+
+
+
+
 /* B */
+.b{
+  left:10%;
+}
+
 
 
 
@@ -284,6 +482,11 @@ padding-top: 5%;
 
     /* C */
 
+    .c{
+      left:10%;
+    }
+
+
 
 
     .c>.counter.one {
@@ -339,9 +542,12 @@ padding-top: 5%;
 
       /* D */
 
-      .d{
-        left:.5%;
-      }
+
+        .d{
+          left:10%;
+        }
+
+
 
 
 
@@ -409,6 +615,11 @@ padding-top: 5%;
 
 
           /* E */
+
+          .e{
+            left:10%;
+          }
+
 
 
 
@@ -494,6 +705,11 @@ padding-top: 5%;
 
 
            /* F*/
+
+           .f{
+             left:10%;
+           }
+
 
            .f>.stem.one{
               width: var(--stemWidth);
@@ -703,6 +919,10 @@ padding-top: 5%;
 
               /* g*/
 
+              .g{
+                left:10%;
+              }
+
 
 
 
@@ -882,11 +1102,789 @@ padding-top: 5%;
 
 
 
+                          /* g1*/
+
+                          .g1{
+                            left:5%;
+                            top: 10%;
+
+                          }
+
+
+
+
+
+
+                          .g1>.counter.one-front {
+                          	width: 70%;
+                          	height: 70%;
+                            border-radius: 50%;
+                          	position: absolute;
+                          	display: inline-block;
+                            left: 10%;
+                            top: 35%;
+                            background-color: #551C55;
+                            z-index: 5;
+                            backface-visibility: hidden;
+
+
+                          }
+
+                          .g1>.counter.one-back {
+                            width: 70%;
+                            height: 70%;
+                            border-radius: 50%;
+                            position: absolute;
+                            display: inline-block;
+                            left: 10%;
+                            top: 35%;
+                            background-color: #DE2627;
+                            z-index: 5;
+                            backface-visibility: hidden;
+                            transform:rotateY(180deg);
+
+                          }
+
+
+                         .g1>.counter.two-front {
+                            width: 50%;
+                            height: 50%;
+                            border-radius: 50%;
+                            position: absolute;
+
+
+                            background-color: #DE2627;
+                            z-index: 5;
+                            left:20%;
+                            top:40%;
+                            backface-visibility: hidden;
+
+                          }
+
+
+                         .g1>.counter.two-back {
+                            width: 50%;
+                            height: 50%;
+                            border-radius: 50%;
+                            position: absolute;
+
+                            background-color:#DE2627;
+                            z-index: 5;
+                            left:20%;
+                            top:40%;
+                            backface-visibility: hidden;
+                            transform:rotateY(180deg);
+                          }
+
+                         .g1>.counter.three {
+                              width:30%;
+                              height:30%;
+                              border-radius: 50%;
+                              position: absolute;
+                              display: inline-block;
+                              background:var(--negativeColor);
+                              z-index: 5;
+                              left:30%;
+                              top:53%;
+
+                            }
+
+
+                          .g1>.stem.one-front {
+                              width: var(--stemWidth);
+                              height:95% ;
+                              background: #DE2627;
+                              position: absolute;
+                              z-index: 1;
+                              left: 80%;
+                              top: 35%;
+                              backface-visibility: hidden;
+
+                            }
+
+
+                            .g1>.stem.one-back{
+                                width: var(--stemWidth);
+                                height:95% ;
+                                background: #DE2627;
+                                position: absolute;
+                                z-index: 1;
+                                left: 80%;
+                                top: 35%;
+                                backface-visibility: hidden;
+                                transform:rotateY(180deg);
+                              }
+
+                           .g1>.stem.two-front {
+                              width: var(--stemWidth);
+                              height:100%;
+                              background:#551C55;
+                              position: absolute;
+                              z-index:2;
+                              left: 75%;
+                              top: 35%;
+                              backface-visibility: hidden;
+                            }
+
+
+                            .g1>.stem.two-back {
+                               width: var(--stemWidth);
+                               height:100%;
+                               background:black;
+                               position: absolute;
+                               z-index:2;
+                               left: 75%;
+                               top: 35%;
+                               backface-visibility: hidden;
+                               transform:rotateY(180deg);
+                             }
+
+
+
+                            .g1>.sem.three-front {
+                                width: 65%;
+                                height:100% ;
+                                background: #DE2627;
+                                border-radius: 43%;
+                                position: absolute;
+                                z-index: 2;
+                                left: 25%;
+                                top: 56%;
+                                backface-visibility: hidden;
+
+
+                              }
+
+
+                            .g1>.stm.three-back {
+                                width: 65%;
+                                height:100% ;
+                                background: black;
+                                border-radius: 43%;
+                                position: absolute;
+                                z-index: 2;
+                                left: 25%;
+                                top: 56%;
+                                backface-visibility: hidden;
+                                transform:rotateY(180deg);
+                              }
+
+                             .g1>.stm.four {
+                                width: 65%;
+                                height:100%;
+                                border-radius: 45%;
+                                background:#551C55;
+                                position: absolute;
+                                z-index:2;
+                                left: 21%;
+                                top: 55%;
+
+                              }
+
+
+                            .g1>.circle.one-front {
+                              width: 70%;
+                              height: 60%;
+                              top: 100%;
+                              border-radius:50%;
+                              background:#551C55;
+                              left: 15%;
+                              position: absolute;
+                              z-index:3;
+                              backface-visibility: hidden;
+
+                            }
+
+
+
+                            .g1>.circle.one-back {
+                              width: 70%;
+                              height: 60%;
+                              top: 100%;
+                              border-radius:50%;
+                              background:#551C55;
+                              left: 15%;
+                              position: absolute;
+                              z-index:3;
+                              backface-visibility: hidden;
+                              transform:rotateY(180deg);
+
+                            }
+
+
+                            .g1>.circle.two-front {
+                                width: 55%;
+                                height:55%;
+                                background:#DE2627;
+                                border-radius: 50%;
+                                position: absolute;
+                                z-index:0;
+                                top: 100%;
+                                left:35%;
+                                backface-visibility: hidden;
+                              }
+
+                              .g1>.circle.two-back {
+                                  width: 55%;
+                                  height:55%;
+                                  background:black;
+                                  border-radius: 50%;
+                                  position: absolute;
+                                  z-index:0;
+                                  top: 100%;
+                                  left:35%;
+                                  backface-visibility: hidden;
+                                  transform:rotateY(180deg);
+                                }
+
+
+
+                             .g1>.invisible.one-front {
+
+                               width: 55%;
+                               height:70%;
+                               background:black;
+                               border-radius: 15%;
+
+
+                               position: absolute;
+                               z-index:4;
+                               left:10%;
+                               top:70%;
+                                backface-visibility: hidden;
+
+                             }
+
+
+
+
+                            .g1>.invisible.one-back {
+
+                              width: %;
+                              height:%;
+                              background:black;
+                             border-radius: 15%;
+
+
+                              position: absolute;
+                              z-index:4;
+                              left:10%;
+                              top:70%;
+                              backface-visibility: hidden;
+                              transform:rotateY(180deg);
+
+                            }
+
+
+
+                              .g1>.invisible.two-front {
+
+                                width: 50%;
+                                height:65% ;
+                                border-radius: 40%;
+                                background:black;
+
+                                z-index: 4;
+                                left:25%;
+                                top:80%;
+                                backface-visibility: hidden;
+
+
+                                 }
+
+
+
+                             .g1>.invisible.two-back {
+
+                               width:%;
+                               height:% ;
+                               border-radius: 40%;
+                               background:red;
+
+                               z-index: 4;
+                               left:25%;
+                               top:80%;
+                               backface-visibility: hidden;
+                               transform:rotateY(180deg);
+
+
+                                }
+
+
+
+
+                                .g1>.invisible.three-front {
+
+                                    width: 30%;
+                                    height:70%;
+                                    background:black;
+
+                                    position: absolute;
+                                    z-index:4;
+                                    left:10%;
+                                    top:70%;
+                                    backface-visibility: hidden;
+
+
+
+                                    }
+
+
+
+                                .g1>.invisible.three-back {
+
+                                    width: %;
+                                    height:%;
+                                    background:black;
+
+                                    position: absolute;
+                                    z-index:4;
+                                    left:10%;
+                                    top:70%;
+
+                                    backface-visibility: hidden;
+                                    transform:rotateY(180deg);
+
+                                    }
+
+
+
+
+
+                                .g1>.invisible.four-front {
+
+                                      width: 60%;
+                                      height:40%;
+                                      background:black;
+                                      border-radius: 40%;
+
+                                      position: absolute;
+                                      z-index:4;
+                                      left:15%;
+                                      top:90%;
+                                      backface-visibility: hidden;
+
+                                      }
+
+
+
+                                      .g1>.invisible.four-back {
+
+                                            width: %;
+                                            height:%;
+                                            background:black;
+                                            border-radius: 40%;
+
+                                            position: absolute;
+                                            z-index:4;
+                                            left:15%;
+                                            top:90%;
+                                            backface-visibility: hidden;
+                                            transform:rotateY(180deg);
+
+                                            }
+
+
+
+
+
+
+                                            /* g2*/
+
+                                            .g2{
+                                              left:3%;
+                                              top: %;
+
+                                            }
+
+
+
+
+
+
+                                            .g2>.counter.one-front {
+                                              width: 70%;
+                                              height: 70%;
+                                              border-radius: 50%;
+                                              position: absolute;
+                                              display: inline-block;
+                                              left: 10%;
+                                              top: 35%;
+                                              background-color: #551C55;
+                                              z-index: 5;
+                                              backface-visibility: hidden;
+
+
+                                            }
+
+                                            .g2>.counter.one-back {
+                                              width: 70%;
+                                              height: 70%;
+                                              border-radius: 50%;
+                                              position: absolute;
+                                              display: inline-block;
+                                              left: 10%;
+                                              top: 35%;
+                                              background-color: #DE2627;
+                                              z-index: 5;
+                                              backface-visibility: hidden;
+                                              transform:rotateY(180deg);
+
+                                            }
+
+
+                                           .g2>.counter.two-front {
+                                              width: 50%;
+                                              height: 50%;
+                                              border-radius: 50%;
+                                              position: absolute;
+
+
+                                              background-color: #DE2627;
+                                              z-index: 5;
+                                              left:20%;
+                                              top:40%;
+                                              backface-visibility: hidden;
+
+                                            }
+
+
+                                           .g2>.counter.two-back {
+                                              width: 50%;
+                                              height: 50%;
+                                              border-radius: 50%;
+                                              position: absolute;
+
+                                              background-color:#DE2627;
+                                              z-index: 5;
+                                              left:20%;
+                                              top:40%;
+                                              backface-visibility: hidden;
+                                              transform:rotateY(180deg);
+                                            }
+
+                                           .g2>.counter.three {
+                                                width:30%;
+                                                height:30%;
+                                                border-radius: 50%;
+                                                position: absolute;
+                                                display: inline-block;
+                                                background:var(--negativeColor);
+                                                z-index: 5;
+                                                left:30%;
+                                                top:53%;
+
+                                              }
+
+
+                                            .g2>.stem.one-front {
+                                                width: var(--stemWidth);
+                                                height:95% ;
+                                                background: #DE2627;
+                                                position: absolute;
+                                                z-index: 1;
+                                                left: 80%;
+                                                top: 35%;
+                                                backface-visibility: hidden;
+
+                                              }
+
+
+                                              .g2>.stem.one-back{
+                                                  width: var(--stemWidth);
+                                                  height:95% ;
+                                                  background: #DE2627;
+                                                  position: absolute;
+                                                  z-index: 1;
+                                                  left: 80%;
+                                                  top: 35%;
+                                                  backface-visibility: hidden;
+                                                  transform:rotateY(180deg);
+                                                }
+
+                                             .g2>.stem.two-front {
+                                                width: var(--stemWidth);
+                                                height:100%;
+                                                background:#551C55;
+                                                position: absolute;
+                                                z-index:2;
+                                                left: 75%;
+                                                top: 35%;
+                                                backface-visibility: hidden;
+                                              }
+
+
+                                              .g2>.stem.two-back {
+                                                 width: var(--stemWidth);
+                                                 height:100%;
+                                                 background:black;
+                                                 position: absolute;
+                                                 z-index:2;
+                                                 left: 75%;
+                                                 top: 35%;
+                                                 backface-visibility: hidden;
+                                                 transform:rotateY(180deg);
+                                               }
+
+
+
+                                              .g2>.sem.three-front {
+                                                  width: 65%;
+                                                  height:100% ;
+                                                  background: #DE2627;
+                                                  border-radius: 43%;
+                                                  position: absolute;
+                                                  z-index: 2;
+                                                  left: 25%;
+                                                  top: 56%;
+                                                  backface-visibility: hidden;
+
+
+                                                }
+
+
+                                              .g2>.stm.three-back {
+                                                  width: 65%;
+                                                  height:100% ;
+                                                  background: black;
+                                                  border-radius: 43%;
+                                                  position: absolute;
+                                                  z-index: 2;
+                                                  left: 25%;
+                                                  top: 56%;
+                                                  backface-visibility: hidden;
+                                                  transform:rotateY(180deg);
+                                                }
+
+                                               .g2>.stm.four {
+                                                  width: 65%;
+                                                  height:100%;
+                                                  border-radius: 45%;
+                                                  background:#551C55;
+                                                  position: absolute;
+                                                  z-index:2;
+                                                  left: 21%;
+                                                  top: 55%;
+
+                                                }
+
+
+                                              .g2>.circle.one-front {
+                                                width: 70%;
+                                                height: 60%;
+                                                top: 100%;
+                                                border-radius:50%;
+                                                background:#551C55;
+                                                left: 15%;
+                                                position: absolute;
+                                                z-index:3;
+                                                backface-visibility: hidden;
+
+                                              }
+
+
+
+                                              .g2>.circle.one-back {
+                                                width: 70%;
+                                                height: 60%;
+                                                top: 100%;
+                                                border-radius:50%;
+                                                background:#551C55;
+                                                left: 15%;
+                                                position: absolute;
+                                                z-index:3;
+                                                backface-visibility: hidden;
+                                                transform:rotateY(180deg);
+
+                                              }
+
+
+                                              .g2>.circle.two-front {
+                                                  width: 55%;
+                                                  height:55%;
+                                                  background:#DE2627;
+                                                  border-radius: 50%;
+                                                  position: absolute;
+                                                  z-index:0;
+                                                  top: 100%;
+                                                  left:35%;
+                                                  backface-visibility: hidden;
+                                                }
+
+                                                .g2>.circle.two-back {
+                                                    width: 55%;
+                                                    height:55%;
+                                                    background:black;
+                                                    border-radius: 50%;
+                                                    position: absolute;
+                                                    z-index:0;
+                                                    top: 100%;
+                                                    left:35%;
+                                                    backface-visibility: hidden;
+                                                    transform:rotateY(180deg);
+                                                  }
+
+
+
+                                               .g2>.invisible.one-front {
+
+                                                 width: 55%;
+                                                 height:70%;
+                                                 background:black;
+                                                 border-radius: 15%;
+
+
+                                                 position: absolute;
+                                                 z-index:4;
+                                                 left:10%;
+                                                 top:70%;
+                                                  backface-visibility: hidden;
+
+                                               }
+
+
+
+
+                                              .g2>.invisible.one-back {
+
+                                                width: %;
+                                                height:%;
+                                                background:black;
+                                               border-radius: 15%;
+
+
+                                                position: absolute;
+                                                z-index:4;
+                                                left:10%;
+                                                top:70%;
+                                                backface-visibility: hidden;
+                                                transform:rotateY(180deg);
+
+                                              }
+
+
+
+                                                .g2>.invisible.two-front {
+
+                                                  width: 50%;
+                                                  height:65% ;
+                                                  border-radius: 40%;
+                                                  background:black;
+
+                                                  z-index: 4;
+                                                  left:25%;
+                                                  top:80%;
+                                                  backface-visibility: hidden;
+
+
+                                                   }
+
+
+
+                                               .g2>.invisible.two-back {
+
+                                                 width:%;
+                                                 height:% ;
+                                                 border-radius: 40%;
+                                                 background:red;
+
+                                                 z-index: 4;
+                                                 left:25%;
+                                                 top:80%;
+                                                 backface-visibility: hidden;
+                                                 transform:rotateY(180deg);
+
+
+                                                  }
+
+
+
+
+                                                  .g2>.invisible.three-front {
+
+                                                      width: 30%;
+                                                      height:70%;
+                                                      background:black;
+
+                                                      position: absolute;
+                                                      z-index:4;
+                                                      left:10%;
+                                                      top:70%;
+                                                      backface-visibility: hidden;
+
+
+
+                                                      }
+
+
+
+                                                  .g2>.invisible.three-back {
+
+                                                      width: %;
+                                                      height:%;
+                                                      background:black;
+
+                                                      position: absolute;
+                                                      z-index:4;
+                                                      left:10%;
+                                                      top:70%;
+
+                                                      backface-visibility: hidden;
+                                                      transform:rotateY(180deg);
+
+                                                      }
+
+
+
+
+
+                                                  .g2>.invisible.four-front {
+
+                                                        width: 60%;
+                                                        height:40%;
+                                                        background:black;
+                                                        border-radius: 40%;
+
+                                                        position: absolute;
+                                                        z-index:4;
+                                                        left:15%;
+                                                        top:90%;
+                                                        backface-visibility: hidden;
+
+                                                        }
+
+
+
+                                                        .g2>.invisible.four-back {
+
+                                                              width: %;
+                                                              height:%;
+                                                              background:black;
+                                                              border-radius: 40%;
+
+                                                              position: absolute;
+                                                              z-index:4;
+                                                              left:15%;
+                                                              top:90%;
+                                                              backface-visibility: hidden;
+                                                              transform:rotateY(180deg);
+
+                                                              }
+
+
+
+
+
+
+
+
 
                 /* H */
 
 
-
+                .h{
+                  left:10%;
+                }
 
 
 
@@ -896,7 +1894,7 @@ padding-top: 5%;
                     background: #DE2627;
                     position: absolute;
                     z-index: 0;
-                   left:30%;
+                    left:30%;
                   }
 
                   .h>.stem.two{
@@ -1072,6 +2070,85 @@ padding-top: 5%;
 
 
 
+
+
+                    /* i2 */
+
+
+
+                    .i2{
+                      left:12%;
+                    }
+
+
+
+                     .i2>.stem.one{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 40%);
+                      background: #DE2627;
+                      position: absolute;
+                      z-index: 0;
+                      left: 50%;
+                      top: 42%;
+                    }
+
+                     .i2>.stem.two{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 40%);
+                      background:#551C55;
+                      position: absolute;
+                      z-index:1;
+                      left: 55%;
+                      top: 42%;
+                    }
+
+                    .i2>.counter.one{
+                    	width: 30%;
+                    	height: 30%;
+                      border-radius: 50%;
+                    	position: absolute;
+                      left: 43%;
+
+
+
+
+                      background-color: #551C55;
+                      z-index: 2;
+
+                    }
+
+                  .i2>.counter.two{
+                      width: 20%;
+                      height:20%;
+                      border-radius: 50%;
+                      position: absolute;
+                      left: 48%;
+
+                      background-color: #DE2627;
+                      z-index: 3;
+
+                      top:4%;
+                    }
+
+                      .i2>.counter.three{
+                        width: 10%;
+                        height:10%;
+                        border-radius: 50%;
+                        position: absolute;
+
+                        background:var(--negativeColor);
+
+                        z-index: 4;
+                        left:53%;
+                        top:10%;
+
+                      }
+
+
+
+
+
+
                       /* J*/
 
                       .j{
@@ -1153,7 +2230,7 @@ padding-top: 5%;
                             height:calc(var(--fontHeight) + 81%);
                             background: #DE2627;
                             position: absolute;
-                            z-index: 0;
+                            z-index: 3;
                            left:0%;
 
 
@@ -1164,7 +2241,7 @@ padding-top: 5%;
                             height:calc(var(--fontHeight) + 81%);
                             background:#551C55;
                             position: absolute;
-                            z-index:1;
+                            z-index:4;
                             left:5%;
 
                           }
@@ -1174,7 +2251,7 @@ padding-top: 5%;
 
                           .k>.arm.one{
                             width: var(--stemWidth);
-                            height:78%;
+                            height:70%;
                             background:  #DE2627;
                             position: absolute;
                             z-index: 0;
@@ -1190,7 +2267,7 @@ padding-top: 5%;
                             height:80%;
                             background: #551C55;
                             position: absolute;
-                            z-index: 0;
+                            z-index: 3;
                             top:10%;
                             left:30%;
                             transform: rotate(55deg);
@@ -1199,15 +2276,15 @@ padding-top: 5%;
 
 
 
-                             .k>.lg.one{
+                             .k>.leg.one{
                                width: var(--stemWidth);
-                               height:80%;
+                               height:85%;
                                background:  #DE2627;
                                position: absolute;
                                z-index: 0;
-                               top: 20%;
+                               top: 40%;
                                left:40%;
-                               transform: rotate(-55deg);
+                               transform: rotate(-45deg);
                                }
 
 
@@ -1217,7 +2294,7 @@ padding-top: 5%;
                                height:85%;
                                background: #551C55;
                                position: absolute;
-                               z-index: 0;
+                               z-index: 1;
                                top:40%;
                                left:50%;
                                transform: rotate(-45deg);
@@ -1272,6 +2349,63 @@ padding-top: 5%;
               left:35%;
 
             }
+
+
+                      /* l2*/
+
+
+                   .l2{
+                     left:20%;
+                    }
+
+
+                       .l2>.stem.one{
+                          width: var(--stemWidth);
+                          height:calc(var(--fontHeight) + 81%);
+                          background: #DE2627;
+                          position: absolute;
+                          z-index: 0;
+
+                          left:30%;
+                        }
+
+                       .l2>.stem.two{
+                          width: var(--stemWidth);
+                          height:calc(var(--fontHeight) + 81%);
+                          background:#551C55;
+                          position: absolute;
+                          z-index:1;
+                          left:35%;
+
+                        }
+
+
+                        /* l3*/
+                        .l3{
+                          left:15%;
+                        }
+
+
+                         .l3>.stem.one{
+                            width: var(--stemWidth);
+                            height:calc(var(--fontHeight) + 81%);
+                            background: #DE2627;
+                            position: absolute;
+                            z-index: 0;
+
+                            left:30%;
+                          }
+
+                         .l3>.stem.two{
+                            width: var(--stemWidth);
+                            height:calc(var(--fontHeight) + 81%);
+                            background:#551C55;
+                            position: absolute;
+                            z-index:1;
+                            left:35%;
+
+                          }
+
 
             /* m */
 
@@ -1653,6 +2787,416 @@ padding-top: 5%;
                                    }
 
 
+           /* o */
+                   .o1{
+                    left:1%;
+                    top:10%;
+
+
+
+
+
+                   }
+
+                       .o1>.counter.one-front {
+                       	width: 70%;
+                       	height: 70%;
+                        border-radius: 50%;
+                       	position: absolute;
+                      	display: inline-block;
+                        left: 20%;
+                        top: 35%;
+                        background-color: #551C55;
+                        z-index: 2;
+                        backface-visibility: hidden;
+
+
+                       }
+
+
+
+                      .o1>.counter.one-back {
+                      	width: 70%;
+                      	height: 70%;
+                        border-radius: 50%;
+                      	position: absolute;
+                      	display: inline-block;
+                        left: 20%;
+                        top: 35%;
+                        background-color:  #DE2627;
+                        z-index: 2;
+                        backface-visibility: hidden;
+                        transform:rotateY(180deg);
+
+
+                      }
+
+
+                       .o1>.counter.two-front  {
+                         width: 50%;
+                         height: 50%;
+                         border-radius: 50%;
+                         position: absolute;
+                         display: inline-block;
+                         background-color: #DE2627;
+                         z-index: 2;
+                         left:30%;
+                         top:40%;
+                         backface-visibility: hidden;
+                       }
+
+
+                       .o1>.counter.two-back  {
+                         width: 50%;
+                         height: 50%;
+                         border-radius: 50%;
+                         position: absolute;
+                         display: inline-block;
+                         background-color: #DE2627;
+                         z-index: 2;
+                         left:30%;
+                         top:40%;
+                         backface-visibility: hidden;
+                         transform:rotateY(180deg);
+                       }
+
+                       .o1>.counter.three-front {
+                           width: 30%;
+                           height:30%;
+                           border-radius: 50%;
+                           position: absolute;
+                           display: inline-block;
+                           background:var(--negativeColor);
+                           z-index: 4;
+                           left:40%;
+                           top:53%;
+                           backface-visibility: hidden;
+
+                         }
+
+
+                         .o1>.counter.three-back {
+                             width: 30%;
+                             height:30%;
+                             border-radius: 50%;
+                             position: absolute;
+                             display: inline-block;
+                            background:var(--negativeColor);
+                             z-index: 4;
+                             left:40%;
+                             top:53%;
+                             backface-visibility: hidden;
+                             transform:rotateY(180deg);
+
+                           }
+
+
+
+                           /* o3 */
+                                   .o3{
+                                    left:1%;
+
+
+
+
+
+
+                                   }
+
+                                       .o3>.counter.one-front {
+                                         width: 70%;
+                                         height: 70%;
+                                        border-radius: 50%;
+                                         position: absolute;
+                                       display: inline-block;
+                                        left: 20%;
+                                        top: 35%;
+                                        background-color: #551C55;
+                                        z-index: 2;
+                                        backface-visibility: hidden;
+
+
+                                       }
+
+
+
+                                      .o3>.counter.one-back {
+                                       width: 70%;
+                                       height: 70%;
+                                        border-radius: 50%;
+                                       position: absolute;
+                                       display: inline-block;
+                                        left: 20%;
+                                        top: 35%;
+                                        background-color:  #DE2627;
+                                        z-index: 2;
+                                        backface-visibility: hidden;
+                                        transform:rotateY(180deg);
+
+
+                                      }
+
+
+                                       .o3>.counter.two-front  {
+                                         width: 50%;
+                                         height: 50%;
+                                         border-radius: 50%;
+                                         position: absolute;
+                                         display: inline-block;
+                                         background-color: #DE2627;
+                                         z-index: 2;
+                                         left:30%;
+                                         top:40%;
+                                         backface-visibility: hidden;
+                                       }
+
+
+                                       .o3>.counter.two-back  {
+                                         width: 50%;
+                                         height: 50%;
+                                         border-radius: 50%;
+                                         position: absolute;
+                                         display: inline-block;
+                                         background-color: #DE2627;
+                                         z-index: 2;
+                                         left:30%;
+                                         top:40%;
+                                         backface-visibility: hidden;
+                                         transform:rotateY(180deg);
+                                       }
+
+                                       .o3>.counter.three-front {
+                                           width: 30%;
+                                           height:30%;
+                                           border-radius: 50%;
+                                           position: absolute;
+                                           display: inline-block;
+                                           background:var(--negativeColor);
+                                           z-index: 4;
+                                           left:40%;
+                                           top:53%;
+                                           backface-visibility: hidden;
+
+                                         }
+
+
+                                         .o3>.counter.three-back {
+                                             width: 30%;
+                                             height:30%;
+                                             border-radius: 50%;
+                                             position: absolute;
+                                             display: inline-block;
+                                            background:var(--negativeColor);
+                                             z-index: 4;
+                                             left:40%;
+                                             top:53%;
+                                             backface-visibility: hidden;
+                                             transform:rotateY(180deg);
+
+                                           }
+
+
+
+                         /* o2 */
+
+                         .o2 {
+                           left:1%;
+                           top:10%;
+
+                         }
+                         .o2>.counter.one-front {
+                          width: 70%;
+                          height: 70%;
+                          border-radius: 50%;
+                          position: absolute;
+                          display: inline-block;
+                          left: 20%;
+                          top: 35%;
+                          background-color: #551C55;
+                          z-index: 2;
+                          backface-visibility: hidden;
+
+
+                         }
+
+
+
+                        .o2>.counter.one-back {
+                          width: 70%;
+                          height: 70%;
+                          border-radius: 50%;
+                          position: absolute;
+                          display: inline-block;
+                          left: 20%;
+                          top: 35%;
+                          background-color:  #DE2627;
+                          z-index: 2;
+                          backface-visibility: hidden;
+                          transform:rotateY(180deg);
+
+                        }
+
+
+                         .o2>.counter.two-front  {
+                           width: 50%;
+                           height: 50%;
+                           border-radius: 50%;
+                           position: absolute;
+                           display: inline-block;
+                           background-color: #DE2627;
+                           z-index: 2;
+                           left:30%;
+                           top:40%;
+                           backface-visibility: hidden;
+                         }
+
+
+                         .o2>.counter.two-back  {
+                           width: 50%;
+                           height: 50%;
+                           border-radius: 50%;
+                           position: absolute;
+                           display: inline-block;
+                           background-color: #DE2627;
+                           z-index: 2;
+                           left:30%;
+                           top:40%;
+                           backface-visibility: hidden;
+                           transform:rotateY(180deg);
+                         }
+
+                         .o2>.counter.three-front {
+                             width: 30%;
+                             height:30%;
+                             border-radius: 50%;
+                             position: absolute;
+                             display: inline-block;
+                             background:var(--negativeColor);
+                             z-index: 4;
+                             left:40%;
+                             top:53%;
+                             backface-visibility: hidden;
+
+                           }
+
+
+                           .o2>.counter.three-back {
+                               width: 30%;
+                               height:30%;
+                               border-radius: 50%;
+                               position: absolute;
+                               display: inline-block;
+                              background:var(--negativeColor);
+                               z-index: 4;
+                               left:40%;
+                               top:53%;
+                               backface-visibility: hidden;
+                               transform:rotateY(180deg);
+
+                             }
+
+
+
+                             /* o4 */
+
+                             .o4 {
+
+
+
+                             }
+                             .o4>.counter.one-front {
+                              width: 70%;
+                              height: 70%;
+                              border-radius: 50%;
+                              position: absolute;
+                              display: inline-block;
+                              left: 20%;
+                              top: 35%;
+                              background-color: #551C55;
+                              z-index: 2;
+                              backface-visibility: hidden;
+
+
+                             }
+
+
+
+                            .o4>.counter.one-back {
+                              width: 70%;
+                              height: 70%;
+                              border-radius: 50%;
+                              position: absolute;
+                              display: inline-block;
+                              left: 20%;
+                              top: 35%;
+                              background-color:  #DE2627;
+                              z-index: 2;
+                              backface-visibility: hidden;
+                              transform:rotateY(180deg);
+
+                            }
+
+
+                             .o4>.counter.two-front  {
+                               width: 50%;
+                               height: 50%;
+                               border-radius: 50%;
+                               position: absolute;
+                               display: inline-block;
+                               background-color: #DE2627;
+                               z-index: 2;
+                               left:30%;
+                               top:40%;
+                               backface-visibility: hidden;
+                             }
+
+
+                             .o4>.counter.two-back  {
+                               width: 50%;
+                               height: 50%;
+                               border-radius: 50%;
+                               position: absolute;
+                               display: inline-block;
+                               background-color: #DE2627;
+                               z-index: 2;
+                               left:30%;
+                               top:40%;
+                               backface-visibility: hidden;
+                               transform:rotateY(180deg);
+                             }
+
+                             .o4>.counter.three-front {
+                                 width: 30%;
+                                 height:30%;
+                                 border-radius: 50%;
+                                 position: absolute;
+                                 display: inline-block;
+                                 background:var(--negativeColor);
+                                 z-index: 4;
+                                 left:40%;
+                                 top:53%;
+                                 backface-visibility: hidden;
+
+                               }
+
+
+                               .o4>.counter.three-back {
+                                   width: 30%;
+                                   height:30%;
+                                   border-radius: 50%;
+                                   position: absolute;
+                                   display: inline-block;
+                                  background:var(--negativeColor);
+                                   z-index: 4;
+                                   left:40%;
+                                   top:53%;
+                                   backface-visibility: hidden;
+                                   transform:rotateY(180deg);
+
+                                 }
+
+
+
          /* p */
 
               .p {left:10%;
@@ -1723,12 +3267,13 @@ padding-top: 5%;
 
     .q{
       transform: rotateY(180deg);
+      left:5%;
 
     }
 
             .q>.stem.one{
-            width: var(--stemWidth);
-             height:calc(var(--fontHeight) + 95%);
+              width: var(--stemWidth);
+              height:calc(var(--fontHeight) + 95%);
               background: #DE2627;
               position: absolute;
               z-index: 0;
@@ -1790,6 +3335,11 @@ padding-top: 5%;
 
                /* r*/
 
+               .r{
+                 top:5%;
+                 left:10%;
+               }
+
 
 
 
@@ -1797,7 +3347,7 @@ padding-top: 5%;
 
                  .r>.stem.one{
                    width: var(--stemWidth);
-                   height:calc(var(--fontHeight) + 50%);
+                   height:calc(var(--fontHeight) + 40%);
                    background: #DE2627;
                    position: absolute;
                    z-index: 0;
@@ -1807,12 +3357,13 @@ padding-top: 5%;
 
                  .r>.stem.two{
                    width: var(--stemWidth);
-                   height:calc(var(--fontHeight) + 50%);
+                   height:calc(var(--fontHeight) + 40%);
                    background:#551C55;
                    position: absolute;
                    z-index:1;
                    left:5%;
                    top: 30%;
+
 
                  }
 
@@ -1904,162 +3455,992 @@ padding-top: 5%;
 
 
 
+                  /* r1*/
 
-                  /* s */
-
-                  .s {
-                    transform: rotate();
-
-                  }
-
+                .r1{
+                  left: 8%;
+                  top:11%;
+                }
 
 
 
 
 
-                  .s>.counter.one {
-                    width: 50%;
-                    height: 50%;
-                    border-radius: 50%;
-                    position: absolute;
 
-
-                    top: 25%;
-                    background-color: #551C55;
-                    z-index: 11;
-                    left:5%;
-
-                  }
-
-                  .s>.couner.two {
-                    width: 30%;
-                    height: 30%;
-                    border-radius: 50%;
-                    position: absolute;
-
-                    background-color: #DE2627;
-                    z-index: 12;
-                    left:20%;
-                    top:30%;
-                  }
-
-                  .s>.counter.three{
-                      width: 55%;
-                      height:35%;
-
+                    .r1>.stem.one-front{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 50%);
+                      background: #DE2627;
                       position: absolute;
+                      z-index: 0;
+                      top: 30%;
+                      backface-visibility: hidden;
 
-                      background:var(--negativeColor);
-                      z-index: 12;
-                      left:30%;
-                      top:30%;
+                    }
+
+                    .r1>.stem.one-back{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 50%);
+                      background: black;
+                      position: absolute;
+                      z-index: 0;
+                      top: 30%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+
+                    }
+
+                    .r1>.stem.two-front{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 50%);
+                      background:#551C55;
+                      position: absolute;
+                      z-index:1;
+                      left:5%;
+                      top: 30%;
+                      backface-visibility: hidden;
 
                     }
 
 
-                   .s>.inviible.one {
-                      width: 30% ;
-                      height: 25%;
-                      background:var(--negativeColor);
-
-
-
+                    .r1>.stem.two-back{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 50%);
+                      background:black;
                       position: absolute;
-                      z-index: 14;
-                      top: 20%;s
-                      left: 45%;
+                      z-index:1;
+                      left:5%;
+                      top: 30%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+
+                    }
+
+
+                    .r1>.stem.three-front{
+                      width: var(--stemWidth);
+                      height: 35%;
+                      background:#551C55;
+                      position: absolute;
+                      z-index:7;
+                      left:70%;
+                      top: 70%;
+                      backface-visibility: hidden;
+
+
                     }
 
 
 
-                    .s>.inviible.two {
-                       width: 40% ;
-                       height: 30%;
+                    .r1>.stem.three-back{
+                      width: var(--stemWidth);
+                      height: 35%;
+                      background:black;
+                      position: absolute;
+                      z-index:7;
+                      left:70%;
+                      top: 70%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+                    }
 
 
-                       background:var(--negativeColor);
+                    .r1>.stem.four-front{
+                      width: var(--stemWidth);
+                      height: 35%;
+                      background:#DE2627;
+                      position: absolute;
+                      z-index:6;
+                      left:65%;
+                      top: 70%;
+                      backface-visibility: hidden;
+                    }
+
+                    .r1>.stem.four-back{
+                      width: var(--stemWidth);
+                      height: 35%;
+                      background:black;
+                      position: absolute;
+                      z-index:6;
+                      left:65%;
+                      top: 70%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+                    }
 
 
 
+
+
+                    .r1>.circle.one-front{
+                      width: 50%;
+                      height:70%;
+                      top: 8px;
+                      border-radius: 100px;
+                      background:#DE2627;
+                      left: 20%;
+                      position: absolute;
+                      z-index:5;
+                      top: 40%;
+                      backface-visibility: hidden;
+
+                    }
+
+
+                    .r1>.circle.one-back{
+                      width: 50%;
+                      height:70%;
+                      top: 8px;
+                      border-radius: 100px;
+                      background:#DE2627;
+                      left: 20%;
+                      position: absolute;
+                      z-index:5;
+                      top: 40%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+
+                    }
+
+                     .r1>.circle.two-front {
+                       width: 70%;
+                       height: 70%;
+                       background:#551C55;
+                       border-radius: 50%;
                        position: absolute;
-                       z-index: 6;
-                       top: 25%;
-                       left: 40%;
+                       z-index:4;
+                       top: 35%;
+                       left:10%;
+                       backface-visibility: hidden;
+                    }
+
+
+                    .r1>.circle.two-back {
+                      width: 70%;
+                      height: 70%;
+                      background:black;
+                      border-radius: 50%;
+                      position: absolute;
+                      z-index:4;
+                      top: 35%;
+                      left:10%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+
+                   }
+
+
+
+
+                    .r1>.invisible.two-front{
+                      width: 30%;
+                      height: 50%;
+                      background:black;
+
+                      position: absolute;
+                      z-index:5;
+                      left: 45%;
+                      top:70%;
+                      backface-visibility: hidden;
+                    }
+
+
+                  .r1>.invisible.two-back{
+                    width: 30%;
+                    height: 50%;
+                    background:black;
+
+                    position: absolute;
+                    z-index:5;
+                    left: 45%;
+                    top:70%;
+                    backface-visibility: hidden;
+                    transform:rotateY(180deg);
+                  }
+
+
+                    .r1>.invisible.three-front{
+                      width: 50%;
+                      height: 60%;
+                      background:black;
+
+                      border-radius:40%;
+                      position: absolute;
+                      z-index:5;
+                      left: 15%;
+                      top:50%;
+                      backface-visibility: hidden;
+                    }
+
+
+
+                  .r1>.invisible.three-back{
+                    width: 50%;
+                    height: 60%;
+                    background:black;
+
+                    border-radius:40%;
+                    position: absolute;
+                    z-index:5;
+                    left: 15%;
+                    top:50%;
+                    backface-visibility: hidden;
+                    transform:rotateY(180deg);
+                  }
+
+
+                    .r1>.invisible.four-front {
+                       width: 30% ;
+                       height: 70%;
+                        background:black;
+                       position: absolute;
+                       z-index: 7;
+                       top: 35%;
+                       left: 60%;
+                       backface-visibility: hidden;
+                     }
+
+
+
+                   .r1>.invisible.four-back {
+                      width: 30% ;
+                      height: 70%;
+                      background:black;
+                      position: absolute;
+                      z-index: 7;
+                      top: 35%;
+                      left: 60%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+                    }
+
+
+
+
+                    /* r2*/
+
+                  .r2{
+                    left: 5%;
+                    top:3%;
+                  }
+
+
+
+
+
+
+                      .r2>.stem.one-front{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 50%);
+                        background: #DE2627;
+                        position: absolute;
+                        z-index: 0;
+                        top: 30%;
+                        backface-visibility: hidden;
+
+                      }
+
+                      .r2>.stem.one-back{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 50%);
+                        background: black;
+                        position: absolute;
+                        z-index: 0;
+                        top: 30%;
+                        backface-visibility: hidden;
+                        transform:rotateY(180deg);
+
+                      }
+
+                      .r2>.stem.two-front{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 50%);
+                        background:#551C55;
+                        position: absolute;
+                        z-index:1;
+                        left:5%;
+                        top: 30%;
+                        backface-visibility: hidden;
+
+                      }
+
+
+                      .r2>.stem.two-back{
+                        width: var(--stemWidth);
+                        height:calc(var(--fontHeight) + 50%);
+                        background:black;
+                        position: absolute;
+                        z-index:1;
+                        left:5%;
+                        top: 30%;
+                        backface-visibility: hidden;
+                        transform:rotateY(180deg);
+
+                      }
+
+
+                      .r2>.stem.three-front{
+                        width: var(--stemWidth);
+                        height: 35%;
+                        background:#551C55;
+                        position: absolute;
+                        z-index:7;
+                        left:70%;
+                        top: 70%;
+                        backface-visibility: hidden;
+
+
+                      }
+
+
+
+                      .r2>.stem.three-back{
+                        width: var(--stemWidth);
+                        height: 35%;
+                        background:black;
+                        position: absolute;
+                        z-index:7;
+                        left:70%;
+                        top: 70%;
+                        backface-visibility: hidden;
+                        transform:rotateY(180deg);
+                      }
+
+
+                      .r2>.stem.four-front{
+                        width: var(--stemWidth);
+                        height: 35%;
+                        background:#DE2627;
+                        position: absolute;
+                        z-index:6;
+                        left:65%;
+                        top: 70%;
+                        backface-visibility: hidden;
+                      }
+
+                      .r2>.stem.four-back{
+                        width: var(--stemWidth);
+                        height: 35%;
+                        background:black;
+                        position: absolute;
+                        z-index:6;
+                        left:65%;
+                        top: 70%;
+                        backface-visibility: hidden;
+                        transform:rotateY(180deg);
+                      }
+
+
+
+
+
+                      .r2>.circle.one-front{
+                        width: 50%;
+                        height:70%;
+                        top: 8px;
+                        border-radius: 100px;
+                        background:#DE2627;
+                        left: 20%;
+                        position: absolute;
+                        z-index:5;
+                        top: 40%;
+                        backface-visibility: hidden;
+
+                      }
+
+
+                      .r2>.circle.one-back{
+                        width: 50%;
+                        height:70%;
+                        top: 8px;
+                        border-radius: 100px;
+                        background:#DE2627;
+                        left: 20%;
+                        position: absolute;
+                        z-index:5;
+                        top: 40%;
+                        backface-visibility: hidden;
+                        transform:rotateY(180deg);
+
+                      }
+
+                       .r2>.circle.two-front {
+                         width: 70%;
+                         height: 70%;
+                         background:#551C55;
+                         border-radius: 50%;
+                         position: absolute;
+                         z-index:4;
+                         top: 35%;
+                         left:10%;
+                         backface-visibility: hidden;
+                      }
+
+
+                      .r2>.circle.two-back {
+                        width: 70%;
+                        height: 70%;
+                        background:black;
+                        border-radius: 50%;
+                        position: absolute;
+                        z-index:4;
+                        top: 35%;
+                        left:10%;
+                        backface-visibility: hidden;
+                        transform:rotateY(180deg);
+
                      }
 
 
 
 
-                    /* s1 */
-
-
-
-
-
-
-
-
-
-
-                    .s>.counters1.one {
-                      width: 65%;
-                      height: 60%;
-                      border-radius: 50%;
-                      position: absolute;
-                      transform:rotateY(180deg);
-
-
-
-                      top:55%;
-                      background-color: #551C55;
-                      z-index: 7;
-
-
-
-                    }
-
-                    .s>.couters1.two {
-                      width: 35%;
-                      height: 30%;
-                      border-radius: 50%;
-                      position: absolute;
-                      transform:rotateY(180deg);
-                      background-color: #DE2627;
-                      z-index: 8;
-                      left:15%;
-                      top:70%;
-
-                    }
-
-                    .s>.couters1.three{
+                      .r2>.invisible.two-front{
                         width: 30%;
-                        height:30%;
-                        border-radius: 50%;
+                        height: 50%;
+                        background:black;
+
                         position: absolute;
+                        z-index:5;
+                        left: 45%;
+                        top:70%;
+                        backface-visibility: hidden;
+                      }
+
+
+                    .r2>.invisible.two-back{
+                      width: 30%;
+                      height: 50%;
+                      background:black;
+
+                      position: absolute;
+                      z-index:5;
+                      left: 45%;
+                      top:70%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+                    }
+
+
+                      .r2>.invisible.three-front{
+                        width: 50%;
+                        height: 60%;
+                        background:black;
+
+                        border-radius:40%;
+                        position: absolute;
+                        z-index:5;
+                        left: 15%;
+                        top:50%;
+                        backface-visibility: hidden;
+                      }
+
+
+
+                    .r2>.invisible.three-back{
+                      width: 50%;
+                      height: 60%;
+                      background:black;
+
+                      border-radius:40%;
+                      position: absolute;
+                      z-index:5;
+                      left: 15%;
+                      top:50%;
+                      backface-visibility: hidden;
+                      transform:rotateY(180deg);
+                    }
+
+
+                      .r2>.invisible.four-front {
+                         width: 30% ;
+                         height: 70%;
+                          background:black;
+                         position: absolute;
+                         z-index: 7;
+                         top: 35%;
+                         left: 60%;
+                         backface-visibility: hidden;
+                       }
+
+
+
+                     .r2>.invisible.four-back {
+                        width: 30% ;
+                        height: 70%;
+                        background:black;
+                        position: absolute;
+                        z-index: 7;
+                        top: 35%;
+                        left: 60%;
+                        backface-visibility: hidden;
                         transform:rotateY(180deg);
-
-                        background:var(--negativeColor);
-                        z-index: 9;
-                        left:15%;
-                        top:77%;
-
                       }
 
 
-                     .s>.invisibles1.one {
-                        width: 40% ;
-                        height:45%;
 
 
-                        background:var(--negativeColor);
 
 
-                        position: absolute;
-                        z-index: 10;
-                        top: 50%;
+      /* s1*/
+
+                    .s1{
+                    -webkit-transform: rotate(-90deg) scale(0.55);
 
 
-                      }
+
+                      left: 7%;
+
+
+
+                    }
+
+
+                    .s1>.tem.one{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 50%);
+                      background: #DE2627;
+                      position: absolute;
+                      z-index: 0;
+                      top: 30%;
+
+
+                    }
+
+                    .s1>.tem.two{
+                      width: var(--stemWidth);
+                      height:calc(var(--fontHeight) + 50%);
+                      background:#551C55;
+                      position: absolute;
+                      z-index:1;
+                      left:5%;
+                      top: 30%;
+
+                    }
+
+
+                    .s1>.stem.three{
+                      width: var(--stemWidth);
+                      height: 35%;
+                      background:#551C55;
+                      position: absolute;
+                      z-index:7;
+                      left:70%;
+                      top: 70%;
+                    }
+
+                    .s1>.stem.four{
+                      width: var(--stemWidth);
+                      height: 35%;
+                      background:#DE2627;
+                      position: absolute;
+                      z-index:6;
+                      left:65%;
+                      top: 70%;
+                    }
+
+
+
+
+                    .s1>.circle.one {
+                      width: 50%;
+                      height:70%;
+                      top: 8px;
+                      border-radius: 100px;
+                      background:#DE2627;
+                      left: 20%;
+                      position: absolute;
+                      z-index:5;
+                      top: 40%;
+
+                    }
+
+                     .s1>.circle.two {
+                       width: 70%;
+                       height: 70%;
+                       background:#551C55;
+                       border-radius: 50%;
+                       position: absolute;
+                       z-index:4;
+                       top: 35%;
+                       left:10%;
+                    }
+
+
+
+
+                    .s1>.invisible.two{
+                      width: 30%;
+                      height: 50%;
+                      background:var(--negativeColor);
+
+                      position: absolute;
+                      z-index:5;
+                      left: 45%;
+                      top:70%;
+                    }
+
+
+                    .s1>.invisible.three{
+                      width: 50%;
+                      height: 60%;
+                      background:var(--negativeColor);
+
+                      border-radius:40%;
+                      position: absolute;
+                      z-index:5;
+                      left: 15%;
+                      top:50%;
+                    }
+
+
+
+                    /* s3*/
+
+
+                                  .s3{
+                                  -webkit-transform: rotate(-90deg) scale(0.55);
+                                   left:7%;
+
+
+
+
+
+
+                                  }
+
+
+                                  .s3>.tem.one{
+                                    width: var(--stemWidth);
+                                    height:calc(var(--fontHeight) + 50%);
+                                    background: #DE2627;
+                                    position: absolute;
+                                    z-index: 0;
+                                    top: 30%;
+
+
+                                  }
+
+                                  .s3>.tem.two{
+                                    width: var(--stemWidth);
+                                    height:calc(var(--fontHeight) + 50%);
+                                    background:#551C55;
+                                    position: absolute;
+                                    z-index:1;
+                                    left:5%;
+                                    top: 30%;
+
+                                  }
+
+
+                                  .s3>.stem.three{
+                                    width: var(--stemWidth);
+                                    height: 35%;
+                                    background:#551C55;
+                                    position: absolute;
+                                    z-index:7;
+                                    left:70%;
+                                    top: 70%;
+                                  }
+
+                                  .s3>.stem.four{
+                                    width: var(--stemWidth);
+                                    height: 35%;
+                                    background:#DE2627;
+                                    position: absolute;
+                                    z-index:6;
+                                    left:65%;
+                                    top: 70%;
+                                  }
+
+
+
+
+                                  .s3>.circle.one {
+                                    width: 50%;
+                                    height:70%;
+                                    top: 8px;
+                                    border-radius: 100px;
+                                    background:#DE2627;
+                                    left: 20%;
+                                    position: absolute;
+                                    z-index:5;
+                                    top: 40%;
+
+                                  }
+
+                                   .s3>.circle.two {
+                                     width: 70%;
+                                     height: 70%;
+                                     background:#551C55;
+                                     border-radius: 50%;
+                                     position: absolute;
+                                     z-index:4;
+                                     top: 35%;
+                                     left:10%;
+                                  }
+
+
+
+
+                                  .s3>.invisible.two{
+                                    width: 30%;
+                                    height: 50%;
+                                    background:var(--negativeColor);
+
+                                    position: absolute;
+                                    z-index:5;
+                                    left: 45%;
+                                    top:70%;
+                                  }
+
+
+                                  .s3>.invisible.three{
+                                    width: 50%;
+                                    height: 60%;
+                                    background:var(--negativeColor);
+
+                                    border-radius:40%;
+                                    position: absolute;
+                                    z-index:5;
+                                    left: 15%;
+                                    top:50%;
+                                  }
+
+
+
+                    /* s2*/
+
+                            .s2{
+                             -webkit-transform: rotate(90deg) scale(0.65);
+                              top:25%;
+
+
+
+
+                                  }
+
+
+                                  .s2>.tem.one{
+                                    width: var(--stemWidth);
+                                    height:calc(var(--fontHeight) + 50%);
+                                    background: #DE2627;
+                                    position: absolute;
+                                    z-index: 0;
+                                    top: 30%;
+
+                                  }
+
+                                  .s2>.tem.two{
+                                    width: var(--stemWidth);
+                                    height:calc(var(--fontHeight) + 50%);
+                                    background:#551C55;
+                                    position: absolute;
+                                    z-index:1;
+                                    left:5%;
+                                    top: 30%;
+
+                                  }
+
+
+                                  .s2>.stem.three{
+                                    width: var(--stemWidth);
+                                    height: 35%;
+                                    background:#551C55;
+                                    position: absolute;
+                                    z-index:7;
+                                    left:70%;
+                                    top: 70%;
+                                  }
+
+                                  .s2>.stm.four{
+                                    width: var(--stemWidth);
+                                    height: 35%;
+                                    background:#DE2627;
+                                    position: absolute;
+                                    z-index:6;
+                                    left:65%;
+                                    top: 70%;
+                                  }
+
+
+
+
+                                  .s2>.circle.one {
+                                    width: 50%;
+                                    height:70%;
+                                    top: 8px;
+                                    border-radius: 100px;
+                                    background:#DE2627;
+                                    left: 20%;
+                                    position: absolute;
+                                    z-index:5;
+                                    top: 40%;
+
+                                  }
+
+                                   .s2>.circle.two {
+                                     width: 70%;
+                                     height: 70%;
+                                     background:#551C55;
+                                     border-radius: 50%;
+                                     position: absolute;
+                                     z-index:4;
+                                     top: 35%;
+                                     left:10%;
+                                  }
+
+
+
+
+                                  .s2>.invisible.two{
+                                    width:35%;
+                                    height: 60%;
+                                    background:var(--negativeColor);
+
+                                    position: absolute;
+                                    z-index:5;
+                                    left: 45%;
+                                    top:80%;
+                                  }
+
+
+                                  .s2>.invisible.three{
+                                    width: 50%;
+                                    height: 60%;
+                                    background:var(--negativeColor);
+
+
+
+                                    border-radius:40%;
+                                    position: absolute;
+                                    z-index:5;
+                                    left: 20%;
+                                    top:60%;
+                                  }
+
+    /* s4*/
+
+            .s4{
+             -webkit-transform: rotate(90deg) scale(0.65);
+              top:25%;
+
+
+
+
+                  }
+
+
+                  .s4>.tem.one{
+                    width: var(--stemWidth);
+                    height:calc(var(--fontHeight) + 50%);
+                    background: #DE2627;
+                    position: absolute;
+                    z-index: 0;
+                    top: 30%;
+
+                  }
+
+                  .s4>.tem.two{
+                    width: var(--stemWidth);
+                    height:calc(var(--fontHeight) + 50%);
+                    background:#551C55;
+                    position: absolute;
+                    z-index:1;
+                    left:5%;
+                    top: 30%;
+
+                  }
+
+
+                  .s4>.stem.three{
+                    width: var(--stemWidth);
+                    height: 35%;
+                    background:#551C55;
+                    position: absolute;
+                    z-index:7;
+                    left:70%;
+                    top: 70%;
+                  }
+
+                  .s4>.stm.four{
+                    width: var(--stemWidth);
+                    height: 35%;
+                    background:#DE2627;
+                    position: absolute;
+                    z-index:6;
+                    left:65%;
+                    top: 70%;
+                  }
+
+
+
+
+                  .s4>.circle.one {
+                    width: 50%;
+                    height:70%;
+                    top: 8px;
+                    border-radius: 100px;
+                    background:#DE2627;
+                    left: 20%;
+                    position: absolute;
+                    z-index:5;
+                    top: 40%;
+
+                  }
+
+                   .s4>.circle.two {
+                     width: 70%;
+                     height: 70%;
+                     background:#551C55;
+                     border-radius: 50%;
+                     position: absolute;
+                     z-index:4;
+                     top: 35%;
+                     left:10%;
+                  }
+
+
+
+
+                  .s4>.invisible.two{
+                    width:35%;
+                    height: 60%;
+                    background:var(--negativeColor);
+
+                    position: absolute;
+                    z-index:5;
+                    left: 45%;
+                    top:80%;
+                  }
+
+
+                  .s4>.invisible.three{
+                    width: 50%;
+                    height: 60%;
+                    background:var(--negativeColor);
+
+
+
+                    border-radius:40%;
+                    position: absolute;
+                    z-index:5;
+                    left: 20%;
+                    top:60%;
+                  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2120,7 +4501,7 @@ padding-top: 5%;
 
                         .u{
                         transform: scale(-1);
-                        top: 14%;
+                        top: 25%;
                         }
 
 
@@ -2237,7 +4618,7 @@ padding-top: 5%;
 
           .v>.arm.one{
             width: var(--stemWidth);
-            height:110%;
+            height:95%;
             background:  #DE2627;
             position: absolute;
             z-index: 1;
@@ -2250,7 +4631,7 @@ padding-top: 5%;
 
           .v>.arm.two{
             width: var(--stemWidth);
-            height:120%;
+            height:100%;
             background: #551C55;
             position: absolute;
             z-index: 2;
@@ -2265,7 +4646,7 @@ padding-top: 5%;
 
           .v>.leg.one{
             width: var(--stemWidth);
-            height:110%;
+            height:100%;
             background:  #DE2627;
             position: absolute;
             z-index: 1;
@@ -2314,6 +4695,197 @@ padding-top: 5%;
              z-index: 4;
 
             }
+
+
+
+            /* v1*/
+
+.v1{
+top: 12%;
+left: 2%;
+
+
+}
+
+
+
+.v1>.arm.one{
+width: var(--stemWidth);
+height:95%;
+background:  #DE2627;
+position: absolute;
+z-index: 1;
+
+left:70%;
+transform: rotate(25deg);
+}
+
+
+
+.v1>.arm.two{
+width: var(--stemWidth);
+height:100%;
+background: #551C55;
+position: absolute;
+z-index: 2;
+top:10%;
+left:70%;
+transform: rotate(25deg);
+}
+
+
+
+
+
+.v1>.leg.one{
+width: var(--stemWidth);
+height:100%;
+background:  #DE2627;
+position: absolute;
+z-index: 1;
+
+left:30%;
+transform: rotate(-25deg);
+}
+
+
+
+.v1>.leg.two{
+width: var(--stemWidth);
+height:120%;
+background: #551C55;
+position: absolute;
+z-index: 3;
+top:10%;
+left:30%;
+transform: rotate(-25deg);
+}
+
+
+
+
+
+
+
+.v1>.invisible.one{
+ width : 10vw;
+ height:5vw;
+ background:var(--negativeColor);
+
+
+ z-index: 3;
+ top: 100%;
+
+}
+
+
+
+.v1>.invisible.two{
+ width : 120%;
+ height:30%;
+ background:var(--negativeColor);
+ top: 1%;
+ z-index: 4;
+
+}
+
+
+/* v2*/
+
+.v2{
+  top:2%;
+
+
+
+
+}
+
+
+
+.v2>.arm.one{
+width: var(--stemWidth);
+height:95%;
+background:  #DE2627;
+position: absolute;
+z-index: 1;
+
+left:70%;
+transform: rotate(25deg);
+}
+
+
+
+.v2>.arm.two{
+width: var(--stemWidth);
+height:100%;
+background: #551C55;
+position: absolute;
+z-index: 2;
+top:10%;
+left:70%;
+transform: rotate(25deg);
+}
+
+
+
+
+
+.v2>.leg.one{
+width: var(--stemWidth);
+height:100%;
+background:  #DE2627;
+position: absolute;
+z-index: 1;
+
+left:30%;
+transform: rotate(-25deg);
+}
+
+
+
+.v2>.leg.two{
+width: var(--stemWidth);
+height:120%;
+background: #551C55;
+position: absolute;
+z-index: 3;
+top:10%;
+left:30%;
+transform: rotate(-25deg);
+}
+
+
+
+
+
+
+
+.v2>.invisible.one{
+width : 10vw;
+height:5vw;
+background:var(--negativeColor);
+
+
+z-index: 3;
+top: 100%;
+
+}
+
+
+
+.v2>.invisible.two{
+width : 120%;
+height:30%;
+background:var(--negativeColor);
+top: 1%;
+z-index: 4;
+
+}
+
+
+
+
+
 
 
 
@@ -2480,6 +5052,7 @@ padding-top: 5%;
 
                           .x{
                             top: 1%;
+                            left: 5%;
 
 
 
@@ -2576,11 +5149,11 @@ padding-top: 5%;
 
 
 
-                                  /* x*/
+                                  /* y*/
 
                     .y{
                       top: 1%;
-                      left:5%;
+                      left:10%;
 
 
 
@@ -2597,7 +5170,7 @@ padding-top: 5%;
                       z-index: 1;
 
                       left:65%;
-                      transform: rotate(40deg);
+                      transform: rotate(35deg);
                       }
 
 
@@ -2610,7 +5183,7 @@ padding-top: 5%;
                       z-index: 2;
                       top:5%;
                       left:70%;
-                      transform: rotate(40deg);
+                      transform: rotate(35deg);
                       }
 
 
@@ -2625,7 +5198,7 @@ padding-top: 5%;
                       z-index: 1;
 
                       left:40%;
-                      transform: rotate(-30deg);
+                      transform: rotate(-35deg);
                       }
 
 
@@ -2638,7 +5211,7 @@ padding-top: 5%;
                       z-index: 0;
                       top:10%;
                       left:35%;
-                      transform: rotate(-30deg);
+                      transform: rotate(-35deg);
                       }
 
 
@@ -2676,11 +5249,220 @@ padding-top: 5%;
 
 
 
+                      .y1{
+                        top: 12%;
+                        left:1%;
+
+
+
+
+                      }
+
+
+
+                      .y1>.arm.one{
+                        width: var(--stemWidth);
+                        height:175%;
+                        background:  #DE2627;
+                        position: absolute;
+                        z-index: 1;
+
+                        left:65%;
+                        transform: rotate(35deg);
+                        }
+
+
+
+                      .y1>.arm.two{
+                        width: var(--stemWidth);
+                        height:170%;
+                        background: #551C55;
+                        position: absolute;
+                        z-index: 2;
+                        top:5%;
+                        left:70%;
+                        transform: rotate(35deg);
+                        }
+
+
+
+
+
+                      .y1>.leg.one{
+                        width: var(--stemWidth);
+                        height:100%;
+                        background:  #DE2627;
+                        position: absolute;
+                        z-index: 1;
+
+                        left:40%;
+                        transform: rotate(-35deg);
+                        }
+
+
+
+                      .y1>.leg.two{
+                        width: var(--stemWidth);
+                        height:90%;
+                        background: #551C55;
+                        position: absolute;
+                        z-index: 0;
+                        top:10%;
+                        left:35%;
+                        transform: rotate(-35deg);
+                        }
+
+
+
+
+
+
+
+                     .y1>.invisible.one{
+                         width : 140%;
+                         height:30%;
+                         background:var(--negativeColor);
+
+
+
+                         z-index: 3;
+                         top: 140%;
+
+                        }
+
+
+
+                       .y1>.invisible.two{
+                         width : 140%;
+                         height:30%;
+                         background:var(--negativeColor);
+
+                         top: 1%;
+                         z-index: 4;
+
+
+                        }
+
+
+
+
+
+
+
+
+
+
+                        .y2{
+
+                      top:2%;
+
+
+
+
+                        }
+
+
+
+                        .y2>.arm.one{
+                          width: var(--stemWidth);
+                          height:175%;
+                          background:  #DE2627;
+                          position: absolute;
+                          z-index: 1;
+
+                          left:65%;
+                          transform: rotate(35deg);
+                          }
+
+
+
+                        .y2>.arm.two{
+                          width: var(--stemWidth);
+                          height:170%;
+                          background: #551C55;
+                          position: absolute;
+                          z-index: 2;
+                          top:5%;
+                          left:70%;
+                          transform: rotate(35deg);
+                          }
+
+
+
+
+
+                        .y2>.leg.one{
+                          width: var(--stemWidth);
+                          height:100%;
+                          background:  #DE2627;
+                          position: absolute;
+                          z-index: 1;
+
+                          left:40%;
+                          transform: rotate(-35deg);
+                          }
+
+
+
+                        .y2>.leg.two{
+                          width: var(--stemWidth);
+                          height:90%;
+                          background: #551C55;
+                          position: absolute;
+                          z-index: 0;
+                          top:10%;
+                          left:35%;
+                          transform: rotate(-35deg);
+                          }
+
+
+
+
+
+
+
+                       .y2>.invisible.one{
+                           width : 140%;
+                           height:30%;
+                           background:var(--negativeColor);
+
+
+
+                           z-index: 3;
+                           top: 140%;
+
+                          }
+
+
+
+                         .y2>.invisible.two{
+                           width : 140%;
+                           height:30%;
+                           background:var(--negativeColor);
+
+                           top: 1%;
+                           z-index: 4;
+
+
+                          }
+
+
+
+
+
+
+
+
+
+
+
+
+
                                   /* z*/
 
                     .z{
                       top: 1%;
-                      left:10%;
+                      left:15%;
 
 
 
@@ -2829,7 +5611,7 @@ padding-top: 5%;
 
         /* sunya */
               .sunya{
-                left:0%;
+                left:5%;
                 transform:scaleY(1.5);
               }
 
@@ -2875,18 +5657,18 @@ padding-top: 5%;
               /* ek*/
 
               .ek{
-                left:5%;
+                left:10%;
                 top:5%;
               }
 
 
                .ek>.stem.one{
                   width: var(--stemWidth);
-                  height:calc(var(--fontHeight) + 85%);
+                  height:calc(var(--fontHeight) + 80%);
                   background: #DE2627;
                   position: absolute;
                   z-index: 0;
-                  top:5%;
+                  top:10%;
 
                   left:30%;
                 }
@@ -2910,7 +5692,7 @@ padding-top: 5%;
                   background:#551C55;
                   z-index:7;
                   top:15%;
-                  left:0%;
+                  left:1%;
                   transform: rotate(-45deg);
 
 
@@ -2920,7 +5702,7 @@ padding-top: 5%;
 
                 .ek>.crossbar.two{
                   width: 30%;
-                  height:15%;
+                  height:10%;
 
                   background:#DE2627;
                   z-index:0;
@@ -2937,7 +5719,7 @@ padding-top: 5%;
 
                 /* dui */
                       .dui{
-                        left:5%;
+                        left:15%;
                         top:5%;
 
                       }
@@ -2968,42 +5750,32 @@ padding-top: 5%;
                     }
 
                     .dui>.counter.three {
-                        width: 40%;
-                        height:40%;
+                        width: 30%;
+                        height:30%;
                         border-radius: 50%;
                         position: absolute;
                         display: inline-block;
                         background:var(--negativeColor);
                         z-index: 6;
-                        left:35%;
-                        top:15%;
+                        left:40%;
+                        top:25%;
 
                       }
 
                       .dui>.invisible.one{
-                        width : 60%;
+                        width : 50%;
                         height:50%;
                         background:var(--negativeColor);
+                        border-radius: 50%;
 
-                        top: 25%;
+                        top: 30%;
                         z-index: 3;
+                        left:8%;
 
 
                        }
 
 
-                     .dui>.inviible.two{
-                       width : 90%;
-                       height:30%;
-                       background:var(--negativeColor);
-
-                       transform: rotate(-55deg);
-
-                       top: 40%;
-                       z-index: 7;
-
-
-                      }
 
                       .dui>.invisible.two{
                         width : 60%;
@@ -3019,7 +5791,7 @@ padding-top: 5%;
 
 
                        .dui>.arm.one{
-                         width:70%;
+                         width:60%;
                          height:15%;
                          background:  #551C55;
                          position: absolute;
@@ -3027,7 +5799,7 @@ padding-top: 5%;
 
                          top: 100%;
 
-                         left:20%;
+                         left:25%;
 
                          }
 
@@ -3040,7 +5812,7 @@ padding-top: 5%;
                          position: absolute;
                          z-index: 5;
                          top:50%;
-                         left:35%;
+                         left:32%;
                          transform: rotate(35deg);
                          }
 
@@ -3050,7 +5822,7 @@ padding-top: 5%;
 
                          /* teen */
                                .teen{
-                                 left:10%;
+                                 left:20%;
                                  top:5%;
 
                                }
@@ -3081,17 +5853,17 @@ padding-top: 5%;
                              }
 
                              .teen>.counter.three {
-                                 width: 40%;
-                                 height:40%;
-                                 border-radius: 50%;
-                                 position: absolute;
-                                 display: inline-block;
-                                 background:var(--negativeColor);
-                                 z-index: 6;
-                                 left:35%;
-                                 top:15%;
+                               width: 30%;
+                               height:30%;
+                               border-radius: 50%;
+                               position: absolute;
+                               display: inline-block;
+                               background:var(--negativeColor);
+                               z-index: 6;
+                               left:40%;
+                               top:25%;
 
-                               }
+                             }
 
 
                                .teen>.counter.four {
@@ -3136,31 +5908,33 @@ padding-top: 5%;
                                  }
 
                                .teen>.invisible.one{
-                                 width : 60%;
+                                 width : 50%;
                                  height:50%;
                                  background:var(--negativeColor);
+                                 border-radius: 50%;
 
-                                 top: 25%;
+                                 top: 30%;
                                  z-index: 3;
+                                 left:8%;
+                               }
 
 
-                                }
-
-
-                              .dui>.inviible.two{
-                                width : 90%;
-                                height:30%;
+                              .teen>.inviible.two{
+                                width : 60%;
+                                height:20%;
                                 background:var(--negativeColor);
 
-                                transform: rotate(-55deg);
 
-                                top: 40%;
+                                top: 115%;
                                 z-index: 7;
 
 
                                }
 
-                               .dui>.invisible.two{
+
+                               }
+
+                               .teen>.invisible.two{
                                  width : 60%;
                                  height:20%;
                                  background:var(--negativeColor);
@@ -3173,31 +5947,7 @@ padding-top: 5%;
                                 }
 
 
-                                .dui>.arm.one{
-                                  width:70%;
-                                  height:15%;
-                                  background:  #551C55;
-                                  position: absolute;
-                                  z-index: 6;
 
-                                  top: 100%;
-
-                                  left:20%;
-
-                                  }
-
-
-
-                                .dui>.arm.two{
-                                  width: 15%;
-                                  height:80%;
-                                  background: #551C55;
-                                  position: absolute;
-                                  z-index: 5;
-                                  top:50%;
-                                  left:35%;
-                                  transform: rotate(35deg);
-                                  }
 
 
 
@@ -3207,7 +5957,7 @@ padding-top: 5%;
                                   /* ek*/
 
                                   .char{
-                                    left:15%;
+                                    left:25%;
                                     top:5%;
                                   }
 
@@ -3240,10 +5990,10 @@ padding-top: 5%;
 
 
                                       background:#551C55;
-                                      z-index:7;
+                                      z-index:8;
                                       top:25%;
-                                      left:10%;
-                                      transform: rotate(-45deg);
+                                      left:5%;
+                                      transform: rotate(-40deg);
 
 
 
@@ -3258,7 +6008,7 @@ padding-top: 5%;
                                       z-index:0;
                                       top:25%;
                                       left:20%;
-                                      transform: rotate(-45deg);
+                                      transform: rotate(-40deg);
 
 
                                     }
@@ -3281,13 +6031,13 @@ padding-top: 5%;
 
 
                                     .char>.crossbar.four{
-                                      width: 60%;
+                                      width: 70%;
                                       height:15%;
 
                                       background:#551C55;
                                       z-index:0;
-                                      top:50%;
-                                      left:15%;
+                                      top:52%;
+                                      left:12.5%;
 
 
 
@@ -3297,7 +6047,7 @@ padding-top: 5%;
 
                                     .char>.invisible.one{
                                       width : 40%;
-                                      height:90%;
+                                      height:100%;
                                       background:var(--negativeColor);
 
                                       left:85%;
@@ -3312,7 +6062,7 @@ padding-top: 5%;
 
                   /* panch */
                         .panch{
-                          left:20%;
+                          left:30%;
                           top:5%;
 
                         }
@@ -3330,7 +6080,7 @@ padding-top: 5%;
 
                       }
 
-                      .panch>.couter.two  {
+                      .panch>.counter.two  {
                         width: 50%;
                         height: 50%;
                         border-radius: 50%;
@@ -3339,7 +6089,7 @@ padding-top: 5%;
                         background-color: #DE2627;
                         z-index: 3;
                         left:30%;
-                        top:10%;
+                        top:60%;
                       }
 
                       .panch>.couter.three {
@@ -3385,15 +6135,15 @@ padding-top: 5%;
                         }
 
                         .panch>.counter.six {
-                            width: 40%;
-                            height:40%;
+                            width: 30%;
+                            height:30%;
                             border-radius: 50%;
                             position: absolute;
                             display: inline-block;
                             background:var(--negativeColor);
                             z-index: 6;
-                            left:35%;
-                            top:60%;
+                            left:40%;
+                            top:75%;
 
                           }
 
@@ -3402,7 +6152,7 @@ padding-top: 5%;
                           height:20%;
                           background:var(--negativeColor);
 
-                          top: 70%;
+                          top: 76%;
                           z-index: 3;
 
 
@@ -3414,10 +6164,10 @@ padding-top: 5%;
 
 
                            background:#551C55;
-                           z-index:7;
+                           z-index:1;
                            top:30%;
-                           left:15%;
-                           transform: rotate(-65deg);
+                           left:10%;
+                           transform: rotate(-70deg);
 
 
 
@@ -3428,13 +6178,13 @@ padding-top: 5%;
 
                         .panch>.crossbar.two{
                           width: 45%;
-                          height:10%;
+                          height:15%;
 
 
                           background:#551C55;
                           z-index:7;
 
-                          left:55%;
+                          left:49%;
 
 
 
@@ -3451,6 +6201,7 @@ padding-top: 5%;
                   .cha{
 
                       top:5%;
+                      left:5%;
 
                     }
 
@@ -3467,7 +6218,7 @@ padding-top: 5%;
 
                   }
 
-                  .cha>.couter.two  {
+                  .cha>.counter.two  {
                     width: 50%;
                     height: 50%;
                     border-radius: 50%;
@@ -3476,7 +6227,8 @@ padding-top: 5%;
                     background-color: #DE2627;
                     z-index: 3;
                     left:30%;
-                    top:10%;
+                    top:60%;
+                  }
                   }
 
                   .cha>.couter.three {
@@ -3522,15 +6274,15 @@ padding-top: 5%;
                     }
 
                     .cha>.counter.six {
-                        width: 40%;
-                        height:40%;
-                        border-radius: 50%;
-                        position: absolute;
-                        display: inline-block;
-                        background:var(--negativeColor);
-                        z-index: 6;
-                        left:35%;
-                        top:60%;
+                      width: 30%;
+                      height:30%;
+                      border-radius: 50%;
+                      position: absolute;
+                      display: inline-block;
+                      background:var(--negativeColor);
+                      z-index: 6;
+                      left:40%;
+                      top:75%;
 
                       }
 
@@ -3551,10 +6303,11 @@ padding-top: 5%;
 
 
                        background:#551C55;
-                       z-index:7;
+                       z-index:1;
                        top:30%;
-                       left:15%;
-                       transform: rotate(-65deg);
+                       left:10%;
+                       transform: rotate(-70deg);
+
 
 
 
@@ -3585,12 +6338,12 @@ padding-top: 5%;
                     /* saat*/
 
                     .saat{
-                      left:5%;
+                      left:10%;
                       top:5%;
                     }
 
 
-                     .saat>.stem.one{
+                     .saat>.tem.one{
                         width: var(--stemWidth);
                         height:calc(var(--fontHeight) + 85%);
                         background: #DE2627;
@@ -3598,13 +6351,14 @@ padding-top: 5%;
                         z-index: 0;
                         top:5%;
 
+
                         left:30%;
 
-                       transform: rotate(30deg);
+                        transform: rotate(30deg);
                       }
 
                      .saat>.stem.two{
-                        width: var(--stemWidth);
+                        width: 15%;
                         height:calc(var(--fontHeight) + 90%);
                         background:#551C55;
                         position: absolute;
@@ -3616,14 +6370,14 @@ padding-top: 5%;
 
 
                       .saat>.crossbar.one{
-                        width: 60%;
-                        height:10%;
+                        width: 70%;
+                        height:15%;
 
 
                         background:#551C55;
                         z-index:7;
 
-                        left:5%;
+                        left:7%;
 
 
 
@@ -3637,8 +6391,8 @@ padding-top: 5%;
 
                         background:#DE2627;
                         z-index:0;
-                        top:5%;
-                        left:10%;
+                        top:10%;
+                        left:8%;
 
 
 
@@ -3647,86 +6401,792 @@ padding-top: 5%;
 
 
 
-                      /* aath */
-                            .aath{
-                              left:10%;
+          /* aath */
+          .aath{
+          left:15%;
+          }
+
+          .aath>.counter.one {
+           width: 70%;
+           height: 70%;
+           border-radius: 50%;
+           position: absolute;
+
+           left: 20%;
+
+           background-color: #551C55;
+           z-index: 2;
+
+          }
+
+          .aath>.cunter.two  {
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            position: absolute;
+
+            background-color: #DE2627;
+            z-index: 3;
+            left:30%;
+            top: 70%;
+
+          }
+
+          .aath>.counter.three {
+              width: 30%;
+              height:30%;
+              border-radius: 50%;
+              position: absolute;
+
+              background:var(--negativeColor);
+              z-index: 4;
+              left:40%;
+              top: 20%;
+
+
+            }
+
+
+
+            .aath>.counter.four {
+             width: 70%;
+             height: 70%;
+             border-radius: 50%;
+             position: absolute;
+
+             left: 20%;
+
+              background-color: #551C55;
+              z-index: 2;
+              top:60%;
+
+            }
+
+            .aath>.counter.five  {
+              width: 50%;
+              height: 50%;
+              border-radius: 50%;
+              position: absolute;
+
+              background-color: #DE2627;
+              z-index: 3;
+              left:30%;
+              top: 5%;
+
+            }
+
+            .aath>.counter.six {
+                width: 30%;
+                height:30%;
+                border-radius: 50%;
+                position: absolute;
+                display: inline-block;
+               background:var(--negativeColor);
+                z-index: 4;
+                left:40%;
+                top:85%;
+
+
+              }
+
+
+
+
+/* nau */
+.nau{
+  left:20%;
+  transform:rotateX(180deg);
+
+  top:15%;
+
+}
+
+
+.nau>.couter.one {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+  left: 20%;
+
+  background-color: #551C55;
+  z-index: 2;
+
+}
+
+.nau>.counter.two  {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+  background-color: #DE2627;
+  z-index: 3;
+  left:30%;
+  top:60%;
+}
+}
+
+.nau>.couter.three {
+    width: 40%;
+    height:40%;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    background:var(--negativeColor);
+    z-index: 6;
+    left:35%;
+    top:15%;
+
+  }
+
+
+  .nau>.counter.four {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    left: 20%;
+    top:50%;
+
+    background-color: #551C55;
+    z-index: 2;
+
+  }
+
+
+
+  .nau>.couter.five {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    background-color: #DE2627;
+    z-index: 3;
+    left:30%;
+    top:40%;
+  }
+
+  .nau>.counter.six {
+    width: 30%;
+    height:30%;
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    background:var(--negativeColor);
+    z-index: 6;
+    left:40%;
+    top:75%;
+
+    }
+
+  .nau>.ivisible.one{
+    width : 60%;
+    height:20%;
+    background:var(--negativeColor);
+
+    top: 70%;
+    z-index: 3;
+
+
+   }
+
+   .nau>.crossbar.one{
+     width:65%;
+     height:10%;
+
+
+     background:#551C55;
+     z-index:1;
+     top:25%;
+     left:30%;
+     transform: rotate(70deg);
+
+
+
+
+   }
+
+
+
+
+  .nau>.cossbar.two{
+    width: 45%;
+    height:10%;
+
+
+    background:#551C55;
+    z-index:7;
+
+    left:55%;
+
+
+
+
+  }
+
+
+
+
+
+
+         /* period */
+               .period{
+
+
+                transform:scale(0.5, 0.5);
+               }
+
+                                   .period>.counter.one {
+                                   	width: 70%;
+                                   	height: 70%;
+                                     border-radius: 50%;
+                                   	position: absolute;
+                                   	display: inline-block;
+                                     left: 20%;
+                                     top: 35%;
+                                     background-color: #551C55;
+                                     z-index: 2;
+
+                                   }
+
+                                   .period>.counter.two  {
+                                     width: 50%;
+                                     height: 50%;
+                                     border-radius: 50%;
+                                     position: absolute;
+                                     display: inline-block;
+                                     background-color: #DE2627;
+                                     z-index: 3;
+                                     left:30%;
+                                     top:40%;
+                                   }
+
+                                   .period>.counter.three {
+                                       width: 30%;
+                                       height:30%;
+                                       border-radius: 50%;
+                                       position: absolute;
+                                       display: inline-block;
+                                      background:var(--negativeColor);
+                                       z-index: 4;
+                                       left:40%;
+                                       top:53%;
+
+                                     }
+
+
+
+                   /* question */
+                         .question{
+
+                           top:5%;
+
+                         }
+
+                       .question>.counter.one {
+                         width: 70%;
+                         height: 70%;
+                         border-radius: 50%;
+                         position: absolute;
+                         display: inline-block;
+                         left: 20%;
+
+                         background-color: #551C55;
+                         z-index: 2;
+
+                       }
+
+                       .question>.counter.two  {
+                         width: 50%;
+                         height: 50%;
+                         border-radius: 50%;
+                         position: absolute;
+                         display: inline-block;
+                         background-color: #DE2627;
+                         z-index: 3;
+                         left:30%;
+                         top:10%;
+                       }
+
+                       .question>.counter.three {
+                           width: 40%;
+                           height:40%;
+                           border-radius: 50%;
+                           position: absolute;
+                           display: inline-block;
+                           background:var(--negativeColor);
+                           z-index: 6;
+                           left:35%;
+                           top:15%;
+
+                         }
+
+                         .question>.invisible.one{
+                           width : 60%;
+                           height:50%;
+                           background:var(--negativeColor);
+
+                           top: 25%;
+                           z-index: 3;
+
+
+                          }
+
+
+                        .question>.ivisible.two{
+                          width : 90%;
+                          height:30%;
+                          background:var(--negativeColor);
+
+                          transform: rotate(-55deg);
+
+                          top: 40%;
+                          z-index: 7;
+
+
+                         }
+
+                         .question>.invisible.two{
+                           width : 60%;
+                           height:20%;
+                           background:var(--negativeColor);
+
+                           left: 5%;
+                           top: 115%;
+                           z-index: 7;
+
+
+                          }
+
+
+                          .question>.am.one{
+                            width:70%;
+                            height:15%;
+                            background:  #551C55;
+
+                            position: absolute;
+                            z-index: 6;
+
+                            top: 100%;
+
+                            left:20%;
+
                             }
 
-                                                .aath>.counter.one {
-                                                 width: 70%;
-                                                 height: 70%;
-                                                  border-radius: 50%;
-                                                 position: absolute;
-                                                 display: inline-block;
-                                                  left: 20%;
-
-                                                  background-color: #551C55;
-                                                  z-index: 2;
-
-                                                }
-
-                                                .aath>.counter.two  {
-                                                  width: 50%;
-                                                  height: 50%;
-                                                  border-radius: 50%;
-                                                  position: absolute;
-                                                  display: inline-block;
-                                                  background-color: #DE2627;
-                                                  z-index: 3;
-                                                  left:30%;
-
-                                                }
-
-                                                .aath>.counter.three {
-                                                    width: 30%;
-                                                    height:30%;
-                                                    border-radius: 50%;
-                                                    position: absolute;
-                                                    display: inline-block;
-                                                   background:var(--negativeColor);
-                                                    z-index: 4;
-                                                    left:40%;
 
 
-                                                  }
+                          .question>.arm.two{
+                            width: 15%;
+                            height:80%;
+                            background: #551C55;
+                            position: absolute;
+                            z-index: 5;
+                            top:50%;
+                            left:50%;
+
+                            }
 
 
 
-                                                  .aath>.counter.four {
-                                                   width: 70%;
-                                                   height: 70%;
-                                                    border-radius: 50%;
-                                                   position: absolute;
-                                                   display: inline-block;
-                                                    left: 20%;
+                            /* quotes1*/
 
-                                                    background-color: #551C55;
-                                                    z-index: 2;
-                                                    top:60%;
-
-                                                  }
-
-                                                  .aath>.counter.five  {
-                                                    width: 50%;
-                                                    height: 50%;
-                                                    border-radius: 50%;
-                                                    position: absolute;
-                                                    display: inline-block;
-                                                    background-color: #DE2627;
-                                                    z-index: 3;
-                                                    left:30%;
-
-                                                  }
-
-                                                  .aath>.counter.six {
-                                                      width: 30%;
-                                                      height:30%;
-                                                      border-radius: 50%;
-                                                      position: absolute;
-                                                      display: inline-block;
-                                                     background:var(--negativeColor);
-                                                      z-index: 4;
-                                                      left:40%;
+                            .quotes1a{
+                              left:5%;
+                              top:5%;
+                            }
 
 
-                                                    }
+
+
+
+                              .quotes1a>.crossbar.one{
+                                width:50%;
+                                height:15%;
+
+
+                                background:#551C55;
+                                z-index:7;
+                                top:10%;
+                                left:5%;
+                                transform: rotate(-45deg);
+
+
+
+                              }
+
+
+                              .quotes1a>.crossbar.two{
+                                width: 50%;
+                                height:15%;
+
+                                background:#DE2627;
+                                z-index:0;
+                                top:15%;
+                                left:10%;
+                                transform: rotate(-45deg);
+
+
+                              }
+
+
+
+
+                              .quotes1b{
+
+                                top:10%;
+                              }
+
+                              .quotes1b>.crossbar.one{
+                                width: 50%;
+                                height:15%;
+
+
+                                background:#551C55;
+                                z-index:7;
+                                top:10%;
+                                left:5%;
+                                transform: rotate(-45deg);
+
+
+
+                              }
+
+
+                              .quotes1b>.crossbar.two{
+                                width: 50%;
+                                height:15%;
+
+                                background:#DE2627;
+                                z-index:0;
+                                top:15%;
+                                left:10%;
+                                transform: rotate(-45deg);
+
+
+                              }
+
+
+
+
+                              /* quotes2*/
+
+                              .quotes2{
+                                left:5%;
+                                top:5%;
+                              }
+
+
+
+
+
+                                .quotes2>.crossbar.one{
+                                  width: 40%;
+                                  height:15%;
+
+
+                                  background:#551C55;
+                                  z-index:7;
+                                  top:10%;
+                                  left:5%;
+                                  transform: rotate(-45deg);
+
+
+
+                                }
+
+
+                                .quotes2>.crossbar.two{
+                                  width: 40%;
+                                  height:15%;
+
+                                  background:#DE2627;
+                                  z-index:0;
+                                  top:15%;
+                                  left:10%;
+                                  transform: rotate(-45deg);
+
+
+                                }
+
+
+
+
+
+                                /* quotes1a*/
+
+                                .quotes1a{
+                                  left:5%;
+                                  top:5%;
+                                }
+
+
+
+
+
+                                  .quotes1a>.crossbar.one{
+                                    width:50%;
+                                    height:15%;
+
+
+                                    background:#551C55;
+                                    z-index:7;
+                                    top:10%;
+                                    left:5%;
+                                    transform: rotate(-45deg);
+
+
+
+                                  }
+
+
+                                  .quotes1a>.crossbar.two{
+                                    width: 50%;
+                                    height:15%;
+
+                                    background:#DE2627;
+                                    z-index:0;
+                                    top:15%;
+                                    left:10%;
+                                    transform: rotate(-45deg);
+
+
+                                  }
+
+
+
+
+                                  .quotes1b{
+
+                                    top:10%;
+                                  }
+
+                                  .quotes1b>.crossbar.one{
+                                    width: 50%;
+                                    height:15%;
+
+
+                                    background:#551C55;
+                                    z-index:7;
+                                    top:10%;
+                                    left:5%;
+                                    transform: rotate(-45deg);
+
+
+
+                                  }
+
+
+                                  .quotes1b>.crossbar.two{
+                                    width: 50%;
+                                    height:15%;
+
+                                    background:#DE2627;
+                                    z-index:0;
+                                    top:15%;
+                                    left:10%;
+                                    transform: rotate(-45deg);
+
+
+                                  }
+
+
+
+                                  /* quotes2a*/
+
+                                  .quotes2a{
+
+                                    left:6%;
+
+                                    top:10%;
+                                    transform:rotateY(180deg);
+                                  }
+
+
+
+
+
+                                    .quotes2a>.crossbar.one{
+                                      width:50%;
+                                      height:15%;
+
+
+                                      background:#551C55;
+                                      z-index:7;
+                                      top:10%;
+                                      left:5%;
+                                      transform: rotate(-45deg);
+
+
+
+                                    }
+
+
+                                    .quotes2a>.crossbar.two{
+                                      width: 50%;
+                                      height:15%;
+
+                                      background:#DE2627;
+                                      z-index:0;
+                                      top:15%;
+                                      left:10%;
+                                      transform: rotate(-45deg);
+
+
+                                    }
+
+
+
+
+                                    .quotes2b{
+
+
+                                      transform:rotateY(180deg);
+                                    }
+
+                                    .quotes2b>.crossbar.one{
+                                      width: 50%;
+                                      height:15%;
+
+
+                                      background:#551C55;
+                                      z-index:7;
+                                      top:10%;
+                                      left:5%;
+                                      transform: rotate(-45deg);
+
+
+
+                                    }
+
+
+                                    .quotes2b>.crossbar.two{
+                                      width: 50%;
+                                      height:15%;
+
+                                      background:#DE2627;
+                                      z-index:0;
+                                      top:15%;
+                                      left:10%;
+                                      transform: rotate(-45deg);
+
+
+                                    }
+
+
+                /* exclamation*/
+
+
+                .exclamation{
+
+                  left:6%;
+                  top: 10%;
+
+
+                  transform:rotateX(180deg);
+                }
+
+
+                                    .exclamation>.stem.one{
+                                     width: var(--stemWidth);
+                                     height:calc(var(--fontHeight) + 60%);
+                                     background: #DE2627;
+                                     position: absolute;
+                                     z-index: 0;
+                                     left: 50%;
+                                     top: 42%;
+                                   }
+
+                                    .exclamation>.stem.two{
+                                     width: var(--stemWidth);
+                                     height:calc(var(--fontHeight) + 60%);
+                                     background:#551C55;
+                                     position: absolute;
+                                     z-index:1;
+                                     left: 55%;
+                                     top: 42%;
+                                   }
+
+                                   .exclamation>.counter.one{
+                                     width: 30%;
+                                     height: 30%;
+                                     border-radius: 50%;
+                                     position: absolute;
+                                     left: 43%;
+
+
+
+
+                                     background-color: #551C55;
+                                     z-index: 2;
+
+                                   }
+
+                                 .exclamation>.counter.two{
+                                     width: 20%;
+                                     height:20%;
+                                     border-radius: 50%;
+                                     position: absolute;
+                                     left: 48%;
+
+                                     background-color: #DE2627;
+                                     z-index: 3;
+
+                                     top:4%;
+                                   }
+
+                                     .exclamation>.counter.three{
+                                       width: 10%;
+                                       height:10%;
+                                       border-radius: 50%;
+                                       position: absolute;
+
+                                       background:var(--negativeColor);
+
+                                       z-index: 4;
+                                       left:53%;
+                                       top:10%;
+
+                                     }
+
+
+
+                                     .comma{
+
+
+                                       transform:rotateY(180deg);
+                                       left: 5%;
+                                       top:40%;
+                                     }
+
+                                     .comma>.crossbar.one{
+                                       width: 50%;
+                                       height:15%;
+
+
+                                       background:#551C55;
+                                       z-index:7;
+                                       top:10%;
+                                       left:5%;
+                                       transform: rotate(-45deg);
+
+
+
+                                     }
+
+
+                                     .comma>.crossbar.two{
+                                       width: 50%;
+                                       height:15%;
+
+                                       background:#DE2627;
+                                       z-index:0;
+                                       top:15%;
+                                       left:10%;
+                                       transform: rotate(-45deg);
+
+
+                                     }
