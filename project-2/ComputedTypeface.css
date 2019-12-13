@@ -9,11 +9,115 @@
 
 body{
   background-color: black;
+}
 
 
 
+.img1{
+  position:absolute;
+  width:10%;
+  height:10%;
+  top:0;
+  left: 10%;
+  animation: animate 32s linear infinite;
+    filter: blur(2px);
+}
+
+
+
+.img2{
+  position:absolute;
+  width:10%;
+  height:10%;
+  top:0;
+  left: 20%;
+  animation: animate 30s linear infinite;
+    filter: blur(2px);
+}
+
+
+.img3{
+  position:absolute;
+  width:10%;
+  height:10%;
+  top:0;
+  left: 30%;
+  animation: animate 25s linear infinite;
+    filter: blur(2px);
+}
+
+
+.img4{
+  position:absolute;
+  width:5%;
+  height:5%;
+  top:0;
+  left: 40%;
+  animation: animate 35s linear infinite;
+  filter: blur(2px);
 
 }
+
+
+.img5{
+  position:absolute;
+  width:5%;
+  height:5%;
+  top:0;
+  left: 50%;
+  animation: animate 29s linear infinite;
+  filter: blur(2px);
+}
+
+
+
+.img6{
+  position:absolute;
+  width:10%;
+  height:10%;
+  top:0;
+  left:50%;
+  animation: animate 32s linear infinite;
+  filter: blur(2px);
+}
+
+
+.img7{
+  position:absolute;
+  width:15%;
+  height:15%;
+  top:0;
+  left: 70%;
+  animation: animate 34s linear infinite;
+  filter: blur(2px);
+}
+
+
+.img8{
+  position:absolute;
+  width:10%;
+  height:10%;
+  top:0;
+  left: 80%;
+  animation: animate 33s linear infinite;
+  filter: blur(2px);
+
+}
+
+@keyframes animate
+{
+   0%
+   {
+       opacity:60%;
+       top: -10%;
+
+   }
+   100%
+   {
+     top: 450%;
+   }
+}
+
 
 
 
@@ -23,10 +127,7 @@ body{
   height:100vw;
   background:black;
   position: absolute;
-
   display: block;
-
-
 
 
 
@@ -34,26 +135,26 @@ body{
 
 
 
+
+
+
+
+
  #row0 {
   width: 100%;
   height:30%;
   display:block;
-
   align-items: center;
   padding-top: 10%;
   background-color: black;
   padding-bottom: 10%;
-
-
-
-
-  outline: groove 80px #DE2627 ;
+  otline: groove 80px #DE2627 ;
   transition: outline 0.6s linear;
-  margin:0.5em;
+  margin:0.1em;
 
 
+  animation-name: pulse .5s infinite;
 
-  animation: pulse .5s ifinite;
 
 }
 
@@ -78,7 +179,10 @@ body{
 
 
 
-#row0:hover {outline-width:10px;}
+
+
+
+#row0:hover {outline-width:2px;}
 
 
 
@@ -279,16 +383,16 @@ body{
     }
 
 
-   .row12{
-    width: 100%;
-    height:10%;
-    display:block;
+  .row12{
+  width: 100%;
+  height:10%;
+  display:block;
 
 
-    align-items: center;
-    padding-top: 10%;
+  align-items: center;
+  padding-top: 10%;
 
-    background-color: black;
+  background-color: black;
 
 
 
@@ -331,6 +435,7 @@ body{
 
 .letter:hover{
   transform: rotateY(180deg);
+
 
 
 }
@@ -1664,10 +1769,18 @@ top:40%;
                             top:40%;
                             backface-visibility: hidden;
 
+
+
+
+                            color: red;
+                            box-shadow: 0 0 5px #DE2627, 0 0 10px #DE2627,
+                            0 0 15px #DE2627;
+
+
                           }
 
 
-                         .g1>.counter.two-back {
+                         .g1>.cunter.two-back {
                             width: 50%;
                             height: 50%;
                             border-radius: 50%;
@@ -1999,6 +2112,7 @@ top:40%;
                                             .g2{
                                               left:30%;
                                               top: %;
+
 
                                             }
 
@@ -3592,6 +3706,9 @@ top:40%;
                          left:30%;
                          top:40%;
                          backface-visibility: hidden;
+                         color: red;
+                         box-shadow: 0 0 5px #DE2627, 0 0 10px #DE2627,
+                         0 0 15px #DE2627;
                        }
 
 
@@ -3694,6 +3811,9 @@ top:40%;
                            left:30%;
                            top:40%;
                            backface-visibility: hidden;
+                           color: red;
+                           box-shadow: 0 0 5px #DE2627, 0 0 10px #DE2627,
+                           0 0 15px #DE2627;
                          }
 
 
